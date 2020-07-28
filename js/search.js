@@ -281,7 +281,7 @@ $(function() {
             icon: 'icon-youtube',
             url: 'https://www.soogif.com/search/'
         }, {
-            name: '360图书馆',
+            name: '360馆',
             icon: 'icon-zimu',
             url: 'http://www.360doc.cn/search.aspx?word='
         }, {
