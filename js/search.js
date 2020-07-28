@@ -173,10 +173,6 @@ $(function() {
 			icon: 'icon-biying1',
 			url: 'https://cn.bing.com/search?q='
 		}, {
-			name: 'GitHub',
-			icon: 'icon-gitHub',
-			url: 'https://github.com/search?q='
-		}, {
 			name: '360',
 			icon: 'icon-360sousuo',
 			url: 'https://www.so.com/s?q='
@@ -188,18 +184,6 @@ $(function() {
 			name: '多吉',
 			icon: 'icon-gou',
 			url: 'https://www.dogedoge.com/results?q='
-		}, {
-			name: '淘宝',
-			icon: 'icon-TB',
-			url: 'https://s.taobao.com/search?q='
-		}, {
-			name: '京东',
-			icon: 'icon-jingdong1',
-			url: 'http://search.jd.com/Search?keyword='
-		}, {
-			name: '天猫',
-			icon: 'icon-tianmao1',
-			url: 'https://list.tmall.com/search_product.htm?q='
 		}, {
 			name: '知乎',
 			icon: 'icon-zhihu',
@@ -217,77 +201,26 @@ $(function() {
 			icon: 'icon-douban',
 			url: 'https://www.douban.com/search?source=suggest&q='
 		}, {
-			name: '优酷',
-			icon: 'icon-youku',
-			url: 'https://so.youku.com/search_video/q_'
-		}, {
-			name: '吾爱',
-			icon: 'icon-wuaipojie',
-			url: 'http://api.1da.top/go/wuai.php?q='
-		}, {
-            name: "精易",
-            icon: "icon-bangong",
-            url: "http://api.1da.top/go/jingyi.php?q="
-        }, {
-			name: 'CSDN',
-			icon: 'icon-zaixianbianji',
-			url: 'https://so.csdn.net/so/search/s.do?q='
-		}, {
 			name: 'V2EX',
             icon: 'icon-tianjiagongshi',
             url: 'https://www.sov2ex.com/?q='
-        }, {
-            name: '站酷',
-            icon: 'icon-jianguo',
-            url: 'https://www.zcool.com.cn/search/content?&word='
-        }, {
+        }, 
+		{
+			name: 'GitHub',
+			icon: 'icon-gitHub',
+			url: 'https://github.com/search?q='
+		}, {
             name: 'wikihow',
             icon: 'icon-sousuo',
             url: 'https://zh.wikihow.com/wikiHowTo?search='
-        }, {
-            name: '微信',
-            icon: 'icon-weixin',
-            url: 'https://weixin.sogou.com/weixin?type=2&query='
-        }, {
-            name: '药品',
-            icon: 'icon--xiongmao',
-            url: 'https://www.315jiage.cn/search.aspx?where=title&keyword='
         }, {
             name: '图标',
             icon: 'icon--nainiu',
             url: 'http://www.easyicon.net/iconsearch/'
         }, {
-            name: '软件',
-            icon: 'icon-apk',
-            url: 'https://www.zdfans.com/search.asp?keyword='
-        }, {
-            name: '蓝奏盘',
-            icon: 'icon-yuncunchu',
-            url: 'http://api.1da.top/go/lanzhou.php?q='
-        }, {
-            name: 'seo综合',
-            icon: 'icon-_qianduankaifa',
-            url: 'https://www.aizhan.com/seo/'
-        }, {
-            name: 'Ping检测',
-            icon: 'icon-LeetCode',
-            url: 'http://ping.chinaz.com/'
-        }, {
             name: '斗图',
             icon: 'icon-bilibili',
             url: 'https://www.doutula.com/search?keyword='
-        }, {
-            name: 'gif',
-            icon: 'icon-youtube',
-            url: 'https://www.soogif.com/search/'
-        }, {
-            name: '360馆',
-            icon: 'icon-zimu',
-            url: 'http://www.360doc.cn/search.aspx?word='
-        }, {
-            name: '百科',
-            icon: 'icon-baidu',
-            url: 'https://baike.baidu.com/search?word='
         }]
 	}
 	for (var i = 0; i < search.data.length; i++) {
