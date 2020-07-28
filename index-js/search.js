@@ -221,18 +221,6 @@ $(function() {
 			icon: 'icon-youku',
 			url: 'https://so.youku.com/search_video/q_'
 		}, {
-			name: '小刀',
-			icon: 'icon-sousuo1',
-			url: 'https://www.x6d.com/daowangsousuo?q='
-		}, {
-			name: '小K',
-			icon: 'icon-youku',
-			url: 'https://so.youku.com/search_video/q_'
-		}, {
-			name: "小高",
-            icon: "icon-sousuo1",
-            url: "https://www.12580sky.com/index.php?keyword="
-        }, {
 			name: '吾爱',
 			icon: 'icon-wuaipojie',
 			url: 'http://api.1da.top/go/wuai.php?q='
