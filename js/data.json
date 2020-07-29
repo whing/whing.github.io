@@ -1,6 +1,6 @@
 [{
 	"icon": "icon-geren",
-	"title": "子站",
+	"title": "子站/友链",
 	"node": [{
 		"url": "https://whing.cn/about",
 		"icon": "icon-wangzhifenxiang",
@@ -17,6 +17,14 @@
 		"url": "https://whing.cn/shang",
 		"icon": "icon-wangzhifenxiang",
 		"text": "感谢打赏"
+	}, {
+		"url": "https://aqexam.com",
+		"icon": "icon-wangzhifenxiang",
+		"text": "AI新世代"
+	}, {
+		"url": "https://angeljob.cn",
+		"icon": "icon-wangzhifenxiang",
+		"text": "天使の职"
 	}, {
 		"url": "",
 		"icon": "icon-wangzhifenxiang",
@@ -104,7 +112,7 @@
 	}]
 }, {
 	"icon": "icon-boke",
-	"title": "博客/友链",
+	"title": "博客/媒体",
 	"node": [{
 		"url": "https://lusongsong.com/",
 		"icon": "icon-wangzhifenxiang",
