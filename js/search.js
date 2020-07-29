@@ -217,7 +217,7 @@ $(function() {
 			icon: 'icon-douban',
 			url: 'https://www.wolframalpha.com/input/?i='
 		}, {
-            name: 'DuckDuckGo',
+            name: 'Duck2Go',
             icon: 'icon-bilibili',
             url: 'https://duckduckgo.com/?q='
         }]
