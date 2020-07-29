@@ -1,150 +1,114 @@
 [{
 	"icon": "icon-geren",
-	"title": "MyWebsites",
+	"title": "子站",
 	"node": [{
 		"url": "https://whing.cn/about",
-		"icon": "icon-baidu",
+		"icon": "icon-wangzhifenxiang",
 		"text": "关于站长"
 	}, {
 		"url": "https://whing.cn/resume",
-		"icon": "icon-sousuo1",
+		"icon": "icon-wangzhifenxiang",
 		"text": "工作简历"
 	}, {
 		"url": "https://whing.cn/research",
-		"icon": "icon-google",
+		"icon": "icon-wangzhifenxiang",
 		"text": "研究简历"
-	}, {
-		"url": "https://github.com/vic9527",
-		"icon": "icon-gitHub",
-		"text": "GitHub"
 	}]
 }, {
 	"icon": "icon-youxiang",
-	"title": "邮箱",
+	"title": "邮箱/社交",
 	"node": [{
-		"url": "https://whing.cn/about",
-		"icon": "icon-baidu",
-		"text": "关于站长"
+		"url": "https://mail.google.com/mail/u/0/#inbox",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Gmail"
 	}, {
-		"url": "https://whing.cn/resume",
-		"icon": "icon-sousuo1",
-		"text": "工作简历"
+		"url": "https://outlook.live.com/mail/0/inbox",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Outlook"
 	}, {
-		"url": "https://whing.cn/research",
-		"icon": "icon-google",
-		"text": "研究简历"
+		"url": "https://vip.163.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "网易VIP"
+	}, {
+		"url": "https://mail.qq.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "QQ邮箱"
+	}, {
+		"url": "https://www.88.com/mail/#/home",
+		"icon": "icon-wangzhifenxiang",
+		"text": "88邮箱"
 	}, {
 		"url": "https://github.com/vic9527",
 		"icon": "icon-gitHub",
 		"text": "GitHub"
-	}]
-}, {
-	"icon": "icon-shejiaoxinxi",
-	"title": "社交主页",
-	"node": [{
-		"url": "https://www.baidu.com/",
-		"icon": "icon-baidu",
-		"text": "百度"
 	}, {
-		"url": "https://www.1da.top/",
-		"icon": "icon-sousuo1",
-		"text": "简洁搜索"
+		"url": "https://www.linkedin.com/in/vic-woo-b33952100/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "LinkedIn"
 	}, {
-		"url": "https://www.google.com/",
-		"icon": "icon-google",
-		"text": "谷歌"
+		"url": "https://www.facebook.com/profile.php?id=100004300925726",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Facebook"
 	}, {
-		"url": "https://github.com",
-		"icon": "icon-gitHub",
-		"text": "GitHub"
+		"url": "https://twitter.com/PingJinXi_CNMB",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Twitter"
 	}, {
-		"url": "https://wx.qq.com/",
-		"icon": "icon-weixin",
-		"text": "微信"
-	}, {
-		"url": "https://weibo.com/",
-		"icon": "icon-weibo",
-		"text": "微博"
-	}, {
-		"url": "https://tieba.baidu.com/",
-		"icon": "icon-baidutieba",
-		"text": "贴吧"
-	}, {
-		"url": "https://mail.163.com/",
-		"icon": "icon-wangyi",
-		"text": "网易邮箱"
-	}, {
-		"url": "https://mail.google.com/",
-		"icon": "icon-Gmail",
-		"text": "Gmail"
-	}, {
-		"url": "https://outlook.live.com/mail/",
-		"icon": "icon-outlook_x",
-		"text": "Outlook"
-	}]
-}, {
-	"icon": "icon-huaban",
-	"title": "云服务",
-	"node": [{
-		"url": "https://www.youtube.com/",
-		"icon": "icon-youtube",
+		"url": "https://www.youtube.com/channel/UCG6R92nNIA7Mu93de286QLg",
+		"icon": "icon-wangzhifenxiang",
 		"text": "YouTube"
 	}, {
-		"url": "https://www.bilibili.com/",
-		"icon": "icon-bilibili",
-		"text": "哔哩哔哩"
+		"url": "https://www.instagram.com/laosan007/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Instagram"
 	}, {
-		"url": "https://www.youku.com/",
-		"icon": "icon-youku",
-		"text": "优酷"
+		"url": "https://www.pinterest.com/vic666666/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Pinterest"
 	}, {
-		"url": "https://v.qq.com/",
-		"icon": "icon-tengxunshipin",
-		"text": "腾讯视频"
+		"url": "Quora",
+		"icon": "icon-wangzhifenxiang",
+		"text": "https://www.quora.com/"
 	}, {
-		"url": "https://www.iqiyi.com/",
-		"icon": "icon-aiqiyi",
-		"text": "爱奇艺"
+		"url": "https://www.reddit.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "reddit"
 	}, {
-		"url": "https://www.huya.com/",
-		"icon": "icon-huyazhibo",
-		"text": "虎牙直播"
+		"url": "https://discord.com/channels/@me",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Discord"
 	}, {
-		"url": "https://www.douyu.com/",
-		"icon": "icon-douyuTV",
-		"text": "斗鱼直播"
+		"url": "Disqus",
+		"icon": "icon-wangzhifenxiang",
+		"text": "https://disqus.com/"
 	}, {
-		"url": "https://egame.qq.com/",
-		"icon": "icon-fangqiedianjing",
-		"text": "企鹅电竞"
+		"url": "https://medium.com/@wuhuang",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Medium"
 	}, {
-		"url": "http://www.zmz2019.com/",
-		"icon": "icon-zimu",
-		"text": "人人影视"
+		"url": "https://www.openccc.net/uPortal/f/u62l1s500/p/ModifyAccount.u62l1n511/max/render.uP",
+		"icon": "icon-wangzhifenxiang",
+		"text": "OpenCCC"
 	}]
 }, {
 	"icon": "icon-boke",
-	"title": "MyWebsites",
+	"title": "博客/友链",
 	"node": [{
-		"url": "https://whing.cn/about",
-		"icon": "icon-baidu",
-		"text": "关于站长"
+		"url": "https://lusongsong.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "卢松松"
 	}, {
-		"url": "https://whing.cn/resume",
-		"icon": "icon-sousuo1",
-		"text": "工作简历"
+		"url": "https://www.yangqq.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "杨青青"
 	}, {
-		"url": "https://whing.cn/research",
-		"icon": "icon-google",
-		"text": "研究简历"
-	}, {
-		"url": "https://github.com/vic9527",
-		"icon": "icon-gitHub",
-		"text": "GitHub"
+		"url": "https://www.aiqizhi.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "爱奇智"
 	}]
 }, {
-	"icon": "icon-xuexi",
-	"title": "学习",
+	"icon": "icon-huaban",
+	"title": "学习/开发",
 	"node": [{
 		"url": "https://www.runoob.com/",
 		"icon": "icon-wangzhifenxiang",
@@ -156,11 +120,35 @@
 	}, {
 		"url": "https://www.learnopencv.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "学习OpenCV"
+		"text": "OpenCV"
+	}]
+}, {
+	"icon": "icon-fuli",
+	"title": "福利/资源",
+	"node": [{
+		"url": "https://www.tumblr.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Tumblr"
+	}, {
+		"url": "https://web.telegram.org/#/im",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Telegram"
+	}, {
+		"url": "https://pincong.rocks/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "新·品葱"
+	}, {
+		"url": "https://program-think.blogspot.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "编程随想"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }, {
 	"icon": "icon-gongju",
-	"title": "工具",
+	"title": "办公/工具",
 	"node": [{
 		"url": "https://pan.baidu.com/",
 		"icon": "icon-baiduwangpan",
@@ -229,11 +217,7 @@
 		"url": "https://huaban.com/",
 		"icon": "icon-huabanwang",
 		"text": "花瓣"
-	}]
-}, {
-	"icon": "icon-fuli",
-	"title": "福利",
-	"node": [{
+	}, {
 		"url": "https://juejin.im/",
 		"icon": "icon-juejin",
 		"text": "掘金"
@@ -258,40 +242,5 @@
 		"icon": "icon-LeetCode",
 		"text": "力扣"
 	}]
-}, {
-	"icon": "icon-wangzhan",
-	"title": "友链",
-	"node": [{
-		"url": "https://www.aliyun.com/",
-		"icon": "icon-aliyun",
-		"text": "阿里云"
-	}, {
-		"url": "https://cloud.tencent.com/",
-		"icon": "icon-tengxunyun",
-		"text": "腾讯云"
-	}, {
-		"url": "https://www.qiniu.com/",
-		"icon": "icon-qiniuyun",
-		"text": "七牛云"
-	}, {
-		"url": "https://www.cloudflare.com/",
-		"icon": "icon-cloudflare",
-		"text": "Cloudflare"
-	}, {
-		"url": "https://msdn.itellyou.cn/",
-		"icon": "icon-weiruan",
-		"text": "MSDN"
-	}, {
-		"url": "https://rrkee.com/",
-		"icon": "icon-renren",
-		"text": "人人客"
-	}, {
-		"url": "https://code.visualstudio.com/",
-		"icon": "icon-file_type_vscode",
-		"text": "VSCode"
-	}, {
-		"url": "https://www.jetbrains.com/",
-		"icon": "icon-jetbrains",
-		"text": "JetBrains"
-	}]
-}]
+}
+]
