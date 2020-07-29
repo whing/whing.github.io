@@ -213,11 +213,11 @@ $(function() {
 			icon: 'icon-gitHub',
 			url: 'https://github.com/search?q='
 		}, {
-			name: 'Wolfram',
+			name: 'W&A',
 			icon: 'icon-douban',
 			url: 'https://www.wolframalpha.com/input/?i='
 		}, {
-            name: 'Duck2Go',
+            name: 'DDGo',
             icon: 'icon-bilibili',
             url: 'https://duckduckgo.com/?q='
         }]
