@@ -13,6 +13,14 @@
 		"url": "https://whing.cn/research",
 		"icon": "icon-wangzhifenxiang",
 		"text": "研究简历"
+	}, {
+		"url": "https://whing.cn/shang",
+		"icon": "icon-wangzhifenxiang",
+		"text": "感谢打赏"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }, {
 	"icon": "icon-youxiang",
@@ -66,9 +74,9 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "Pinterest"
 	}, {
-		"url": "Quora",
+		"url": "https://www.quora.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "https://www.quora.com/"
+		"text": "Quora"
 	}, {
 		"url": "https://www.reddit.com/",
 		"icon": "icon-wangzhifenxiang",
@@ -78,9 +86,9 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "Discord"
 	}, {
-		"url": "Disqus",
+		"url": "https://disqus.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "https://disqus.com/"
+		"text": "Disqus"
 	}, {
 		"url": "https://medium.com/@wuhuang",
 		"icon": "icon-wangzhifenxiang",
@@ -89,6 +97,10 @@
 		"url": "https://www.openccc.net/uPortal/f/u62l1s500/p/ModifyAccount.u62l1n511/max/render.uP",
 		"icon": "icon-wangzhifenxiang",
 		"text": "OpenCCC"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }, {
 	"icon": "icon-boke",
@@ -105,6 +117,10 @@
 		"url": "https://www.aiqizhi.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "爱奇智"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }, {
 	"icon": "icon-huaban",
@@ -121,6 +137,10 @@
 		"url": "https://www.learnopencv.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "OpenCV"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }, {
 	"icon": "icon-fuli",
@@ -241,6 +261,10 @@
 		"url": "https://leetcode-cn.com/",
 		"icon": "icon-LeetCode",
 		"text": "力扣"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}]
 }
 ]
