@@ -169,21 +169,37 @@ $(function() {
 			icon: 'icon-google',
 			url: 'https://www.google.com/search?q='
 		}, {
+			name: '多吉',
+			icon: 'icon-gou',
+			url: 'https://www.dogedoge.com/results?q='
+		}, {
 			name: '必应',
 			icon: 'icon-biying1',
 			url: 'https://cn.bing.com/search?q='
-		}, {
-			name: '360',
-			icon: 'icon-360sousuo',
-			url: 'https://www.so.com/s?q='
 		}, {
 			name: '搜狗',
 			icon: 'icon-sougousousuo',
 			url: 'https://www.sogou.com/web?query='
 		}, {
-			name: '多吉',
-			icon: 'icon-gou',
-			url: 'https://www.dogedoge.com/results?q='
+            name: 'Yahoo!',
+            icon: 'icon-sousuo',
+            url: 'https://search.yahoo.com/search?p='
+        }, {
+			name: 'Yandex',
+            icon: 'icon-tianjiagongshi',
+            url: 'https://yandex.com/search/?text='
+        }, {
+            name: 'Ask',
+            icon: 'icon--nainiu',
+            url: 'https://www.ask.com/web?q='
+        }, {
+			name: '360',
+			icon: 'icon-360sousuo',
+			url: 'https://www.so.com/s?q='
+		}, {
+			name: '秘迹',
+			icon: 'icon-bzhanicon',
+			url: 'https://mijisou.com/?q='
 		}, {
 			name: '知乎',
 			icon: 'icon-zhihu',
@@ -193,34 +209,17 @@ $(function() {
 			icon: 'icon-weibo',
 			url: 'https://s.weibo.com/weibo/'
 		}, {
-			name: 'B站',
-			icon: 'icon-bzhanicon',
-			url: 'http://search.bilibili.com/all?keyword='
-		}, {
-			name: '豆瓣',
-			icon: 'icon-douban',
-			url: 'https://www.douban.com/search?source=suggest&q='
-		}, {
-			name: 'V2EX',
-            icon: 'icon-tianjiagongshi',
-            url: 'https://www.sov2ex.com/?q='
-        }, 
-		{
 			name: 'GitHub',
 			icon: 'icon-gitHub',
 			url: 'https://github.com/search?q='
 		}, {
-            name: 'wikihow',
-            icon: 'icon-sousuo',
-            url: 'https://zh.wikihow.com/wikiHowTo?search='
-        }, {
-            name: '图标',
-            icon: 'icon--nainiu',
-            url: 'http://www.easyicon.net/iconsearch/'
-        }, {
-            name: '斗图',
+			name: 'Wolfram',
+			icon: 'icon-douban',
+			url: 'https://www.wolframalpha.com/input/?i='
+		}, {
+            name: 'DuckDuckGo',
             icon: 'icon-bilibili',
-            url: 'https://www.doutula.com/search?keyword='
+            url: 'https://duckduckgo.com/?q='
         }]
 	}
 	for (var i = 0; i < search.data.length; i++) {
