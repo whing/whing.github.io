@@ -9,7 +9,7 @@ https://github.com/616620131/Simple-Search-Page
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
-		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="Cache-Control" content="no-siteapp">
 		<title>我的搜索</title>
@@ -115,6 +115,9 @@ https://github.com/616620131/Simple-Search-Page
 							<svg class="icon" aria-hidden="true" id="search-clear" style="display: none;">
 								<use xlink:href="#icon-shanchu"></use>
 							</svg>
+							<svg class="icon" aria-hidden="true" id="search-enter">
+								<use xlink:href="#icon-enter"></use>
+							</svg>
 						</div>
 						<!-- 搜索热词 -->
 						<div class="box search-hot-text" id="box" style="display: none;">
@@ -124,8 +127,8 @@ https://github.com/616620131/Simple-Search-Page
 						<div class="search-engine" style="display: none;">
 							<div class="search-engine-head">
 								<strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
-								<div class="search-engine-tool">
-									搜索热词：<label class="switch">
+								<div class="search-engine-tool">搜索热词：
+									<label class="switch">
 										<input id="hot-btn" type="checkbox">
 										<div class="slider round"></div>
 									</label>
