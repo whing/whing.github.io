@@ -6,13 +6,13 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "我的博客"
 	}, {
-		"url": "https://itfuli.top",
+		"url": "https://whing.cn/cv",
 		"icon": "icon-wangzhifenxiang",
-		"text": "IT福利"
+		"text": "我的简历"
 	}, {
-		"url": "https://haki.fun",
+		"url": "https://whing.cn/about",
 		"icon": "icon-wangzhifenxiang",
-		"text": "干脆饭"
+		"text": "我的名片"
 	}, {
 		"url": "https://aqexam.com",
 		"icon": "icon-wangzhifenxiang",
@@ -25,6 +25,30 @@
 		"url": "https://k12coursera.com",
 		"icon": "icon-wangzhifenxiang",
 		"text": "K12之家"
+	}, {
+		"url": "https://haki.fun",
+		"icon": "icon-wangzhifenxiang",
+		"text": "干脆饭"
+	}, {
+		"url": "https://itfuli.top",
+		"icon": "icon-wangzhifenxiang",
+		"text": "IT福利"
+	}, {
+		"url": "http://hololinking.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "FreeHost"
+	}, {
+		"url": "http://xkjk.xyz/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "想看就看"
+	}, {
+		"url": "https://well-being.top/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "地址发布页"
+	}, {
+		"url": "https://myfaith.icu",
+		"icon": "icon-wangzhifenxiang",
+		"text": "音乐信仰"
 	}]
 }, {
 	"icon": "icon-youxiang",
@@ -37,6 +61,10 @@
 		"url": "https://outlook.live.com/mail/0/inbox",
 		"icon": "icon-wangzhifenxiang",
 		"text": "Outlook"
+	}, {
+		"url": "https://www.icloud.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "iCloud"
 	}, {
 		"url": "https://vip.163.com/",
 		"icon": "icon-wangzhifenxiang",
@@ -110,9 +138,17 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "Telegram"
 	}, {
-		"url": "",
+		"url": "http://mail.aqexam.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": ""
+		"text": "AQexam"
+	}, {
+		"url": "https://exmail.qq.com/login",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Whing"
+	}, {
+		"url": "http://ym.163.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "免费企业邮"
 	}]
 }, {
 	"icon": "icon-boke",
@@ -190,9 +226,53 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "新·品葱"
 	}, {
-		"url": "",
+		"url": "https://yinguobing.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": ""
+		"text": "尹国冰"
+	}, {
+		"url": "http://zhanghonglun.cn/blog/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "张宏伦"
+	}, {
+		"url": "https://jimmysong.io/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "宋净超"
+	}, {
+		"url": "https://spaces.ac.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "苏剑林"
+	}, {
+		"url": "https://ailemon.me/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "AI柠檬"
+	}, {
+		"url": "https://cuijiahua.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "JackCui"
+	}, {
+		"url": "https://wenlu.me/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Wenlu"
+	}, {
+		"url": "https://viggoz.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Viggo"
+	}, {
+		"url": "https://zhang.ge/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "张戈"
+	}, {
+		"url": "https://long.ge/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "龙哥"
+	}, {
+		"url": "https://ibillxia.github.io/blog/archives/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Bill"
+	}, {
+		"url": "https://arleyzhang.github.io/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "arley"
 	}]
 }, {
 	"icon": "icon-huaban",
