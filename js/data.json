@@ -2,21 +2,17 @@
 	"icon": "icon-geren",
 	"title": "子站/友链",
 	"node": [{
-		"url": "https://whing.cn/about",
+		"url": "https://whing.cn/blog",
 		"icon": "icon-wangzhifenxiang",
-		"text": "关于站长"
+		"text": "我的博客"
 	}, {
-		"url": "https://whing.cn/resume",
+		"url": "https://itfuli.top",
 		"icon": "icon-wangzhifenxiang",
-		"text": "工作简历"
+		"text": "IT福利"
 	}, {
-		"url": "https://whing.cn/research",
+		"url": "https://haki.fun",
 		"icon": "icon-wangzhifenxiang",
-		"text": "研究简历"
-	}, {
-		"url": "https://whing.cn/shang",
-		"icon": "icon-wangzhifenxiang",
-		"text": "感谢打赏"
+		"text": "干脆饭"
 	}, {
 		"url": "https://aqexam.com",
 		"icon": "icon-wangzhifenxiang",
@@ -26,9 +22,9 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "天使の职"
 	}, {
-		"url": "",
+		"url": "https://k12coursera.com",
 		"icon": "icon-wangzhifenxiang",
-		"text": ""
+		"text": "K12之家"
 	}]
 }, {
 	"icon": "icon-youxiang",
@@ -106,6 +102,14 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "OpenCCC"
 	}, {
+		"url": "https://www.tumblr.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Tumblr"
+	}, {
+		"url": "https://web.telegram.org/#/im",
+		"icon": "icon-wangzhifenxiang",
+		"text": "Telegram"
+	}, {
 		"url": "",
 		"icon": "icon-wangzhifenxiang",
 		"text": ""
@@ -118,6 +122,54 @@
 		"icon": "icon-wangzhifenxiang",
 		"text": "卢松松"
 	}, {
+		"url": "http://www.ruanyifeng.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "阮一峰"
+	}, {
+		"url": "https://www.williamlong.info/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "月光博客"
+	}, {
+		"url": "https://www.ithome.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "IT之家"
+	}, {
+		"url": "https://www.infoq.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "InfoQ"
+	}, {
+		"url": "https://www.jiqizhixin.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "机器之心"
+	}, {
+		"url": "https://www.jin10.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "金十数据"
+	}, {
+		"url": "http://www.woshipm.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "人人产品"
+	}, {
+		"url": "http://www.enet.com.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "硅谷动力"
+	}, {
+		"url": "https://webstack.cc/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "WebStack"
+	}, {
+		"url": "https://blogwe.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "博客我们"
+	}, {
+		"url": "https://zhaodao.ai/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "找到AI"
+	}, {
+		"url": "https://union.zhaodao.ai/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "创作者联盟"
+	}, {
 		"url": "https://www.yangqq.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "杨青青"
@@ -125,6 +177,18 @@
 		"url": "https://www.aiqizhi.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "爱奇智"
+	}, {
+		"url": "http://www.yishimei.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "亦是美"
+	}, {
+		"url": "https://program-think.blogspot.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "编程随想"
+	}, {
+		"url": "https://pincong.rocks/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "新·品葱"
 	}, {
 		"url": "",
 		"icon": "icon-wangzhifenxiang",
@@ -134,17 +198,37 @@
 	"icon": "icon-huaban",
 	"title": "学习/开发",
 	"node": [{
+		"url": "https://weread.qq.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "微信读书"
+	}, {
 		"url": "https://www.runoob.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "菜鸟教程"
+	}, {
+		"url": "https://www.bookstack.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "书栈网"
 	}, {
 		"url": "https://www.w3school.com.cn/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "W3school"
 	}, {
+		"url": "https://www.w3cschool.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "W3C编程"
+	}, {
+		"url": "https://www.yiibai.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "易百教程"
+	}, {
 		"url": "https://www.learnopencv.com/",
 		"icon": "icon-wangzhifenxiang",
 		"text": "OpenCV"
+	}, {
+		"url": "https://www.php.cn/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "PHP中文"
 	}, {
 		"url": "",
 		"icon": "icon-wangzhifenxiang",
@@ -154,21 +238,49 @@
 	"icon": "icon-fuli",
 	"title": "福利/资源",
 	"node": [{
-		"url": "https://www.tumblr.com/",
+		"url": "https://fulibus.net/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "Tumblr"
+		"text": "福利吧"
 	}, {
-		"url": "https://web.telegram.org/#/im",
+		"url": "http://lao4g.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "Telegram"
+		"text": "老司机"
 	}, {
-		"url": "https://pincong.rocks/",
+		"url": "http://lao4g.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "新·品葱"
+		"text": "老司机"
 	}, {
-		"url": "https://program-think.blogspot.com/",
+		"url": "https://www.dollarfans.com/",
 		"icon": "icon-wangzhifenxiang",
-		"text": "编程随想"
+		"text": "刀客之家"
+	}, {
+		"url": "https://xueqiu.com/u/9538897703",
+		"icon": "icon-wangzhifenxiang",
+		"text": "雪球财迷"
+	}, {
+		"url": "https://xueqiu.com/u/9538897703",
+		"icon": "icon-wangzhifenxiang",
+		"text": "雪球财迷"
+	}, {
+		"url": "https://www.freehao123.com/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "免费部落"
+	}, {
+		"url": "https://51.ruyo.net/",
+		"icon": "icon-wangzhifenxiang",
+		"text": "如有乐享"
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
+	}, {
+		"url": "",
+		"icon": "icon-wangzhifenxiang",
+		"text": ""
 	}, {
 		"url": "",
 		"icon": "icon-wangzhifenxiang",
