@@ -2,17 +2,17 @@
 	"icon": "icon-geren",
 	"title": "子站/友链",
 	"node": [{
-		"url": "https://whing.cn/blog",
+		"url": "/blog",
 		"icon": "icon-wangzhifenxiang",
 		"text": "我的博客"
 	}, {
-		"url": "https://whing.cn/cv",
+		"url": "/cv",
 		"icon": "icon-wangzhifenxiang",
-		"text": "我的简历"
+		"text": "我的履历"
 	}, {
-		"url": "https://whing.cn/about",
+		"url": "/opus",
 		"icon": "icon-wangzhifenxiang",
-		"text": "我的名片"
+		"text": "我的作品"
 	}, {
 		"url": "https://aqexam.com",
 		"icon": "icon-wangzhifenxiang",

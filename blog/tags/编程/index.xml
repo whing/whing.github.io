@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程 on Vic&#39;s Blog</title>
+    <link>https://www.whing.cn/blog/tags/%E7%BC%96%E7%A8%8B/</link>
+    <description>Recent content in 编程 on Vic&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.whing.cn/blog/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>编程语言编年简史及其发展史</title>
+      <link>https://www.whing.cn/blog/1/01/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%BC%96%E5%B9%B4%E7%AE%80%E5%8F%B2%E5%8F%8A%E5%85%B6%E5%8F%91%E5%B1%95%E5%8F%B2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.whing.cn/blog/1/01/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%BC%96%E5%B9%B4%E7%AE%80%E5%8F%B2%E5%8F%8A%E5%85%B6%E5%8F%91%E5%B1%95%E5%8F%B2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.whing.cn/blog/attachments/pl/0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;编程语言（programming language）可以简单的理解为一种计算机和人都能识别的语言。一种计算机语言让程序员能够准确地定义计算机所需要使用的数据，并精确地定义在不同情况下所应当采取的行动。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

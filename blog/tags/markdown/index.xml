@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Vic&#39;s Blog</title>
+    <link>https://www.whing.cn/blog/tags/markdown/</link>
+    <description>Recent content in Markdown on Vic&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.whing.cn/blog/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown写法</title>
+      <link>https://www.whing.cn/blog/1/01/markdown%E5%86%99%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.whing.cn/blog/1/01/markdown%E5%86%99%E6%B3%95/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.whing.cn/blog/attachments/markdown/0.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/p&gt;
+&lt;p&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;/p&gt;
+&lt;p&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;/p&gt;
+&lt;p&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

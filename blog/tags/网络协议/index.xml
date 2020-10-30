@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络协议 on Vic&#39;s Blog</title>
+    <link>https://www.whing.cn/blog/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</link>
+    <description>Recent content in 网络协议 on Vic&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.whing.cn/blog/tags/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>计算机网络协议</title>
+      <link>https://www.whing.cn/blog/1/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.whing.cn/blog/1/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.whing.cn/blog/attachments/protocol/0.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;网络上的计算机之间又是如何交换信息的呢？就像我们说话用某种语言一样，在网络上的各台计算机之间也有一种语言，这就是网络协议，不同的计算机之间必须使用相同的网络协议才能进行通信。&lt;/p&gt;
+&lt;p&gt;在IT界，编程语言是人类与计算机交流的桥梁，而网络协议就是不同计算机之间的交流方式。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

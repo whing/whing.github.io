@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.72.0 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Vic Woo">
+<meta name="keywords" content="">
+<meta name="description" content="
+个人在使用OpenCV过程中遇到的问题总结，长期更新&hellip;&hellip;">
+
+
+<meta property="og:description" content="
+个人在使用OpenCV过程中遇到的问题总结，长期更新&hellip;&hellip;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenCV使用问题大全">
+<meta name="twitter:title" content="OpenCV使用问题大全">
+<meta property="og:url" content="https://www.whing.cn/blog/2020/05/opencv%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%A4%A7%E5%85%A8/">
+<meta property="twitter:url" content="https://www.whing.cn/blog/2020/05/opencv%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%A4%A7%E5%85%A8/">
+<meta property="og:site_name" content="Vic&#39;s Blog">
+<meta property="og:description" content="
+个人在使用OpenCV过程中遇到的问题总结，长期更新&hellip;&hellip;">
+<meta name="twitter:description" content="
+个人在使用OpenCV过程中遇到的问题总结，长期更新&hellip;&hellip;">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2020-05-10T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2020-05-10T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="知识总结">
+    
+      <meta property="article:section" content="AI">
+    
+  
+  
+    
+      <meta property="article:tag" content="OpenCV">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.whing.cn/about/assets/img/I.jpg">
+  <meta property="twitter:image" content="https://www.whing.cn/about/assets/img/I.jpg">
+
+
+    <title>OpenCV使用问题大全</title>
+
+    <link rel="icon" href="https://www.whing.cn/blog/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://www.whing.cn/blog/2020/05/opencv%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%A4%A7%E5%85%A8/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://www.whing.cn/blog/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.whing.cn/blog/">Vic&#39;s Blog</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://www.whing.cn/blog/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://www.whing.cn/blog/#about">
+          <img class="sidebar-profile-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Vic Woo</h4>
+        
+          <h5 class="sidebar-profile-bio">罗曼罗兰说：“世界上只有一种英雄主义,就是看清生活的真相之后依然热爱生活”</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      OpenCV使用问题大全
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-05-10T00:00:00Z">
+        
+  May 10, 2020
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://www.whing.cn/blog/categories/%e7%9f%a5%e8%af%86%e6%80%bb%e7%bb%93">知识总结</a>, 
+    
+      <a class="category-link" href="https://www.whing.cn/blog/categories/ai">AI</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p><img src="https://www.whing.cn/blog/attachments/opencv/question/0.png" alt=""></p>
+<p>个人在使用OpenCV过程中遇到的问题总结，长期更新&hellip;&hellip;</p>
+<p>[TOC]</p>
+<h1 id="使用opencv进行dll编译过程中的问题">使用OpenCV进行DLL编译过程中的问题</h1>
+<h3 id="1link--fatal-error-lnk1104-无法打开文件mincore_downlevellib">1、LINK : fatal error LNK1104: 无法打开文件“MinCore_Downlevel.lib”</h3>
+<h4 id="网络回答">网络回答</h4>
+<blockquote>
+<p>不要静态链接，请在项目设置中选择默认的DLL C运行时。
+您不需要旧的SDK，可以使用最新的Windows 10 SDK进行开发，但是如果要支持较旧的Windows版本，则必须链接“ mincore_downlevel.lib”而不是“ mincore.lib”。
+为了易于使用，请将其添加到您的targetver.h或stdafx.h中，这些文件也记录了您的选择（删除另一行）：</p>
+<p>// Libraries
+#pragma comment(lib, &ldquo;mincore.lib&rdquo;)             // Lowest OS support is same as SDK
+#pragma comment(lib, &ldquo;mincore_downlevel.lib&rdquo;)   // Support OS older than SDK</p>
+</blockquote>
+<h4 id="实际操作">实际操作</h4>
+<p>不支持XP平台，配置属性——&gt;常规——&gt;平台工具集——&gt;选择VS2013（v120）</p>
+<p>PS：之前为了兼容XP平台选择了VS2013-WinXP（v120_xp）</p>
+<h3 id="2配置使用的是静态库staticlib-出现error-lnk2001-无法解析的外部符号-_icopen12">2、配置使用的是静态库staticlib, 出现error LNK2001: 无法解析的外部符号 _ICOpen@12</h3>
+<h4 id="网络回答-1">网络回答</h4>
+<blockquote>
+<p>1、全部改为使用动态库。</p>
+<p>2、你的静态库没有引全。所以link是找不到对应函数的入口地址。</p>
+<p>你可以在配置列表里加一下 vfw32.lib
+如果还不好使，可以继续加一下。
+comctl32.lib
+gdi32.lib。</p>
+<p>3、#pragma comment(lib, &ldquo;vfw32&rdquo;)</p>
+</blockquote>
+<h4 id="实际操作-1">实际操作</h4>
+<p>代码头部引入：</p>
+<p>#pragma comment(lib, &ldquo;vfw32&rdquo;)</p>
+<p>此乃正解。</p>
+<h2 id="静态库与动态库的跨编译器兼容httpgoclisgithubioposts20170526静态库与动态库的跨编译器兼容html"><a href="http://goclis.github.io/posts/2017/05/26/%E9%9D%99%E6%80%81%E5%BA%93%E4%B8%8E%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E8%B7%A8%E7%BC%96%E8%AF%91%E5%99%A8%E5%85%BC%E5%AE%B9.html"><strong>静态库与动态库的跨编译器兼容</strong></a></h2>
+<p>由于当前项目维护的代码需要支持多个编译器，最近突然好奇为什么不直接在高版本的 VS 中直接使用低版本生成的库呢？起初以为是不可行，但是后面从理论上想了一下，感觉对于动态库来说应该可行，低版本生成的 DLL 依赖低版本的 C++ 运行时，高版本生成的可执行程序依赖高版本的 C++ 运行时，按照这样的设定应该没有任何问题才对。</p>
+<p>举个例子，VS2013 生成了动态库库 A.lib 和 A.dll，VS2015 中使用了 A.lib 生成 B.exe，让我们来看下最终的依赖情况（下面 C++ 运行时库的名字以 msvc 来代替）：</p>
+<ul>
+<li>B.exe 依赖于 A.dll 和     msvc2015.dll</li>
+<li>A.dll 依赖于     msvc2013.dll</li>
+</ul>
+<p>所以最终想让 B.exe 运行的话，把 A.dll、msvc2013.dll、msvc2015.dll 都放在 B.exe 所在目录即可。<strong>在 VS2013 和 VS2015 社区版上尝试了一下，确实可行。</strong></p>
+<p>换成静态库再试试？编译 B.exe 时报链接错误，缺少一些符号，<strong>核心原因在于静态库的生成过程中没有链接这一步，因为它不是可执行程序</strong>。</p>
+<p>生成动态库时，A.lib 中只有 A 本身导出的符号，而所有它使用的 VS2013 C++ 运行时库的内容，都在 A.dll 中，该 DLL 中会记录它里面的代码需要 msvc2013.dll 中的一些符号，动态链接器根据这个去进行动态链接和代码重定位。这个生成过程实际上是做了链接，因为 DLL 是被定义为可执行程序的。</p>
+<p>而生成静态库时是没有链接过程的，静态库本质上是把所有的 .obj 打包起来。因此，A.lib 中记录的内容是它本身所有的符号以及它所依赖的外部符号（大部分来自于 C++ 运行时库），所有的符号链接过程需要在 A.lib 被链接到可执行程序时去完成。所以 B.exe 在使用 A.lib 这个静态库时，B 需要的符号在 A.lib 中找到了，但是 A.lib 依赖的一些符号需要由运行时库提供，然而，由于各个 VS 版本的运行时库中的符号不一定一样，有些在高版本就剔除了，从而导致链接生成 B.exe 失败。</p>
+<p>更具体地来描述一下，A.lib 依赖了 msvc2013.lib 中的符号，假设为 x，B.exe 使用 A.lib 去生成，但是因为是在 VS2015 下生成，所以使用的是 msvc2015.lib，但是在 msvc2015.lib 下没有符号 x，所以就会链接出错，出现类似如下的错误：</p>
+<p>无法解析的外部符号：x（referenced in xxx_fun from A.lib）</p>
+<p>我们上面讨论的这些内容都没有考虑到 VS 本身提供的 MD、MT 这些选项，但仔细想想的话会发现，道理都是一样的，不管哪个选项，都有 msvcVersion.lib，不同版本中就有可能不一样，谁让静态库把链接推迟到了最终编译器呢。</p>
+<h1 id="参考文献">参考文献</h1>
+<p><a href="https://blog.csdn.net/weixin_30315723/article/details/95141142">编译一个不依赖任何msvcrXX.dll的Windows程序</a></p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://www.whing.cn/blog/tags/opencv/">OpenCV</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/2020/05/%E4%B8%AA%E4%BA%BA%E7%BC%96%E7%A8%8B%E4%B9%A0%E6%83%AF%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83%E6%B3%95woonamingrules/" data-tooltip="个人编程习惯命名规范法（WooNamingRules）">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/2020/05/hello-world/" data-tooltip="Hello World">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Vic Woo. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/2020/05/%E4%B8%AA%E4%BA%BA%E7%BC%96%E7%A8%8B%E4%B9%A0%E6%83%AF%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83%E6%B3%95woonamingrules/" data-tooltip="个人编程习惯命名规范法（WooNamingRules）">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/2020/05/hello-world/" data-tooltip="Hello World">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Vic Woo</h4>
+    
+      <div id="about-card-bio">罗曼罗兰说：“世界上只有一种英雄主义,就是看清生活的真相之后依然热爱生活”</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Algorithm Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Shanghai, China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://www.whing.cn/blog/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://www.whing.cn/blog/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/www.whing.cn\/blog\/2020\/05\/opencv%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%A4%A7%E5%85%A8\/';
+          
+            this.page.identifier = '\/2020\/05\/opencv%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E5%A4%A7%E5%85%A8\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
