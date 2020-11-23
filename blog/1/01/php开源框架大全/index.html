@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.72.0 with theme Tranquilpeak 0.4.8-BETA">
+<meta name="author" content="Vic Woo（煌兄）">
+<meta name="keywords" content="">
+<meta name="description" content="开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！">
+
+
+<meta property="og:description" content="开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHP开源框架大全">
+<meta name="twitter:title" content="PHP开源框架大全">
+<meta property="og:url" content="https://www.whing.cn/blog/1/01/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8/">
+<meta property="twitter:url" content="https://www.whing.cn/blog/1/01/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8/">
+<meta property="og:site_name" content="Vic&#39;s Blog - 煌兄博客">
+<meta property="og:description" content="开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！">
+<meta name="twitter:description" content="开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！">
+<meta property="og:locale" content="en-us">
+
+  
+  
+  
+  
+    
+      <meta property="article:section" content="知识总结">
+    
+  
+  
+    
+      <meta property="article:tag" content="PHP">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://www.whing.cn/about/assets/img/I.jpg">
+  <meta property="twitter:image" content="https://www.whing.cn/about/assets/img/I.jpg">
+
+
+    <title>PHP开源框架大全</title>
+
+    <link rel="icon" href="https://www.whing.cn/blog/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://www.whing.cn/blog/1/01/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://www.whing.cn/blog/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://www.whing.cn/blog/">Vic&#39;s Blog - 煌兄博客</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://www.whing.cn/blog/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://www.whing.cn/blog/#about">
+          <img class="sidebar-profile-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Vic Woo（煌兄）</h4>
+        
+          <h5 class="sidebar-profile-bio">世界上只有一种英雄主义，就是看清生活的真相之后依然热爱生活！</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">博客首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">主题分类</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">热点标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">文章归档</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">关于博主</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.whing.cn/blog/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS订阅</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      PHP开源框架大全
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="0001-01-01T00:00:00Z">
+        
+  January 1, 1
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://www.whing.cn/blog/categories/%e7%9f%a5%e8%af%86%e6%80%bb%e7%bb%93">知识总结</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！</p>
+<p><strong>1.cms系统</strong></p>
+<p><strong>1）知名cms</strong></p>
+<p><strong>dedecms</strong>： <a href="http://www.dedecms.com/">www.dedecms.com/</a></p>
+<p>优点：免费开源、简单易上手、前后台分离、前台模版标签、可安装主题插件、模版素材多。</p>
+<p>缺点：功能集成扩展性不好不够灵活、漏洞多不够安全、对PHP版本兼容性不够好、速度偏慢。</p>
+<p><strong>phpcms</strong>： <a href="http://www.phpcms.cn/">www.phpcms.cn/</a></p>
+<p>优点：免费开源、简单易上手、前后台分离、前台模版标签、可安装主题插件、模版素材多。</p>
+<p>缺点：安全性比dedecms好、扩展性也不好、不易二次开发、速度略好于dedecms。</p>
+<p><strong>帝国cms（EmpireCMS）</strong>： <a href="http://www.phome.net/">www.phome.net/</a></p>
+<p>优点：免费开源、简单易上手、前后台分离、前台模版标签、可安装主题插件、模版素材多。</p>
+<p>缺点：安全性还行、扩展性比前两款好、方便二次开发、速度比前者快。</p>
+<p><strong>Pageadmin</strong>： <a href="http://www.pageadmin.net/">www.pageadmin.net/</a></p>
+<p>优点：免费开源、简单易上手、前后台分离、前台模版标签、可安装主题插件、模版素材多。</p>
+<p>缺点：安全性比较好、扩展性次于帝国cms、速度也是比较慢。</p>
+<p><strong>2）小型cms网站系统</strong></p>
+<p><strong>PbootCMS</strong>：<a href="https://www.pbootcms.com/">www.pbootcms.com</a></p>
+<p>模版标签、前后台分离、响应式后台、简介、小程序app服务接口、多套模板素材。</p>
+<p>demo：<a href="http://demo.pbootcms.com/">demo.pbootcms.com/</a></p>
+<p>码云下载：<a href="https://gitee.com/hnaoyun/PbootCMS">gitee.com/hnaoyun/Pbo…</a></p>
+<p><strong>易优youCMS</strong>：<a href="http://www.eyoucms.com/download/">www.eyoucms.com/download/</a></p>
+<p>模版标签、前后台分离、简单上手、多套模板素材。</p>
+<p>demo：<a href="http://demo.eyoucms.com/">demo.eyoucms.com/</a></p>
+<p><strong>易思CMS</strong>：<a href="http://www.ecisp.cn/">www.ecisp.cn/</a></p>
+<p>模版标签、前后台分离、简单上手、多套模板素材。</p>
+<p>demo：<a href="http://www.espcms.com/">www.espcms.com/</a></p>
+<p><strong>CMsEasy</strong>：<a href="https://www.cmseasy.cn/">www.cmseasy.cn/</a></p>
+<p>demo：<a href="http://demo.cmseasy.cn/">demo.cmseasy.cn/</a></p>
+<p><strong>2.主流php框架（CMS）</strong></p>
+<p><strong>1）各种php框架</strong></p>
+<p><strong>CodeIgniter框架</strong>：<a href="https://codeigniter.org.cn/">codeigniter.org.cn/</a></p>
+<p>优点：简单上手、快速简洁、文档详细、适合小型应用</p>
+<p>缺点：结构混乱，扩展性不好</p>
+<p><strong>yii</strong>框架：<a href="https://www.yiichina.com/">www.yiichina.com/</a></p>
+<p>优点：纯OOP、功能丰富、运行和开发速度快，gii方便、使用命令行</p>
+<p>缺点：耦合性较高、英文多比较臃肿、文档实例少，开发难度稍大</p>
+<p><strong>thinkPHP</strong>框架：<a href="http://www.thinkphp.cn/">www.thinkphp.cn/</a></p>
+<p>优点：易上手、中文文档丰富、兼容性好</p>
+<p>缺点：目录结构混乱、对ajax支持不够好</p>
+<p><strong>Laravel</strong>框架：<a href="https://www.golaravel.com/">www.golaravel.com/</a></p>
+<p>优点：较大型框架、多种设计模式、新特性较多</p>
+<p>缺点：基于组件式的框架，所以比较臃肿</p>
+<p><strong>2）基于框架的cms</strong></p>
+<p><strong>X6CMS（CodeIgniter）</strong>：<a href="http://www.x6cms.com/page/1">www.x6cms.com/page/1</a> (小型)</p>
+<p><strong>Dilicms（CodeIgniter）</strong>：<a href="https://pan.baidu.com/s/1hnESFBrmPrb62JV8f4HW0A">pan.baidu.com/s/1hnESFBrm…0A</a></p>
+<p><strong>ThinkCMF（thinkPHP）</strong>：<a href="https://www.thinkcmf.com/">www.thinkcmf.com/</a></p>
+<p>基于<strong>thinkPHP+layui（thinkPHP）</strong>：<a href="http://www.thinkphp.cn/topic/51480.html">www.thinkphp.cn/topic/51480…</a></p>
+<p><strong>feehicms（yii2）荐</strong>：<a href="http://cms.feehi.com/">cms.feehi.com/</a> （H+ui，demo：<a href="http://www.feehi.com/">www.feehi.com</a> ）</p>
+<p>基于yii+layui后台cms**（yii2）**：<a href="https://pan.baidu.com/s/1f1vUJaTJCrNbcsq1uVvexQ">pan.baidu.com/s/1f1vUJaTJ…</a></p>
+<p>yiicms**（yii2）**：<a href="https://gitee.com/templi/yiicms">gitee.com/templi/yiic…</a> （Boostrap+adminLTE）</p>
+<p>lulucms**（yii2）**：<a href="https://pan.baidu.com/s/1_qtfTOM4Ex69p2MHKGCL_A">pan.baidu.com/s/1_qtfTOM4…</a></p>
+<p><strong>多个基于Laravel框架cms</strong>：<a href="http://ittxx.cn/view/102">ittxx.cn/view/102</a></p>
+<p><strong>3）全部框架</strong></p>
+<p><strong>前端：</strong></p>
+<p><strong>5个主流的前端框架</strong>：<a href="http://ittxx.cn/view/131">ittxx.cn/view/131</a> （性能对比、分析）</p>
+<p><strong>layui</strong>：<a href="https://www.layui.com/">www.layui.com/</a> （模块化前端UI框架）</p>
+<p>demo：<a href="https://www.layui.com/demo/">www.layui.com/demo/</a></p>
+<p><strong>layuiadmin</strong>：<a href="https://www.layui.com/admin/">www.layui.com/admin/</a> （layui后台前端框架）</p>
+<p><strong>H-ui</strong>：<a href="http://www.h-ui.net/">www.h-ui.net/</a> （借鉴Boostrap开发的轻量级前端框架）</p>
+<p>demo：<a href="http://demo.h-ui.net/H-ui/3.1/index.html">demo.h-ui.net/H-ui/3.1/in…</a></p>
+<p><strong>H-uiadmin</strong>：<a href="http://www.h-ui.net/H-ui.admin.shtml">www.h-ui.net/H-ui.admin.…</a> （H-ui后台前端框架）</p>
+<p><strong>adminlte</strong>：<a href="https://adminlte.io/">adminlte.io/</a> （基于 bootstrap 的轻量级后台前端模板）</p>
+<p>demo：<a href="http://adminlte.la998.com/">adminlte.la998.com/</a></p>
+<p><strong>amazeui</strong>：<a href="http://amazeui.org/">amazeui.org/</a> （HTML5 跨屏前端框架）</p>
+<p><strong>aui</strong>：<a href="http://www.auicss.com/">www.auicss.com/</a> （轻量级前端H5框架）</p>
+<p><strong>zui</strong>：<a href="http://zui.sexy/">zui.sexy/</a> （基于 Bootstrap 深度定制开源前端实践方案）</p>
+<p><strong>更多前端框架</strong>：<a href="http://www.mycodes.net/169/">www.mycodes.net/169/</a></p>
+<p><strong>后端：</strong></p>
+<p><strong>easyswoole（PHP+swoole）</strong>：<a href="https://www.easyswoole.com/">www.easyswoole.com/</a> （基于Swoole Server 开发的常驻内存型的分布式PHP框架，专为API而生）</p>
+<p><strong>3.开源网站系统分类</strong></p>
+<p><strong>1）办公（OA，CRM，ERP等）</strong></p>
+<p><strong>小微OA系统</strong>：<a href="http://www.smeoa.com/">www.smeoa.com/</a> （thinkPHP开发）</p>
+<p>demo：<a href="http://oa.smeoa.com/">oa.smeoa.com/</a></p>
+<p><strong>然之系统OA</strong>：<a href="https://www.ranzhi.org/">www.ranzhi.org/</a> （开源+收费）</p>
+<p>demo：<a href="http://demo.ranzhi.org/sys/index.php">demo.ranzhi.org/sys/index.p…</a></p>
+<p><strong>phpoa</strong>：<a href="http://www.phpoa.cn/">www.phpoa.cn/</a> （开源+收费）</p>
+<p>下载：<a href="https://pan.baidu.com/s/1CQ7ux9lNfv6oJySeo8sLig">pan.baidu.com/s/1CQ7ux9lN…</a></p>
+<p><strong>GoodERP</strong>：<a href="http://www.gooderp.org/">www.gooderp.org/</a></p>
+<p>demo：<a href="http://demo.gooderp.org/">demo.gooderp.org/</a></p>
+<p><strong>sugarCRM</strong>：<a href="https://www.sugarcrm.com/download">www.sugarcrm.com/download</a> （国外·推荐）</p>
+<p>下载：<a href="https://pan.baidu.com/s/1Q0B7-jDjYATc7F5IstnWnQ">pan.baidu.com/s/1Q0B7-jDj…</a> （6.5版）</p>
+<p><strong>vtigercrm</strong>：<a href="https://www.vtiger.com/">www.vtiger.com/</a> （国外·推荐）</p>
+<p>中文网：<a href="http://www.vtcrm.cn/">www.vtcrm.cn/</a></p>
+<p><strong>OdooERP</strong>:<a href="https://sourceforge.net/projects/greenopenerp/">sourceforge.net/projects/gr…</a> (国外)</p>
+<p>Openbravo erp：<a href="http://www.openbravo.com/demo/">www.openbravo.com/demo/</a> （国外，java）</p>
+<p><a href="https://pan.baidu.com/s/1qhH4IXqk8DJyLkFTpCwj_A">pan.baidu.com/s/1qhH4IXqk…</a></p>
+<p>weberp：<a href="http://www.weberp.org/">www.weberp.org/</a> （国外）</p>
+<p>openerp/oodocrm：<a href="https://www.odoo.com/page/crm">www.odoo.com/page/crm</a> （国外，python）</p>
+<p>通达OA2017：<a href="http://www.tongda2000.com/download/2017.php">www.tongda2000.com/download/20…</a> （客户端）</p>
+<p>悟空crm：<a href="http://www.crm.cc/">www.crm.cc/</a> （开源+收费）</p>
+<p><a href="https://pan.baidu.com/s/1O-hBTVCWCKqLq77PjqBNkA">pan.baidu.com/s/1O-hBTVCW…</a></p>
+<p>单点crm：<a href="https://pan.baidu.com/s/1XoGds6BlWE3VLjGIykY4YQ">pan.baidu.com/s/1XoGds6Bl…</a> （php5.4以下）</p>
+<p>通达crm：<a href="https://pan.baidu.com/s/1-FC671s24YKMS3Wvk2ABnA">pan.baidu.com/s/1-FC671s2…</a></p>
+<p>易客crm：<a href="http://www.c3crm.com/xzsy/">www.c3crm.com/xzsy/</a></p>
+<p><strong>2）电子商务（网店、商城、团购）</strong></p>
+<p><strong>B2B门户：</strong></p>
+<p><strong>DestoonB2B</strong>：<a href="https://www.destoon.com/download/">www.destoon.com/download/</a></p>
+<p>强大的电子商务门户系统</p>
+<p>demo：<a href="https://demo.destoon.com/v7.0/">demo.destoon.com/v7.0/</a></p>
+<p><strong>PHPB2B</strong>：<a href="http://phpb2b.ualink.net/downloads">phpb2b.ualink.net/downloads</a></p>
+<p>强大的电子商务门户系统</p>
+<p><strong>B2C中文商城：</strong></p>
+<p><strong>ecshop：</strong><a href="http://www.ecshop.com/">www.ecshop.com/</a></p>
+<p>功能强大、模版插件丰富、持续更新资源支持较多</p>
+<p><strong>shopex：</strong><a href="http://yunqi.shopex.cn/products/shopex485">yunqi.shopex.cn/products/sh…</a></p>
+<p>功能强大、模版插件丰富、持续更新资源支持较多</p>
+<p><strong>TPshop（基于thinkPHP）：</strong><a href="http://www.tp-shop.cn/">www.tp-shop.cn/</a></p>
+<p>demo：<a href="http://demo5.tp-shop.cn/">demo5.tp-shop.cn/</a></p>
+<p><strong>Fecshop（基于Yii）</strong>：<a href="http://www.fecshop.com/">www.fecshop.com/</a></p>
+<p>demo：<a href="http://www.fecshop.com/topic/55#w3">www.fecshop.com/topic/55#w3</a></p>
+<p><strong>iWebShop</strong>：<a href="http://www.aircheng.com/">www.aircheng.com/</a></p>
+<p>demo：<a href="http://shop.aircheng.com/">shop.aircheng.com/</a></p>
+<p><strong>B2C英文商城：</strong></p>
+<p><strong>osCommerce</strong>：<a href="http://www.oscommerce.com/">www.oscommerce.com/</a></p>
+<p><strong>Mangeto</strong>：<a href="https://magento.com/">magento.com/</a></p>
+<p>中文社区：<a href="https://www.magentochina.org/">www.magentochina.org/</a></p>
+<p><strong>prestashop</strong>:<a href="https://www.prestashop.com/en">www.prestashop.com/en</a></p>
+<p>中文社区：<a href="http://www.cnprestashop.com/portal.php">www.cnprestashop.com/portal.php</a></p>
+<p><strong>opencart</strong>:<a href="https://www.opencart.com/">www.opencart.com/</a></p>
+<p>中文社区：<a href="https://www.opencart.cn/">www.opencart.cn/</a></p>
+<p>demo：<a href="http://demo.opencart.cn/">demo.opencart.cn/</a></p>
+<p><strong>zen-cart</strong>:<a href="http://www.zen-cart.cn/">www.zen-cart.cn/</a></p>
+<p>demo：<a href="http://demo.zen-cart.cn/">demo.zen-cart.cn/</a></p>
+<p><strong>alegrocart</strong>:<a href="https://www.alegrocart.com/">www.alegrocart.com/</a></p>
+<p>demo：<a href="http://www.alegrocart.com/demo/">www.alegrocart.com/demo/</a></p>
+<p><strong>wpeasycart（基于wordpress）</strong>:<a href="https://www.wpeasycart.com/">www.wpeasycart.com/</a></p>
+<p><strong>easycart</strong>:<a href="https://dl.pconline.com.cn/download/1623894.html">dl.pconline.com.cn/download/16…</a></p>
+<p><strong>3）门户、综合型展示</strong></p>
+<p><strong>SupeSite企业门户</strong>：<a href="http://www.comsenz.com/downloads/install/supesite/">www.comsenz.com/downloads/i…</a></p>
+<p><strong>4）餐饮、外卖、物流</strong></p>
+<p><strong>5）社交、博客、论坛</strong></p>
+<p><strong>Discuz</strong>：<a href="http://www.discuz.net/forum.php">www.discuz.net/forum.php</a></p>
+<p>大型论坛、插件应用丰富、扩展性强、功能非常强大、前台布局修改、简单上手</p>
+<p><strong>PHPwind</strong>：<a href="https://www.phpwind.net/">www.phpwind.net/</a></p>
+<p>大型论坛、插件应用丰富、扩展性强、功能非常强大</p>
+<p><strong>wordpress</strong>：<a href="https://cn.wordpress.org/">cn.wordpress.org/</a> （国外）</p>
+<p>功能强大的个人博客、主题模板较多、易二次开发</p>
+<p><strong>Z-blog</strong>：<a href="https://www.zblogcn.com/">www.zblogcn.com/</a></p>
+<p>功能较强大、插件应用较多、可以做cms开发其他网站</p>
+<p><strong>emlog</strong>：<a href="https://www.emlog.net/">www.emlog.net/</a></p>
+<p>功能强大、简单稳定的个人小型博客、模板不多</p>
+<p><strong>6）房产、汽车</strong></p>
+<p><strong>7）音乐、视频</strong></p>
+<p><strong>CSCMS（陈氏舞曲）</strong>：<a href="http://www.chshcms.com/">www.chshcms.com/</a></p>
+<p>功能强大的音乐系统、</p>
+<p>demo：<a href="http://demo.chshcms.com/">demo.chshcms.com/</a></p>
+<p><strong>STCMS音乐系统</strong>：<a href="http://www.mycodes.net/47/642.htm">www.mycodes.net/47/642.htm</a></p>
+<p><strong>X5Music</strong>：<a href="http://www.x5mp3.com/">www.x5mp3.com/</a></p>
+<p><strong>phpvod视频点播系统</strong>：<a href="http://www.phpvod.com/">www.phpvod.com/</a></p>
+<p>demo：<a href="http://vod.phpvod.com/">vod.phpvod.com/</a></p>
+<p><strong>maxcms</strong>：<a href="http://www.makesicms.com/">www.makesicms.com/</a></p>
+<p>模板多、开发速度快</p>
+<p><strong>飞飞影视系统</strong>：<a href="http://www.feifeicms.com/">www.feifeicms.com/</a></p>
+<p>demo：<a href="http://demo.feifeicms.com/">demo.feifeicms.com/</a></p>
+<p><strong>SKYUC</strong>天空电影：<a href="http://down.admin5.com/php/2200.html">down.admin5.com/php/2200.ht…</a></p>
+<p><strong>8）任务、管理</strong></p>
+<p><strong>9）针对性功能</strong></p>
+<p><strong>10）其他综合</strong></p>
+<p><strong>4.开源工具API等</strong></p>
+<p><strong>echarts</strong>：<a href="http://echarts.baidu.com/">echarts.baidu.com/</a> （基于Javascript的数据可视化图表库、功能很强大）</p>
+<p>实例：<a href="http://www.echartsjs.com/examples/">www.echartsjs.com/examples/</a></p>
+<p><strong>ichartjs</strong>：<a href="http://www.ichartjs.com/">www.ichartjs.com/</a> （基于HTML5和JavaScript图形组件）</p>
+<p>实例：<a href="http://www.ichartjs.com/samples/index.html">www.ichartjs.com/samples/ind…</a></p>
+<p><strong>jQuery EasyUI</strong>：<a href="http://www.jeasyui.net/">www.jeasyui.net/</a> （基于jquery的用户界面插件集合）</p>
+<p><strong>jQuery WeUI</strong>：<a href="http://jqweui.com/">jqweui.com/</a> （为微信公众账号开发而设计的一个简洁而强大的UI库）</p>
+<p><strong>easywechat</strong>：<a href="https://www.easywechat.com/">www.easywechat.com/</a> （非官方的微信SDK，便于微信开发）</p>
+<p><strong>豆信（基于thinkPHP）</strong>：<a href="https://www.douchat.net/">www.douchat.net/</a> （微信开发引擎，微信开发框架）</p>
+<p><strong>WeiPHP（基于thinkPHP）</strong>：<a href="http://www.weiphp.cn/">www.weiphp.cn</a> （微信公众号和小程序后台管理框架）</p>
+<p><strong>5.其他</strong></p>
+<p><strong>附（含其他语言）：</strong></p>
+<p><strong>O2OA办公系统</strong>：<a href="https://www.oschina.net/p/o2oa">www.oschina.net/p/o2oa</a> （java）</p>
+<p><strong>企业信息化快速开发平台 JeeSite</strong>：<a href="https://www.oschina.net/p/jeesite">www.oschina.net/p/jeesite</a> （java）</p>
+<p><strong>魔方OA</strong>：<a href="http://oa.mojocube.com/">oa.mojocube.com/</a> （.net）</p>
+<p>来自 <a href="https://juejin.im/post/5d0f3793518825324e5d7d64">https://juejin.im/post/5d0f3793518825324e5d7d64</a></p>
+<p>1.Wordpress 有很多适合企业用的模板,老牌CMS,虽然发展到现在有些笨重,但极端丰富的插件、模板,让人爱不释手。 还可以通过博客写作工具(windows live writer)同步更新内容、发邮件更新内容，各种ipad、ios客户端让移动操作管理变的相当方便。WordPress是一款能让您建立出色网站、博客或应用的开源软件,美观设计、强大功能与自由建立任何您所想的。WordPress同时兼具免费与无价。34%的互联网都在使用WordPress，小到兴趣博客，大到新闻网站。</p>
+<p>2.Thinkphp 国产开源cms系统，虽然不是完全的成品，但是结构合理，扩展方便，非常适合二次开发做企业网站。（多数cms不能完全满足中小企业的功能需要，部分还是需要灵活定制。）</p>
+<p>3.Kingcms 国产cms,原来只有asp版,现在有php版,小巧灵活。帝国cms系统是目前国内应用最广泛的CMS程序。通过十多年的不断创新与完善，使系统集安全、稳定、强大、灵活于一身。目前帝国cms程序已经广泛应用在国内上百万家网站，覆盖国内上千万上网人群，并经过上千家知名网站的严格检测，被称为国内超高安全稳定的开源CMS系统。</p>
+<p>4.dedecms织梦系统以简单、实用、开源而闻名，是国内最知名的PHP开源网站管理系统，也是使用用户最多的PHP类CMS系统。在经历多年的发展，目前的版本无论在功能，还是在易用性方面，都有了长足的发展和进步，DedeCms免费版的主要目标用户锁定在个人站长，功能更专注于个人网站或中小型门户的构建，当然也不乏有企业用户和学校等在使用该系统。</p>
+<p>不建议使用dedecms,phpcms，对于企业站来说，功能过于繁重，而且研究的人多，更容易被黑，增加运营成本。</p>
+<p>也不建议国外流行的一些CMS,比如 drupal、joomla、xoops, 功能还是过于复杂, 而且对于中文企业站来说,不是很适合.</p>
+<p>PHP 现有框架大概分为三种类型：</p>
+<ul>
+<li>传统php框架 (同步, apache/php-fpm)</li>
+<li>c扩展框架 (同步, apache/php-fpm)</li>
+<li>swoole 框架 (异步，常驻内存，自带服务)</li>
+</ul>
+<p>根据国内使用量排名：</p>
+<ul>
+<li>
+<p><strong>ThinkPHP</strong>：第一阵营，国内线上项目使用最多，没有之一</p>
+</li>
+<li>
+<ul>
+<li>优点：很多人会，简易，文档全</li>
+<li>缺点：技术上不够高大上(Laravel用户说的)，局限于http</li>
+</ul>
+</li>
+<li>
+<p><strong>Yii</strong>：第二阵营，用户量与第一名有些差异</p>
+</li>
+<li>
+<ul>
+<li>优点：实用，文档尚可</li>
+<li>缺点：前后端有些太耦合，局限于http</li>
+</ul>
+</li>
+<li>
+<p><strong>Laravel</strong>：第二阵营，用户量与第一名有些差异</p>
+</li>
+<li>
+<ul>
+<li>优点：优雅(官方说的)，文档尚可</li>
+<li>缺点：性能差，局限于http</li>
+</ul>
+</li>
+<li>
+<p><strong>CodeIgniter</strong>：第三阵营，与第二名有些差异</p>
+</li>
+<li>
+<ul>
+<li>优点：使用简单，文档丰富</li>
+<li>缺点：技术太老，新项目使用很少，大部分都是旧项目</li>
+</ul>
+</li>
+<li>
+<p><strong>Phalcon</strong>：用户量比较少</p>
+</li>
+<li>
+<ul>
+<li>优点：c扩展框架，性能强，文档尚可</li>
+<li>缺点：门槛稍高，局限于http</li>
+</ul>
+</li>
+<li>
+<p><strong>MixPHP</strong>：基于 Swoole ，用户量少</p>
+</li>
+<li>
+<ul>
+<li>优点：性能超强，可开发cli/http/websocket/tcp/udp，支持协程，文档全</li>
+<li>缺点：门槛稍高(相对于其他swoole框架来说门槛低很多)</li>
+</ul>
+</li>
+</ul>
+<p>以上框架都支持 composer (ci除外) ，因此库生态是一样的，并不是 Laravel 的专利。</p>
+<p>Blog</p>
+<p>EMLOG（51jbj.com）</p>
+<p>Z-Blog（ASP）和Z-BlogPHP</p>
+<p><strong>Typecho（首选）</strong></p>
+<p>WordPress （大而全）</p>
+<p>BBS</p>
+<p>Discuz!（臃肿）（UCenter Home作为SNS深度整合进Discuz!）</p>
+<p>Phpwind（已死）</p>
+<p>类v2ex极简论坛：</p>
+<p>startBBS（已死）</p>
+<p><strong>XiunoBBS（首选）</strong></p>
+<p>PHPSay</p>
+<p>YouBBS</p>
+<p>vBulletin</p>
+<p>Carbon Forum</p>
+<p>YouYaX（https://www.youyax.com/）</p>
+<p>SNS（商业化严重，APP都需要商业化授权。）</p>
+<p>近乎（英文：Spacebuilder, C# /.Net平台）</p>
+<p>ThinkSNS</p>
+<p>OpenSNS（前身是ThinkOX）</p>
+<p>记事狗（类似微博，界面略丑。）</p>
+<p>ThinkSNS</p>
+<p>IwebSNS</p>
+<p>WeCenter（类知乎问答程序）</p>
+<p>WhatSNS（知识问答社区类似值乎）</p>
+<p>国内：</p>
+<p>1、UCenter Home</p>
+<p>UCenter Home是康盛创想开发的一套SNS系统，基于PHP + MySQL，在国内使用非常广泛, 配套的漫游平台提供丰富的第三方插件，是做娱乐SNS网站最快捷的方案。</p>
+<p>2、iWebSNS</p>
+<p>一套比较精简的SNS系统，基于PHP + MySQL开发，几乎找不到冗余的代码，另外代码彻底开放也是它最大的特色，因此iWebSNS非常适合做二次开发。</p>
+<p>3、ThinkSNS</p>
+<p>国内一款比较知名的SNS开源软件，基于ThinkPHP框架开发，操作简单，融入许多人性化功能。新版ThinkSNS 2.0转向微博。</p>
+<p>4、Spacebuilder</p>
+<p>国内一款基于ASP. NET语言的SNS系统，提供博客、群组、论坛、微博、分享、相册等应用模块。</p>
+<p>国外：</p>
+<p>5、Dolphin</p>
+<p>boonex公司出品的Dolphin，是一个在国外最受欢迎的社交网络构建系统。提供35个模块，并可以个性化定制。</p>
+<p>6、OpenPNE</p>
+<p>OpenPNE是一款开源的来自日本的成熟的sns网络程序，除具备sns网站基本功能，最为人称道的是他的用户隐私保护机制非常安全。</p>
+<p>7、NetworX</p>
+<p>NetworX 是一个为企业和组织开发的社会网络和媒体的技术平台, 提供档案，团体，博客，论坛，活动，文件共享，评论，报告，照片和视频相册。</p>
+<p>8、Elgg</p>
+<p>Elgg是一个开源社交网络平台，原来是为教育设计, 但它的功能却让它成为很不错的社交平台。</p>
+<p>9、Community Server</p>
+<p>Community Server是国外重量级的sns社区源码，不过只开放了Express Edition版本，其他版本只提供了试用版。</p>
+<p>10、PHPizabi</p>
+<p>PHPizabi也是一个很强大的社会化交友平台，在国外使用较多。</p>
+<p>11、AROUNDMe</p>
+<p>AROUNDMe也是类似Ning, Myspace, Google groups的一个免费社会化网站源码，自定义性非常强。</p>
+<p>12、insoshi</p>
+<p>insoshi也是一个类似Facebook的建站程序，基于Ruby on Rails构建。</p>
+<p>13、Yogurt</p>
+<p>这是基于xoops CMS的一个社会化插件.</p>
+<p>14、iSocial</p>
+<p>免费的社会化CMS系统，可以创建类似Friendster和Orkut的站点。</p>
+<p>其他社会化源码：</p>
+<p>VMukti</p>
+<p>Appleseed</p>
+<p>AstroSPACES</p>
+<p>FlightFeather</p>
+<p>SNOSS</p>
+<p>OpenSocialNetwork</p>
+<p>Facelift</p>
+<p>Mahara</p>
+<p>Jcow</p>
+<p>Oxwall</p>
+<p>OpenKaku</p>
+<p>DotNode</p>
+<p><strong>类似gitbook的wiki选择</strong></p>
+<p>一直以来，都使用xwiki作为团队内部的文档管理工具，但一直想换一个比较轻量级的系统。团队成员普遍对gitbook风格有好感，于是先后试用了mdwiki、dokuwiki、hexo、mindoc、wikitten。</p>
+<p>mdwiki：纯粹用AJAX写的，部署最简单，但是目录只能两级；</p>
+<p>dokuwiki：PHP写的，没有数据库，有不少插件。一直在这个和wikitten中犹豫，最后还是选择了wikitten，主要还是界面风格，wikitten比较简洁；</p>
+<p>hexo：采用node.js开发的，也是因为这个才知道wikitten。因为服务器上已经有PHP的环境了，不想再增加node.js，所以放弃了，否则是很好的选择；</p>
+<p>mindoc：golang开发的，这个其实也不错，但我只要一本书，他却提供了一个书柜；</p>
+<p>wikitten：PHP写的，没有数据库，没有插件，文档也少。但界面一眼看中了，就这样了。</p>
+<p>来自 <a href="https://my.oschina.net/ankexun/blog/1795148">https://my.oschina.net/ankexun/blog/1795148</a></p>
+<p>docsify（和 gitbook 一样的好东西）</p>
+<p>amWiki 轻文库</p>
+<p>TiddlyWiki</p>
+<p>来自 <a href="http://www.tiddlywiki.cn/">http://www.tiddlywiki.cn/</a></p>
+<p>mindoc（golang）</p>
+<p>Gitbook</p>
+<p><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></p>
+<p>看云</p>
+<p><a href="https://www.kancloud.cn/">https://www.kancloud.cn/</a></p>
+<p>readthedoc</p>
+<p><a href="https://readthedocs.org/">https://readthedocs.org/</a></p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://www.whing.cn/blog/tags/php/">PHP</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/1/01/markdown%E5%86%99%E6%B3%95/" data-tooltip="Markdown写法">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/1/01/unix%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E5%B9%B4%E7%AE%80%E5%8F%B2/" data-tooltip="Unix操作系统编年简史">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Vic Woo（煌兄）. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/1/01/markdown%E5%86%99%E6%B3%95/" data-tooltip="Markdown写法">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://www.whing.cn/blog/1/01/unix%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E5%B9%B4%E7%AE%80%E5%8F%B2/" data-tooltip="Unix操作系统编年简史">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.whing.cn/about/assets/img/I.jpg" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Vic Woo（煌兄）</h4>
+    
+      <div id="about-card-bio">世界上只有一种英雄主义，就是看清生活的真相之后依然热爱生活！</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Algorithm Engineer
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Shanghai, China
+      </div>
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://www.whing.cn/blog/images/yourname2.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://www.whing.cn/blog/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/www.whing.cn\/blog\/1\/01\/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8\/';
+          
+            this.page.identifier = '\/1\/01\/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

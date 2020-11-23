@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vic&#39;s Blog</title>
+    <title>Vic&#39;s Blog - 煌兄博客</title>
     <link>https://www.whing.cn/blog/</link>
-    <description>Recent content on Vic&#39;s Blog</description>
+    <description>Recent content on Vic&#39;s Blog - 煌兄博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
@@ -51,82 +51,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.whing.cn/blog/1/01/</guid>
-      <description>IDE Java IDE - IDEA
-2001年由ibm创立eclipse，2003年就成立基金会，可惜国内直到07、08年才开始真正使用，那时候，eclipse、jbuilder、netbean三足鼎立。后来出现了（不是免费的）myeclipse集成了所有常用的插件，一键安装就开发出java的任何东西。eclipse 称霸到Intellij IDEA 横空出世。
-IntelliJ ideaIC/ideaIU下载：
-https://www.jetbrains.com/idea/download/
-https://www.jetbrains.com/idea/download/previous.html
-ideaIC是社区版，有着基本的开发功能，有Java开发功能但是没有JavaWeb开发功能；要找JavaWeb插件来安装，或使用tomcat-maven-plugin来“曲线编程”；C代表的是Community,社区版。就是我们用于学习、讨论等用途。
-ideaIU是旗舰版，有很多完善的功能，直接集成了JavaWeb开发功能。U代表的是Ultimate，这个是官方旗舰版也就是商用版本，官方只提供30天的免费使用时间，如果是商业用途建议购买为好，现在也支持了支付宝付款了。
-C/C++/C#: VS（2010/2013/2015/2017/2019）
-Python: Pycharm
-Git 右键打开cmd.reg
-Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere]&amp;quot;ShowBasedOnVelocityId&amp;quot;=dword:00639bc8[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCMDHere\command]@=&amp;quot;cmd.exe /s /k pushd \&amp;quot;%V\&amp;quot;&amp;quot;命令式Git：
-https://git-scm.com/download/win
-Git-2.18.0-64-bit.exe
-PortableGit-2.18.0-64-bit.7z.exe
-可视化版Git：
-TortoiseGit-1.8.15.0-64bit.msi
-Cmder是Windows下非常好用的终端模拟器， 常用于替换windows自带的终端。它可以在不同的标签页中同时连接不同的底层Shell，包括cmd、PowerShell、Bash和WSL，并提供相关增强功能和更加便捷的操作方式，这也正是它被大家称作为Windows下的神器的原因。
-cmder.zip
-cmder_mini.zip
-https://cmder.net/
-Cmder.net 分别有mini（6MB）和full（84MD）版本，都是portable的，解压即可使用。
-PL 编程语言的选择   1）C 语言的出现，解决了系统程序源代码的可移植性问题。
-  2）C++ 的出现适逢图形界面化的兴起。
-  3）Java 的流行，赶上企业信息化浪潮（比如最早的J2EE），解决大量的企业级的复杂性问题，比如它的完全面向对象，垃圾回收，权限关键字。
-  4）PHP 的流行是因为web2.0下，LAMP免费开源组合，可以快速且低成本的开发网站。
-  5）Python 的流行是因为自然语言处理、计算机视觉和机器学习任务，还有爬虫。
-  6）Go 的流行和C++比有GC，和Java比更简洁，比Python更快，其中Docker、TiDB是Go开发的。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.whing.cn/blog/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.whing.cn/blog/1/01/</guid>
-      <description>&lt;p&gt;Linux入门&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Linux is not Unix, only a kernel!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;何谓kernel？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.whing.cn/blog/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.whing.cn/blog/1/01/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;【推荐】PHP各种开源网站系统、cms系统一览[持续更新]&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.whing.cn/blog/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.whing.cn/blog/1/01/</guid>
-      <description>Python简介 Python被称为“Battery Included”「自带电池，开箱即用」，是说它以及其标准库的功能强大。这些是整个社区的贡献。Python的开发者来自不同领域，他们将不同领域的优点带给Python。比如Python标准库中的正则表达(regular expression)是参考Perl，而lambda, map, filter, reduce函数参考Lisp。Python本身的一些功能以及大部分的标准库来自于社区。Python的社区不断扩大，进而拥有了自己的newsgroup，网站(python.org)，以及基金 (Python Software Foundation)。
-Python下划线 双下划线开头和结尾
-Python中存在一些特殊的方法，有些方法以双下划线 “__” 开头和结尾，它们是Python的魔法函数，比如__init__()和__str__等等。不用要这种方式命名自己的变量或者函数。__xxx__ 系统定义名字(类似于java 的default修饰）
-函数使用单下划线_开头
-使用单下划线(_)开头的函数_func不能被模块外部以: from module import *形式导入。但可以用：from module import _func形式单独导入。
-类属性和类方法使用单下划线_开头
-_开头为保护类型的属性和方法，仅允许类内部和子类访问，类实例无法访问此属性和方法。
-类属性和类方法使用双下划线__开头
-__开头为私有类型属性和方法，仅允许类内部访问，类实例和派生类均不能访问此属性和方法。所以双划线比单划线权限更严格。
-补充说明
-对于__开头的属性和方法如果派生类一定要访问，使用单下划线+基类名+双下划线开头的属性和方法的形式，且双下划线开头的属性和方法后面最多只能以一个单下划线结束，否则也无法访问。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.whing.cn/blog/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.whing.cn/blog/1/01/</guid>
       <description>&lt;p&gt;112&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IDE</title>
+      <link>https://www.whing.cn/blog/1/01/ide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.whing.cn/blog/1/01/ide/</guid>
+      <description>&lt;h1 id=&#34;python简介&#34;&gt;Python简介&lt;/h1&gt;
+&lt;p&gt;Python被称为“Battery Included”「自带电池，开箱即用」，是说它以及其标准库的功能强大。这些是整个社区的贡献。Python的开发者来自不同领域，他们将不同领域的优点带给Python。比如Python标准库中的正则表达(regular expression)是参考Perl，而lambda, map, filter, reduce函数参考Lisp。Python本身的一些功能以及大部分的标准库来自于社区。Python的社区不断扩大，进而拥有了自己的newsgroup，网站(python.org)，以及基金 (Python Software Foundation)。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -150,6 +85,15 @@ __开头为私有类型属性和方法，仅允许类内部访问，类实例和
 &lt;p&gt;Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。&lt;/p&gt;
 &lt;p&gt;Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。&lt;/p&gt;
 &lt;p&gt;Markdown 编写的文档后缀为 .md, .markdown。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHP开源框架大全</title>
+      <link>https://www.whing.cn/blog/1/01/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.whing.cn/blog/1/01/php%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%A4%A7%E5%85%A8/</guid>
+      <description>&lt;p&gt;开源的网站系统很多，今天小编统计整理一下现在流行的各种开源系统、cms推荐，分享给大家参考使用,如果大家有好的资源分享，也请在本文留言评论！&lt;/p&gt;</description>
     </item>
     
     <item>
