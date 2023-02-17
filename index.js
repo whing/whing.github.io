@@ -1634,12 +1634,6 @@ o(".search-keyword").attr({
 	placeholder: "Google 搜索"
 })
 
-else if (o(t).hasClass("dogedoge")) o(".search-form").attr("action", "https://www.dogedoge.com/results"),
-o(".search-keyword").attr({
-	name: "q",
-	placeholder: "一个干净、纯粹的搜索引擎"
-})
-
 else if (o(t).hasClass("bing")) o(".search-form").attr("action", "https://cn.bing.com/search"),
 o(".search-keyword").attr({
 	name: "q",
@@ -1657,7 +1651,19 @@ o(".search-keyword").attr({
 	name: "q",
 	placeholder: "360搜索，SO靠谱"
 })
+	      
+else if (o(t).hasClass("zhihu")) o(".search-form").attr("action", "https://www.zhihu.com/search"),
+o(".search-keyword").attr({
+	name: "q",
+	placeholder: "有问题，问知乎"
+})
 
+else if (o(t).hasClass("weixin")) o(".search-form").attr("action", "https://weixin.sogou.com/weixin?type=2"),
+o(".search-keyword").attr({
+	name: "query",
+	placeholder: "搜索微信公众号里的文章"
+})
+	      
 else if (o(t).hasClass("mijisou")) o(".search-form").attr("action", "https://mijisou.com/"),
 o(".search-keyword").attr({
 	name: "q",
