@@ -522,7 +522,8 @@ img {
 }
 
 .search-tab {
-	max-width: 470px;
+	/* max-width: 470px;*/
+	max-width: 600px;
 	height: 33px;
 	/* margin: 0 0 20px; */
 	margin: 0 auto 20px;
