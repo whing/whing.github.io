@@ -1660,7 +1660,7 @@ o(".search-keyword").attr({
 
 else if (o(t).hasClass("weixin")) o(".search-form").attr("action", "https://weixin.sogou.com/weixin"),
 o(".search-keyword").attr({
-	name: "query, type=2",
+	name: "type=2&query",
 	placeholder: "搜索微信公众号里的文章"
 })
 	      
