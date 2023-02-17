@@ -1658,9 +1658,9 @@ o(".search-keyword").attr({
 	placeholder: "有问题，问知乎"
 })
 
-else if (o(t).hasClass("weixin")) o(".search-form").attr("action", "https://weixin.sogou.com/weixin?type=2"),
+else if (o(t).hasClass("weixin")) o(".search-form").attr("action", "https://weixin.sogou.com/weixin"),
 o(".search-keyword").attr({
-	name: "query",
+	name: "query, type=2",
 	placeholder: "搜索微信公众号里的文章"
 })
 	      
