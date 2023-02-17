@@ -1634,6 +1634,12 @@ o(".search-keyword").attr({
 	placeholder: "Google 搜索"
 })
 
+else if (o(t).hasClass("github")) o(".search-form").attr("action", "https://github.com/search"),
+o(".search-keyword").attr({
+	name: "q",
+	placeholder: "GitHub Code Search"
+})
+	      
 else if (o(t).hasClass("bing")) o(".search-form").attr("action", "https://cn.bing.com/search"),
 o(".search-keyword").attr({
 	name: "q",
