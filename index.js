@@ -103,8 +103,23 @@ var comm_list = [
 		    
 		    { 
 		      link: [
+			      { name: "OneNote", url: "https://www.onenote.com" },
+			      { name: "天仙作", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+		    ]},
+		    
+		    { 
+		      link: [
 			      { name: "GitHub", url: "https://github.com/" },
 			      { name: "GitHub-Trending", url: "https://github.com/trending" },
+			      { name: "HuggingFace", url: "https://huggingface.co/" },
+			      { name: "HF-Spaces", url: "https://huggingface.co/spaces" },
+			      { name: "GitLogs", url: "https://www.gitlogs.com/" },
+			      { name: "Awesome ", url: "https://awesomeopensource.com" },
+			      { name: "OSLs", url: "http://opensourcelibs.com/" },
+			      { name: "Gradio", url: "https://gradio.app/" },
+			      { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
+			      
 		    ]},
 		    
 		    { 
@@ -120,13 +135,26 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "莫烦", url: "https://mofanpy.com/" },
+			      { name: "华校专", url: "https://www.huaxiaozhuan.com/" },
+			    ]},
+		    
+		     { 
+		      link: [
+			      { name: "CompVis", url: "https://ommer-lab.com/" },
+			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
+			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
+			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
+			      { name: "神力AI", url: "https://manaai.cn/" },
+			      
 			    ]},
 		    
 		    {
 		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
+			      { name: "广壮图书馆", url: "https://res.gxlib.org.cn/ermsClient/browse.do;CWJSESSIONID=3DAF4E666699C696249FC60056973CF0" },
+			      { name: "AMiner", url: "https://www.aminer.cn/" },
+			      { name: "AMiner(ORG)", url: "http://cs.aminer.org/" },
+			      
 			    ]},
 	]},
 	
@@ -135,8 +163,10 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "极市", url: "https://www.cvmart.net/" },
+			      { name: "智源", url: "https://hub.baai.ac.cn/" },
+			      { name: "FN精选", url: "https://foresightnews.pro" },
+			      { name: "合集网", url: "https://233heji.com/" },
 			    ]},
 		    
 		    {
@@ -150,7 +180,7 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
+			      { name: "HDmoli", url: "https://www.hdmoli.com/" },
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -165,7 +195,7 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
+			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -180,7 +210,7 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
+			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -195,13 +225,32 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "微信在线", url: "https://wx.qq.com/" },
+			      { name: "微读在线", url: "https://weread.qq.com/" },
+			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
 			    ]},
 		    
 		    {
 		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
+			      { name: "Netron在线", url: "https://netron.app/" },
+			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
+			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
+			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
+			      { name: "Wormhole", url: "https://wormhole.app" },
+			      { name: "AirPortal", url: "https://airportal.cn" },
+			      { name: "Sendcm", url: "https://send.cm" },
+			      { name: "IMEIChecker", url: "https://sickw.com/" },
+			      { name: "V2RaySE", url: "https://v2rayse.com/" },
+			    ]},
+		    
+		    { 
+		      link: [
+			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
+			      { name: "分离人声", url: "https://vocalremover.org/zh/" },
+			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
+			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
+			      { name: "爱分割", url: "https://www.aisegment.cn/" },
+
 			    ]},
 	]},
 	
