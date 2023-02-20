@@ -85,6 +85,41 @@
 
 // ----------
 
+
+var comm_list = [
+	{
+	    slug: "common",
+	    list: [
+		    { tag: "热门",
+		      link: [
+			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+		    ]},
+		    
+		    { tag: "社交",
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+		    ]},
+	]},
+	
+	{
+	    slug: "amuse",
+	    list:  [
+		    { tag: "热门",
+		      link: [
+			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    { tag: "社交",
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+]
+
+
+/*
 var comm_list = [{
     slug: "common",
     list: [{
@@ -1591,7 +1626,7 @@ var comm_list = [{
         }]
     }]
 }]
-
+*/
 // ----------
 
 var _hmt = _hmt || []; !
