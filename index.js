@@ -105,13 +105,13 @@ var comm_list = [
 	{
 	    slug: "amuse",
 	    list:  [
-		    { tag: "热门",
+		    { 
 		      link: [
 			      { name: "百度", url: "https://baidu.com/" },
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
-		    { tag: "社交",
+		    {
 		      link: [
 			      { name: "微博", url: "https://www.weibo.com/" },
 			    ]},
