@@ -92,30 +92,35 @@ var comm_list = [
 	    list: [
 		    { 
 		      link: [
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
-			      { name: "百度", url: "https://baidu.com/" },
+			        { name: "Google翻译", url: "https://translate.google.com/" },
+				{ name: "百度翻译", url: "https://fanyi.baidu.com/" },
+				{ name: "DeepL翻译", url: "https://www.deepl.com/" },
+				{ name: "有道翻译", url: "https://fanyi.youdao.com/" },
+				{ name: "搜狗翻译", url: "https://fanyi.sogou.com/" },
+				{ name: "腾讯翻译君", url: "https://fanyi.qq.com/" },
+				{ name: "金山词霸", url: "http://www.iciba.com/" },
 		    ]},
 		    
 		    { 
 		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
+			      { name: "GitHub", url: "https://github.com/" },
+			      { name: "GitHub-Trending", url: "https://github.com/trending" },
+		    ]},
+		    
+		    { 
+		      link: [
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "天仙作", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
 		    ]},
 	]},
 	
 	{
-	    slug: "amuse",
+	    slug: "study",
 	    list:  [
 		    { 
 		      link: [
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "", url: "https://baidu.com/" },
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -124,6 +129,82 @@ var comm_list = [
 			      { name: "微博", url: "https://www.weibo.com/" },
 			    ]},
 	]},
+	
+	{
+	    slug: "blog",
+	    list:  [
+		    { 
+		      link: [
+			      { name: "", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    {
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+	
+	{
+	    slug: "resource",
+	    list:  [
+		    { 
+		      link: [
+			      { name: "", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    {
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+	
+	{
+	    slug: "prml",
+	    list:  [
+		    { 
+		      link: [
+			      { name: "", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    {
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+	
+	{
+	    slug: "aigc",
+	    list:  [
+		    { 
+		      link: [
+			      { name: "", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    {
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+	
+	{
+	    slug: "tool",
+	    list:  [
+		    { 
+		      link: [
+			      { name: "", url: "https://baidu.com/" },
+			      { name: "百度", url: "https://baidu.com/" },
+			    ]},
+		    
+		    {
+		      link: [
+			      { name: "微博", url: "https://www.weibo.com/" },
+			    ]},
+	]},
+	
 ]
 
 
