@@ -119,6 +119,9 @@ var comm_list = [
 			      { name: "OSLs", url: "http://opensourcelibs.com/" },
 			      { name: "Gradio", url: "https://gradio.app/" },
 			      { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
+			      { name: "PapersWithCode", url: "https://paperswithcode.com/" },
+			      { name: "ModelZoo", url: "https://modelzoo.co/" },
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
 			      
 		    ]},
 		    
