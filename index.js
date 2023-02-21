@@ -211,6 +211,13 @@ var comm_list = [
 	{
 	    slug: "aigc",
 	    list:  [
+		    {
+		      link: [
+			      { name: "chatGPT-1", url: "https://aigcfun.com/" },
+			      { name: "chatGPT-2", url: "https://chat.forchange.cn/" },
+			      { name: "chatGPT-3", url: "https://chatgpt.quxuetrip.com/" },
+			    ]},
+		    
 		    { 
 		      link: [
 			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
