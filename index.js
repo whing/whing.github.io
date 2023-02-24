@@ -238,7 +238,7 @@ var comm_list = [
 			      { name: "微信在线", url: "https://wx.qq.com/" },
 			      { name: "微读在线", url: "https://weread.qq.com/" },
 			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
-			    ]},
+		   ]},
 		    
 		    {
 		      link: [
@@ -251,7 +251,7 @@ var comm_list = [
 			      { name: "Sendcm", url: "https://send.cm" },
 			      { name: "IMEIChecker", url: "https://sickw.com/" },
 			      { name: "V2RaySE", url: "https://v2rayse.com/" },
-			    ]},
+		    ]},
 		    
 		    { 
 		      link: [
@@ -261,7 +261,16 @@ var comm_list = [
 			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
 
-			    ]},
+		   ]},
+		    
+		   { 
+		      link: [
+			      { name: "上海一网通办", url: "https://zwdt.sh.gov.cn/govPortals/index" },
+			      { name: "上海居住证", url: "https://www.962222.net/pages/jzz/jzz.html" },
+			      { name: "上海社保", url: "http://www.12333sh.gov.cn/sbsjb/wzb/226.jsp" },
+			      { name: "上海公租房", url: "https://zfzl.fgj.sh.gov.cn/gg_house/zl_house.html" },
+			      { name: "上海保障房", url: "http://fgj.sh.gov.cn/zfbzgsgg/index.html" },
+		   ]},
 	]},
 	
 ]
