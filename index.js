@@ -99,13 +99,12 @@ var comm_list = [
 				{ name: "搜狗翻译", url: "https://fanyi.sogou.com/" },
 				{ name: "腾讯翻译君", url: "https://fanyi.qq.com/" },
 				{ name: "金山词霸", url: "http://www.iciba.com/" },
+			      	{ name: "阿里翻译", url: "https://translate.alibaba.com/" },
 		    ]},
 		    
 		    { 
 		      link: [
 			      { name: "OneNote", url: "https://www.onenote.com" },
-			      { name: "天仙作", url: "https://angeljob.cn/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
 		    ]},
 		    
 		    { 
@@ -130,6 +129,18 @@ var comm_list = [
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 			      { name: "天仙作", url: "https://angeljob.cn/" },
 			      { name: "干脆饭", url: "https://haki.fun/" },
+		    ]},
+		    
+		    { 
+		      link: [
+			      { name: "阿里云", url: "https://www.aliyun.com/" },
+			      { name: "腾讯云", url: "https://cloud.tencent.com/" },
+			      { name: "百度智能云", url: "https://cloud.baidu.com/" },
+			      { name: "亚马逊云", url: "https://aws.amazon.com/" },
+			      { name: "微软云", url: "https://azure.microsoft.com/" },
+			      { name: "谷歌云", url: "https://cloud.google.com/" },
+			      { name: "天翼云", url: "https://www.ctyun.cn/" },
+			      { name: "华为云", url: "https://www.huaweicloud.com/" },
 		    ]},
 	]},
 	
