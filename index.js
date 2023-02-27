@@ -240,11 +240,11 @@ var comm_list = [
 	]},
 	
 	{
-	    slug: "prml",
+	    slug: "web3",
 	    list:  [
 		    { 
 		      link: [
-			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
+			      
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -272,7 +272,7 @@ var comm_list = [
 		    
 		    {
 		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
+			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
 			    ]},
 	]},
 	
