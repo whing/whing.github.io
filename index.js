@@ -105,6 +105,21 @@ var comm_list = [
 		    { 
 		      link: [
 			      { name: "OneNote", url: "https://www.onenote.com" },
+			      { name: "Notion", url: "https://www.notion.so/" },
+			      { name: "息流", url: "https://flowus.cn/" },
+			      { name: "ProcessOn", url: "https://www.processon.com/" },
+			      { name: "飞书", url: "https://www.feishu.cn" },
+			      { name: "我来", url: "https://www.wolai.com/" },
+			      { name: "语雀", url: "https://www.yuque.com" },
+			      { name: "腾讯文档", url: "https://docs.qq.com" },
+			      { name: "金山文档", url: "https://www.kdocs.cn" },
+			      { name: "石墨文档", url: "https://shimo.im" },
+			      { name: "Office", url: "https://www.office.com/" },
+			      { name: "谷歌文档", url: "https://docs.google.com/" },
+			      { name: "Evernote", url: "https://www.evernote.com" },
+			      { name: "有道云笔记", url: "https://note.youdao.com/" },
+			      { name: "印象笔记", url: "https://www.yinxiang.com" },
+			      { name: "为知笔记", url: "https://www.wiz.cn/" },
 		    ]},
 		    
 		    { 
