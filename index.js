@@ -124,30 +124,6 @@ var comm_list = [
 		    
 		    { 
 		      link: [
-			      { name: "GitHub", url: "https://github.com/" },
-			      { name: "GitHub-Trending", url: "https://github.com/trending" },
-			      { name: "HuggingFace", url: "https://huggingface.co/" },
-			      { name: "HF-Spaces", url: "https://huggingface.co/spaces" },
-			      { name: "GitLogs", url: "https://www.gitlogs.com/" },
-			      { name: "Awesome ", url: "https://awesomeopensource.com" },
-			      { name: "OSLs", url: "http://opensourcelibs.com/" },
-			      { name: "Gradio", url: "https://gradio.app/" },
-			      { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
-			      { name: "PapersWithCode", url: "https://paperswithcode.com/" },
-			      { name: "ModelZoo", url: "https://modelzoo.co/" },
-			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
-			      
-		    ]},
-		    
-		    { 
-		      link: [
-			      { name: "逆商评测网", url: "https://aqexam.com/" },
-			      { name: "天仙作", url: "https://angeljob.cn/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
-		    ]},
-		    
-		    { 
-		      link: [
 			      { name: "阿里云", url: "https://www.aliyun.com/" },
 			      { name: "腾讯云", url: "https://cloud.tencent.com/" },
 			      { name: "百度智能云", url: "https://cloud.baidu.com/" },
@@ -157,6 +133,37 @@ var comm_list = [
 			      { name: "天翼云", url: "https://www.ctyun.cn/" },
 			      { name: "华为云", url: "https://www.huaweicloud.com/" },
 		    ]},
+		    
+		    { 
+		      link: [
+			      { name: "GitHub", url: "https://github.com/" },
+			      // { name: "GitHub-Trending", url: "https://github.com/trending" },
+			      { name: "抱脸", url: "https://huggingface.co/" },
+			      // { name: "HF-Spaces", url: "https://huggingface.co/spaces" },
+			      // { name: "GitLogs", url: "https://www.gitlogs.com/" },
+			      { name: "Awesome ", url: "https://awesomeopensource.com" },
+			      { name: "OSLs", url: "http://opensourcelibs.com/" },
+			      { name: "Gradio", url: "https://gradio.app/" },
+			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
+			      { name: "PWC", url: "https://paperswithcode.com/" },
+			      { name: "ModelZoo", url: "https://modelzoo.co/" },
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
+			      
+		    ]},
+		    
+		    { 
+		      link: [
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+		    ]},
+		    
+		    
 	]},
 	
 	{
