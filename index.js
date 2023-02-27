@@ -143,6 +143,7 @@ var comm_list = [
 			      { name: "PaperCode", url: "https://paperswithcode.com/" },
 			      // { name: "SotA", url: "https://paperswithcode.com/sota" },
 			      { name: "PaperDigest", url: "https://www.paperdigest.org/" },
+			      // { name: "GitBook", url: "https://www.gitbook.com" },
 			      // { name: "GitLogs", url: "https://www.gitlogs.com/" },
 			      // { name: "Awesome ", url: "https://awesomeopensource.com" },
 			      // { name: "OSLs", url: "http://opensourcelibs.com/" },
@@ -224,7 +225,7 @@ var comm_list = [
 	]},
 	
 	{
-	    slug: "resource",
+	    slug: "metaverse",
 	    list:  [
 		    { 
 		      link: [
