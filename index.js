@@ -1907,7 +1907,7 @@ o(".search-keyword").attr({
 else if (o(t).hasClass("webcrawler")) o(".search-form").attr("action", "https://www.webcrawler.com/serp"),
 o(".search-keyword").attr({
 	name: "q",
-	placeholder: "元搜索引擎：WebCrawler Search"
+	placeholder: "WebCrawler Search"
 })
 	      
 else if (o(t).hasClass("mijisou")) o(".search-form").attr("action", "https://mijisou.com/"),
