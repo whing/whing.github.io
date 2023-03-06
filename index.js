@@ -150,11 +150,12 @@ var comm_list = [
 			      { name: "Gradio", url: "https://gradio.app/" },
 			      { name: "arXiv", url: "https://arxiv.org/" },
 			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
-			      { name: "PaperDigest", url: "https://www.paperdigest.org/" },
+			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
 			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
 			      // { name: "ModelZoo", url: "https://modelzoo.co/" },
 			      // { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
 			      { name: "OpenAI", url: "https://openai.com/" },
+			      
 			      
 		    ]},
 		    
