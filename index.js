@@ -171,6 +171,26 @@ var comm_list = [
 			      { name: "仙职网", url: "https://angeljob.cn/" },
 		    ]},
 		    
+		    { 
+		      link: [
+			      { name: "Outlook", url: "https://outlook.live.com/mail/0/inbox" },
+			      { name: "Gmail", url: "https://mail.google.com/mail/u/0/#inbox" },
+			      { name: "iCloud", url: "https://www.icloud.com" },
+			      { name: "网易Vip邮", url: "https://vip.163.com" },
+			      { name: "QQ邮箱", url: "https://mail.qq.com" },
+			      { name: "88邮箱", url: "https://www.88.com/mail/#/home" }, 
+			      { name: "完美邮箱", url: "https://www.email.cn/" },
+			      { name: "TOM邮箱", url: "https://mail.tom.com/" },	
+			      { name: "139邮箱", url: "https://mail.10086.cn/" },
+			      { name: "沃邮箱", url: "https://mail.wo.cn/" },
+			      { name: "189邮箱", url: "https://mail.189.cn/" },			            	      
+			      { name: "Yahoo!", url: "https://mail.yahoo.com" },
+			      { name: "AOL", url: "https://mail.aol.com/" },
+			      { name: "GMX", url: "https://www.gmx.com" },
+			      { name: "Mail", url: "https://www.mail.com" },
+			      { name: "Yandex", url: "https://mail.yandex.com" },      
+		    ]},
+		    
 		    
 	]},
 	
@@ -318,6 +338,14 @@ var comm_list = [
 			      { name: "上海公租房", url: "https://zfzl.fgj.sh.gov.cn/gg_house/zl_house.html" },
 			      { name: "上海保障房", url: "http://fgj.sh.gov.cn/zfbzgsgg/index.html" },
 		   ]},
+		    
+		   { 
+		      link: [
+			      { name: "AQexam", url: "http://mail.aqexam.com" },
+			      { name: "Whing", url: "https://exmail.qq.com/login" },
+			      { name: "免费企业邮", url: "http://ym.163.com" },
+		   ]}, 
+
 	]},
 	
 ]
