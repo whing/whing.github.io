@@ -151,10 +151,11 @@ var comm_list = [
 			      { name: "arXiv", url: "https://arxiv.org/" },
 			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
 			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
+			      { name: "GPTLib", url: "https://chatgptdemo.com/" },
 			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
 			      // { name: "ModelZoo", url: "https://modelzoo.co/" },
 			      // { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
-			      { name: "OpenAI", url: "https://openai.com/" },
+			      // { name: "OpenAI", url: "https://openai.com/" },
 			      
 			      
 		    ]},
@@ -280,15 +281,30 @@ var comm_list = [
 	    list:  [
 		    {
 		      link: [
+			      { name: "ChatGPT", url: "https://chat.openai.com/" },
+			      { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
+			      { name: "Midjourney", url: "https://www.midjourney.com/" },
+			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
+			      { name: "Aski", url: "https://aski.ai/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "TeachAnything", url: "https://www.teach-anything.com/" },
+			      { name: "Humata", url: "https://www.humata.ai/" },
+			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
+			      { name: "README生成器", url: "https://readme.rustc.cloud/" },
+			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
+			      { name: "SDOnline", url: " https://stablediffusionweb.com/" },
+		    ]},
+		    {
+		      link: [
 			      { name: "chatGPT-1", url: "https://aigcfun.com/" },
 			      { name: "chatGPT-2", url: "https://chat.forchange.cn/" },
 			      { name: "chatGPT-3", url: "https://chatgpt.quxuetrip.com/" },
-			    ]},
+		    ]},
 		    
 		    { 
 		      link: [
 			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "据意查句", url: "https://wantquotes.net/" },
 			    ]},
 		    
 		    {
@@ -327,6 +343,7 @@ var comm_list = [
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
+			      { name: "佐糖抠图", url: "https://picwish.cn/" },
 
 		   ]},
 		    
