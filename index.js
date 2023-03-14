@@ -137,27 +137,41 @@ var comm_list = [
 		    { 
 		      link: [
 			      { name: "GitHub", url: "https://github.com/" },
-			      // { name: "GitHub-Trending", url: "https://github.com/trending" },
+			      { name: "Trending", url: "https://github.com/trending" },
 			      { name: "HugFace", url: "https://huggingface.co/" },
-			      // { name: "HF-Spaces", url: "https://huggingface.co/spaces" },
+			      { name: "Spaces", url: "https://huggingface.co/spaces" },
 			      { name: "PaperCode", url: "https://paperswithcode.com/" },
-			      // { name: "SotA", url: "https://paperswithcode.com/sota" },
-			      { name: "PaperDigest", url: "https://www.paperdigest.org/" },
+			      { name: "SotA", url: "https://paperswithcode.com/sota" },
+			      { name: "P_Digest", url: "https://www.paperdigest.org/" },
+			      { name: "P-Digest", url: "https://www.paper-digest.com/" },
 			      // { name: "GitBook", url: "https://www.gitbook.com" },
 			      // { name: "GitLogs", url: "https://www.gitlogs.com/" },
 			      // { name: "Awesome ", url: "https://awesomeopensource.com" },
 			      // { name: "OSLs", url: "http://opensourcelibs.com/" },
-			      { name: "Gradio", url: "https://gradio.app/" },
-			      { name: "arXiv", url: "https://arxiv.org/" },
-			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
-			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
-			      { name: "GPTLib", url: "https://chatgptdemo.com/" },
+			      // { name: "Gradio", url: "https://gradio.app/" },
 			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
-			      // { name: "ModelZoo", url: "https://modelzoo.co/" },
-			      // { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
-			      // { name: "OpenAI", url: "https://openai.com/" },
-			      
-			      
+			      // { name: "arXiv", url: "https://arxiv.org/" },
+			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
+		    ]},
+		    
+		    { 
+		      link: [
+			      { name: "OpenAI", url: "https://openai.com/" },
+			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
+			      { name: "AllThingsAI", url: "https://allthingsai.com/" },
+			      { name: "GPTLib", url: "https://chatgptdemo.com/" },
+			      { name: "SaasAI", url: "https://saasaitools.com/#tools" },
+			      { name: "一起用AI", url: "https://17yongai.com/" },
+			      { name: "AINavPro", url: "https://www.ainavpro.com/" },
+			      { name: "AIGC导航", url: "https://aigc.cn/" },
+			      { name: "AINAV", url: "https://www.ainav.cn/" },
+			      { name: "AIGC便利店", url: "http://aigclist.com/" },
+			      { name: "Igniter", url: "https://www.igniter.ai/trending" },
+			      { name: "GongJu", url: "https://www.gongju.one/" },
+			      { name: "FlowGPT", url: "https://flowgpt.com/" },
+			      { name: "AI导航", url: "https://ai.tboxn.com/" },
+			      { name: "AI研究所", url: "http://www.aiyjs.com/" },
+			      { name: "OKCN", url: "http://www.okcn.art/" },
 		    ]},
 		    
 		    { 
@@ -211,10 +225,13 @@ var comm_list = [
 			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
 			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
 			      { name: "神力AI", url: "https://manaai.cn/" },
-			      
-			    ]},
+			      { name: "ModelZoo", url: "https://modelzoo.co/" },
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
+			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
+
+		     ]},
 		    
-		    {
+		     {
 		      link: [
 			      { name: "广壮图书馆", url: "https://res.gxlib.org.cn/ermsClient/browse.do;CWJSESSIONID=3DAF4E666699C696249FC60056973CF0" },
 			      { name: "AMiner", url: "https://www.aminer.cn/" },
@@ -226,7 +243,7 @@ var comm_list = [
 			      { name: "Overleaf", url: "https://www.overleaf.com/" },
 			      { name: "BioRender", url: "https://www.biorender.com/" },
 			      { name: "Sci-Hub", url: "https://sci-hub.shop/" },
-			    ]},
+		     ]},
 	]},
 	
 	{
@@ -243,6 +260,7 @@ var comm_list = [
 		    {
 		      link: [
 			      { name: "微博", url: "https://www.weibo.com/" },
+			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
 			    ]},
 	]},
 	
@@ -287,6 +305,16 @@ var comm_list = [
 			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
 			      { name: "Aski", url: "https://aski.ai/" },
 			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "Open-GPT", url: "https://open-gpt.app/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
+			      { name: "Chat35", url: "https://chat35.com/" },
+			      { name: "ChatPDF", url: "https://www.chatpdf.com/" },
+			      { name: "ChatExcel", url: "https://www.chatexcel.com/" },
+			      { name: "佛祖AI", url: "https://hotoke.ai/" },
 			      { name: "TeachAnything", url: "https://www.teach-anything.com/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },
 			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
@@ -294,6 +322,14 @@ var comm_list = [
 			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
 			      { name: "SDOnline", url: " https://stablediffusionweb.com/" },
 		    ]},
+		    
+		    {
+		      link: [
+			      { name: "文心一格", url: "https://yige.baidu.com/" },
+			      { name: "文心百中", url: "https://wenxin.baidu.com/baizhong/knowledgesearch" },
+			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
+		    ]},
+		    
 		    {
 		      link: [
 			      { name: "chatGPT-1", url: "https://aigcfun.com/" },
@@ -301,16 +337,8 @@ var comm_list = [
 			      { name: "chatGPT-3", url: "https://chatgpt.quxuetrip.com/" },
 		    ]},
 		    
-		    { 
-		      link: [
-			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
-			      { name: "据意查句", url: "https://wantquotes.net/" },
-			    ]},
 		    
-		    {
-		      link: [
-			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
-			    ]},
+		    
 	]},
 	
 	{
@@ -344,6 +372,7 @@ var comm_list = [
 			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
 			      { name: "佐糖抠图", url: "https://picwish.cn/" },
+			      { name: "据意查句", url: "https://wantquotes.net/" },
 
 		   ]},
 		    
