@@ -332,9 +332,15 @@ var comm_list = [
 		    
 		    {
 		      link: [
-			      { name: "chatGPT-1", url: "https://aigcfun.com/" },
-			      { name: "chatGPT-2", url: "https://chat.forchange.cn/" },
-			      { name: "chatGPT-3", url: "https://chatgpt.quxuetrip.com/" },
+			      { name: "aigcfun", url: "https://aigcfun.com/" },
+			      { name: "forchange", url: "https://chat.forchange.cn/" },
+			      { name: "quxuetrip", url: "https://chatgpt.quxuetrip.com/" },
+			      { name: "94gpt", url: "https://94gpt.com" },
+			      { name: "askai", url: "http://askai.ws/" },
+			      { name: "chatforai", url: "https://chatforai.com/" },
+			      { name: "51buygpt", url: "https://chat.51buygpt.com/" },
+			      { name: "fastgpt", url: "https://fastgpt.app/" },
+			      { name: "chatgpts", url: "https://chatgpts.ninvfeng.xyz/" },
 		    ]},
 		    
 		    
