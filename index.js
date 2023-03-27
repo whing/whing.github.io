@@ -325,6 +325,7 @@ var comm_list = [
 		    
 		    {
 		      link: [
+			      { name: "文心一言", url: "https://yiyan.baidu.com/" },
 			      { name: "文心一格", url: "https://yige.baidu.com/" },
 			      { name: "文心百中", url: "https://wenxin.baidu.com/baizhong/knowledgesearch" },
 			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
@@ -335,12 +336,13 @@ var comm_list = [
 			      { name: "aigcfun", url: "https://aigcfun.com/" },
 			      { name: "forchange", url: "https://chat.forchange.cn/" },
 			      { name: "quxuetrip", url: "https://chatgpt.quxuetrip.com/" },
-			      { name: "94gpt", url: "https://94gpt.com" },
-			      { name: "askai", url: "http://askai.ws/" },
-			      { name: "chatforai", url: "https://chatforai.com/" },
-			      { name: "51buygpt", url: "https://chat.51buygpt.com/" },
-			      { name: "fastgpt", url: "https://fastgpt.app/" },
 			      { name: "chatgpts", url: "https://chatgpts.ninvfeng.xyz/" },
+		    ]},
+		    
+		    {
+		      link: [
+			      { name: "Wonder", url: "https://wonderdynamics.com/" },
+
 		    ]},
 		    
 		    
