@@ -259,7 +259,6 @@ var comm_list = [
 		    
 		    {
 		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
 			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
 			    ]},
 	]},
@@ -269,7 +268,7 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			      { name: "HDmoli", url: "https://www.hdmoli.com/" },
+			     
 			      { name: "百度", url: "https://baidu.com/" },
 			    ]},
 		    
@@ -370,6 +369,9 @@ var comm_list = [
 			      { name: "Sendcm", url: "https://send.cm" },
 			      { name: "IMEIChecker", url: "https://sickw.com/" },
 			      { name: "V2RaySE", url: "https://v2rayse.com/" },
+			      { name: "Huemint", url: "https://huemint.com/brand-intersection/" },
+			      { name: "Get写作", url: "https://getgetai.com/folderV2" },
+			      { name: "Unscreen", url: "https://www.unscreen.com/" },
 		    ]},
 		    
 		    { 
@@ -379,6 +381,7 @@ var comm_list = [
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
+			      { name: "图片超分", url: "https://imgupscaler.com/" },
 			      { name: "佐糖抠图", url: "https://picwish.cn/" },
 			      { name: "据意查句", url: "https://wantquotes.net/" },
 
@@ -399,6 +402,12 @@ var comm_list = [
 			      { name: "Whing", url: "https://exmail.qq.com/login" },
 			      { name: "免费企业邮", url: "http://ym.163.com" },
 		   ]}, 
+		   
+		   { 
+		      link: [
+			      { name: "HDmoli", url: "https://www.hdmoli.com/" }, 
+		   ]}, 
+		    
 
 	]},
 	
