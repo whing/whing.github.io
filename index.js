@@ -332,6 +332,7 @@ var comm_list = [
 		    
 		    {
 		      link: [
+			      { name: "openprompt", url: "https://openprompt.co/ChatGPT" },
 			      { name: "aigcfun", url: "https://aigcfun.com/" },
 			      { name: "forchange", url: "https://chat.forchange.cn/" },
 			      { name: "quxuetrip", url: "https://chatgpt.quxuetrip.com/" },
