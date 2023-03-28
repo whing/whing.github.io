@@ -255,12 +255,17 @@ var comm_list = [
 			      { name: "智源", url: "https://hub.baai.ac.cn/" },
 			      { name: "FN精选", url: "https://foresightnews.pro" },
 			      { name: "合集网", url: "https://233heji.com/" },
-			    ]},
+		    ]},
 		    
 		    {
 		      link: [
 			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
-			    ]},
+		    ]},
+		    
+		    {
+		      link: [
+			      { name: "叶夕青兮", url: "https://erl.im/" },
+		    ]},
 	]},
 	
 	{
