@@ -304,27 +304,14 @@ var comm_list = [
 		    {
 		      link: [
 			      { name: "ChatGPT", url: "https://chat.openai.com/" },
-			      { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
-			      { name: "Midjourney", url: "https://www.midjourney.com/" },
-			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
 			      { name: "Aski", url: "https://aski.ai/" },
+			      // { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
+			      { name: "Midjourney", url: "https://www.midjourney.com/" },
 			      { name: "Vega", url: "https://rightbrain.art/" },
-			      { name: "Open-GPT", url: "https://open-gpt.app/" },
-			      { name: "Vega", url: "https://rightbrain.art/" },
-			      { name: "Vega", url: "https://rightbrain.art/" },
-			      { name: "Vega", url: "https://rightbrain.art/" },
-			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },		      
 			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
-			      { name: "Chat35", url: "https://chat35.com/" },
 			      { name: "ChatPDF", url: "https://www.chatpdf.com/" },
 			      { name: "ChatExcel", url: "https://www.chatexcel.com/" },
-			      { name: "佛祖AI", url: "https://hotoke.ai/" },
-			      { name: "TeachAnything", url: "https://www.teach-anything.com/" },
-			      { name: "Humata", url: "https://www.humata.ai/" },
-			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
-			      { name: "README生成器", url: "https://readme.rustc.cloud/" },
-			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
-			      { name: "SDOnline", url: " https://stablediffusionweb.com/" },
 		    ]},
 		    
 		    {
@@ -338,16 +325,22 @@ var comm_list = [
 		    {
 		      link: [
 			      { name: "openprompt", url: "https://openprompt.co/ChatGPT" },
+			      { name: "Open-GPT", url: "https://open-gpt.app/" },
 			      { name: "aigcfun", url: "https://aigcfun.com/" },
 			      { name: "forchange", url: "https://chat.forchange.cn/" },
 			      { name: "quxuetrip", url: "https://chatgpt.quxuetrip.com/" },
 			      { name: "chatgpts", url: "https://chatgpts.ninvfeng.xyz/" },
+			      { name: "佛祖AI", url: "https://hotoke.ai/" },
+			      { name: "README", url: "https://readme.rustc.cloud/" },
+			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
+			      { name: "SDOnline", url: " https://stablediffusionweb.com/" },
 		    ]},
 		    
 		    {
 		      link: [
 			      { name: "Wonder", url: "https://wonderdynamics.com/" },
-
+			      { name: "Humata", url: "https://www.humata.ai/" },
+			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
 		    ]},
 		    
 		    
