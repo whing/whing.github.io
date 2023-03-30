@@ -206,6 +206,18 @@ var comm_list = [
 			      { name: "Yandex", url: "https://mail.yandex.com" },      
 		    ]},
 		    
+		    { 
+		      link: [
+			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
+			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+		    ]},
+		    
 		    
 	]},
 	
