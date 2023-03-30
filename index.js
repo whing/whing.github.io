@@ -243,6 +243,23 @@ var comm_list = [
 
 		     ]},
 		    
+		     { 
+		      link: [
+			      { name: "THUNLP", url: "http://nlp.csai.tsinghua.edu.cn/" },
+			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
+			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
+			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
+			      { name: "神力AI", url: "https://manaai.cn/" },
+			      { name: "ModelZoo", url: "https://modelzoo.co/" },
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
+			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
+			      { name: "openface", url: "http://cmusatyalab.github.io/openface/" },
+			      { name: "InsightFace", url: "http://insightface.ai/index.html" },
+			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
+			      { name: "pix2pix", url: "https://affinelayer.com/pixsrv/" },
+			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
+		     ]},
+		    
 		     {
 		      link: [
 			      { name: "广壮图书馆", url: "https://res.gxlib.org.cn/ermsClient/browse.do;CWJSESSIONID=3DAF4E666699C696249FC60056973CF0" },
@@ -345,7 +362,11 @@ var comm_list = [
 			      { name: "佛祖AI", url: "https://hotoke.ai/" },
 			      { name: "README", url: "https://readme.rustc.cloud/" },
 			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
-			      { name: "SDOnline", url: " https://stablediffusionweb.com/" },
+			      { name: "SDOnline", url: "https://stablediffusionweb.com/" },
+			      { name: "AI画伯", url: "https://ai-art.tokyo/" },
+			      
+
+
 		    ]},
 		    
 		    {
