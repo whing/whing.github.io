@@ -1,3 +1,5 @@
 # whing.github.io
 
-https://www.whing.cn
+Homepage：https://www.whing.cn
+
+Blog：https://www.whing.cn/blog
