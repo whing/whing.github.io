@@ -389,6 +389,7 @@ var comm_list = [
 			      { name: "微信在线", url: "https://wx.qq.com/" },
 			      { name: "微读在线", url: "https://weread.qq.com/" },
 			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
+			      { name: "在线MD", url: "https://md.mzr.me/" },
 		   ]},
 		    
 		    {
