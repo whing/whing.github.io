@@ -441,6 +441,11 @@ var comm_list = [
 			      { name: "HDmoli", url: "https://www.hdmoli.com/" }, 
 		   ]}, 
 		    
+		   { 
+		      link: [
+			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
+		   ]}, 
+		    
 
 	]},
 	
