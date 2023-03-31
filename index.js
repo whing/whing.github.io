@@ -374,6 +374,7 @@ var comm_list = [
 			      { name: "Wonder", url: "https://wonderdynamics.com/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },
 			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
+			      { name: "LensaAI", url: "https://prisma-ai.com/lensa" },
 		    ]},
 		    
 		    
