@@ -172,6 +172,11 @@ var comm_list = [
 			      { name: "AI导航", url: "https://ai.tboxn.com/" },
 			      { name: "AI研究所", url: "http://www.aiyjs.com/" },
 			      { name: "OKCN", url: "http://www.okcn.art/" },
+			      { name: "AILib", url: "https://www.ai-lib.club/" },
+			      { name: "AI工具合集", url: "https://www.aitoolist.cn/" },
+			      { name: "AIHub", url: "https://www.aihub.cn/" },
+			      { name: "AI图书馆", url: "https://library.phygital.plus/" },
+			      
 		    ]},
 		    
 		    { 
@@ -445,6 +450,7 @@ var comm_list = [
 		   { 
 		      link: [
 			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
+			      { name: "AIGC导航", url: "https://www.yuque.com/kas/pm/xug68gtppucl8gfh" }, 
 		   ]}, 
 		    
 
