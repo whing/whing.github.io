@@ -346,6 +346,7 @@ var comm_list = [
 			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
 			      { name: "ChatPDF", url: "https://www.chatpdf.com/" },
 			      { name: "ChatExcel", url: "https://www.chatexcel.com/" },
+			      { name: "ChatDoc", url: "https://chatdoc.com/chatdoc/#/upload" },
 		    ]},
 		    
 		    {
@@ -426,12 +427,13 @@ var comm_list = [
 		   { 
 		      link: [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
+			      { name: "一帧秒创", url: "https://aigc.yizhentv.com/" },
 			      { name: "分离人声", url: "https://vocalremover.org/zh/" },
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "magicstudio", url: "https://magicstudio.com/zh/backgrounderaser" },
-			      
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
 			      { name: "图片超分", url: "https://imgupscaler.com/" },
+			      { name: "清图", url: "https://qingtu.cn/" },
 			      { name: "佐糖抠图", url: "https://picwish.cn/" },
 			      { name: "据意查句", url: "https://wantquotes.net/" },
 			      { name: "deepai", url: "https://deepai.org/machine-learning-model/colorizer" },
@@ -464,7 +466,16 @@ var comm_list = [
 		      link: [
 			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
 			      { name: "AIGC导航", url: "https://www.yuque.com/kas/pm/xug68gtppucl8gfh" }, 
+			      { name: "小报童导航", url: "https://xiaobot.netlify.app/" }, 
 		   ]}, 
+		    
+		   { 
+		      link: [
+			      { name: "热速美斯", url: "https://www.resumeis.com/" }, 
+			      { name: "标小智", url: "https://www.logosc.cn/" }, 
+
+		   ]},  
+		   
 		    
 
 	]},
