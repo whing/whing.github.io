@@ -397,7 +397,7 @@ var comm_list = [
 			      { name: "在线MD", url: "https://md.mzr.me/" },
 		   ]},
 		    
-		    {
+		   {
 		      link: [
 			      { name: "Netron在线", url: "https://netron.app/" },
 			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
@@ -411,18 +411,30 @@ var comm_list = [
 			      { name: "Huemint", url: "https://huemint.com/brand-intersection/" },
 			      { name: "Get写作", url: "https://getgetai.com/folderV2" },
 			      { name: "Unscreen", url: "https://www.unscreen.com/" },
-		    ]},
+		   ]},
 		    
-		    { 
+		   { 
+		      link: [
+			      { name: "FaceHub", url: "https://facehub.live/home/free-swap-image/" }, 
+			      { name: "FaceSwapper", url: "https://faceswapper.ai/" }, 
+			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
+			      { name: "QianHeAI", url: "https://www.qianheai.com/" }, 
+			      { name: "PhotoFunia", url: "https://photofunia.com/cn/categories/all_effects/face_swap" }, 
+			      { name: "Cutout", url: "https://www.cutout.pro/zh-CN/photo-animer-gif-emoji/upload" }, 
+		   ]}, 
+		    
+		   { 
 		      link: [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
 			      { name: "分离人声", url: "https://vocalremover.org/zh/" },
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
-			      { name: "Reflect", url: "https://reflect.tech/faceswap/" },
+			      { name: "magicstudio", url: "https://magicstudio.com/zh/backgrounderaser" },
+			      
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
 			      { name: "图片超分", url: "https://imgupscaler.com/" },
 			      { name: "佐糖抠图", url: "https://picwish.cn/" },
 			      { name: "据意查句", url: "https://wantquotes.net/" },
+			      { name: "deepai", url: "https://deepai.org/machine-learning-model/colorizer" },
 
 		   ]},
 		    
@@ -445,6 +457,7 @@ var comm_list = [
 		   { 
 		      link: [
 			      { name: "HDmoli", url: "https://www.hdmoli.com/" }, 
+			      { name: "多人贪吃蛇", url: "http://slither.io/" }, 
 		   ]}, 
 		    
 		   { 
