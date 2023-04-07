@@ -382,6 +382,7 @@ var comm_list = [
 		      link: [
 			      { name: "D-ID", url: "https://studio.d-id.com/" },
 			      { name: "Wonder", url: "https://wonderdynamics.com/" },
+			      { name: "Colossyan", url: "https://www.colossyan.com/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },
 			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
 			      { name: "LensaAI", url: "https://prisma-ai.com/lensa" },
