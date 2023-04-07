@@ -308,8 +308,10 @@ var comm_list = [
 	    list:  [
 		    { 
 		      link: [
-			     
-			      { name: "百度", url: "https://baidu.com/" },
+			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
+			      { name: "Motionverse", url: "https://demo.deepscience.cn/chatGPT/#/" },
+			      { name: "AnyHuman", url: "http://www.anyhuman.cn/#/" }, 
+			      { name: "DUIX", url: "https://www.guiji.ai/#/interaction/" },
 			    ]},
 		    
 		    {
@@ -343,7 +345,7 @@ var comm_list = [
 			      // { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
 			      { name: "Midjourney", url: "https://www.midjourney.com/" },
 			      { name: "Vega", url: "https://rightbrain.art/" },
-			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },		      
+			      		      
 			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
 			      { name: "ChatPDF", url: "https://www.chatpdf.com/" },
 			      { name: "ChatExcel", url: "https://www.chatexcel.com/" },
@@ -378,6 +380,7 @@ var comm_list = [
 		    
 		    {
 		      link: [
+			      { name: "D-ID", url: "https://studio.d-id.com/" },
 			      { name: "Wonder", url: "https://wonderdynamics.com/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },
 			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
