@@ -216,6 +216,9 @@ var comm_list = [
 		      link: [
 			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
 			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
+			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
+			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
+			      { name: "APK下载2", url: "http://apkleecher.com/" },
 			      { name: "干脆饭", url: "https://haki.fun/" },
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 			      { name: "仙职网", url: "https://angeljob.cn/" },
@@ -402,13 +405,14 @@ var comm_list = [
 			      { name: "微读在线", url: "https://weread.qq.com/" },
 			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
 			      { name: "在线MD", url: "https://md.mzr.me/" },
+			      
 		   ]},
 		    
 		   {
 		      link: [
 			      { name: "Netron在线", url: "https://netron.app/" },
 			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
-			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
+			    
 			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
 			      { name: "Wormhole", url: "https://wormhole.app" },
 			      { name: "AirPortal", url: "https://airportal.cn" },
