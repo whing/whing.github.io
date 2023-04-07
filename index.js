@@ -433,6 +433,7 @@ var comm_list = [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
 			      { name: "一帧秒创", url: "https://aigc.yizhentv.com/" },
 			      { name: "分离人声", url: "https://vocalremover.org/zh/" },
+			      { name: "生成语音", url: "https://beta.elevenlabs.io/" },
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "magicstudio", url: "https://magicstudio.com/zh/backgrounderaser" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
