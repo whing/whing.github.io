@@ -187,11 +187,12 @@ var comm_list = [
 			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
 		    ]},
 		    
-		    { tag: "AI导航",
+		    { tag: "智能导航",
 		      link: [
 			      // { name: "OpenAI", url: "https://openai.com/" },
 			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
 			      { name: "AllThingsAI", url: "https://allthingsai.com/" },
+			      { name: "DoMore", url: "https://domore.ai/" },
 			      { name: "GPTLib", url: "https://chatgptdemo.com/" },
 			      { name: "SaasAI", url: "https://saasaitools.com/#tools" },
 			      { name: "一起用AI", url: "https://17yongai.com/" },
@@ -209,6 +210,9 @@ var comm_list = [
 			      { name: "AI工具合集", url: "https://www.aitoolist.cn/" },
 			      { name: "AIHub", url: "https://www.aihub.cn/" },
 			      { name: "AI图书馆", url: "https://library.phygital.plus/" },
+			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
+			      { name: "AIGC导航", url: "https://www.yuque.com/kas/pm/xug68gtppucl8gfh" }, 
+			      { name: "今日AI", url: "https://www.chinaz.com/ai/" }, 
 			      
 		    ]},
 		    
@@ -229,26 +233,20 @@ var comm_list = [
 	{
 	    slug: "study",
 	    list:  [
-		    { 
+		    { tag: "自学教程",
 		      link: [
 			      { name: "莫烦", url: "https://mofanpy.com/" },
 			      { name: "华校专", url: "https://www.huaxiaozhuan.com/" },
-			    ]},
+		    ]},
 		    
-		     { 
+		    { tag: "基座模型",
 		      link: [
 			      { name: "CompVis", url: "https://ommer-lab.com/" },
-			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
-			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
-			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
-			      { name: "神力AI", url: "https://manaai.cn/" },
-			      { name: "ModelZoo", url: "https://modelzoo.co/" },
-			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
-			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
+			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
 
-		     ]},
+		    ]},
 		    
-		     { 
+		    { tag: "实验研究",
 		      link: [
 			      { name: "THUNLP", url: "http://nlp.csai.tsinghua.edu.cn/" },
 			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
@@ -263,27 +261,32 @@ var comm_list = [
 			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
 			      { name: "pix2pix", url: "https://affinelayer.com/pixsrv/" },
 			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
-		     ]},
+		    ]},
 		    
-		     {
+		    { tag: "论文专利",
 		      link: [
+			      { name: "GoogleScholar", url: "https://scholar.google.com/" },
+			      { name: "百度学术", url: "https://xueshu.baidu.com/" },
 			      { name: "广壮图书馆", url: "https://res.gxlib.org.cn/ermsClient/browse.do;CWJSESSIONID=3DAF4E666699C696249FC60056973CF0" },
 			      { name: "AMiner", url: "https://www.aminer.cn/" },
+			      { name: "Arnetminer", url: "http://www.arnetminer.org/" },
 			      { name: "ResearchGate", url: "https://www.researchgate.net/" },
-			      { name: "GoogleScholar", url: "https://scholar.google.com/" },
 			      { name: "SemanticScholar", url: "https://www.semanticscholar.org/" },
-			      { name: "CCF-Deadlines", url: "https://ccfddl.github.io/" },
 			      { name: "X-MOL", url: "https://www.x-mol.com/" },
 			      { name: "Overleaf", url: "https://www.overleaf.com/" },
 			      { name: "BioRender", url: "https://www.biorender.com/" },
 			      { name: "Sci-Hub", url: "https://sci-hub.shop/" },
-		     ]},
+			      // { name: "Sci-Hub2", url: "https://sci-hub.se/" },
+			      { name: "OALib", url: "https://www.oalib.com/" },
+			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
+			      { name: "CCF-Deadlines", url: "https://ccfddl.github.io/" },
+		    ]},
 	]},
 	
 	{
 	    slug: "blog",
 	    list:  [
-		    { 
+		    { tag: "前沿资讯",
 		      link: [
 			      { name: "极市", url: "https://www.cvmart.net/" },
 			      { name: "智源", url: "https://hub.baai.ac.cn/" },
@@ -291,12 +294,12 @@ var comm_list = [
 			      { name: "合集网", url: "https://233heji.com/" },
 		    ]},
 		    
-		    {
+		    { tag: "专题资料",
 		      link: [
 			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
 		    ]},
 		    
-		    {
+		    { tag: "人生感悟",
 		      link: [
 			      { name: "叶夕青兮", url: "https://erl.im/" },
 		    ]},
@@ -305,39 +308,30 @@ var comm_list = [
 	{
 	    slug: "metaverse",
 	    list:  [
-		    { 
+		    { tag: "虚拟数人",
 		      link: [
 			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
 			      { name: "Motionverse", url: "https://demo.deepscience.cn/chatGPT/#/" },
 			      { name: "AnyHuman", url: "http://www.anyhuman.cn/#/" }, 
 			      { name: "DUIX", url: "https://www.guiji.ai/#/interaction/" },
-			    ]},
+		    ]},
 		    
-		    {
-		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
-			    ]},
 	]},
 	
 	{
 	    slug: "web3",
 	    list:  [
-		    { 
-		      link: [
-			      
+		    { tag: "暂无名称",
+		      link: [   
 			      { name: "百度", url: "https://baidu.com/" },
-			    ]},
+		    ]},
 		    
-		    {
-		      link: [
-			      { name: "微博", url: "https://www.weibo.com/" },
-			    ]},
 	]},
 	
 	{
 	    slug: "aigc",
 	    list:  [
-		    {
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "ChatGPT", url: "https://chat.openai.com/" },
 			      { name: "Aski", url: "https://aski.ai/" },
@@ -351,7 +345,7 @@ var comm_list = [
 			      { name: "ChatDoc", url: "https://chatdoc.com/chatdoc/#/upload" },
 		    ]},
 		    
-		    {
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "文心一言", url: "https://yiyan.baidu.com/" },
 			      { name: "文心一格", url: "https://yige.baidu.com/" },
@@ -359,7 +353,7 @@ var comm_list = [
 			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
 		    ]},
 		    
-		    {
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "openprompt", url: "https://openprompt.co/ChatGPT" },
 			      { name: "Open-GPT", url: "https://open-gpt.app/" },
@@ -377,7 +371,7 @@ var comm_list = [
 
 		    ]},
 		    
-		    {
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "D-ID", url: "https://studio.d-id.com/" },
 			      { name: "Wonder", url: "https://wonderdynamics.com/" },
@@ -395,21 +389,30 @@ var comm_list = [
 	{
 	    slug: "tool",
 	    list:  [
-		    { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "微信在线", url: "https://wx.qq.com/" },
 			      { name: "微读在线", url: "https://weread.qq.com/" },
 			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
 			      { name: "在线MD", url: "https://md.mzr.me/" },
 			      
-		   ]},
+		    ]},
 		    
-		   {
+		    { tag: "暂无名称",
+		      link: [
+			      { name: "微信在线", url: "https://wx.qq.com/" },
+			      { name: "微读在线", url: "https://weread.qq.com/" },
+			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
+			      { name: "在线MD", url: "https://md.mzr.me/" },
+			      
+		    ]},
+		    
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "Netron在线", url: "https://netron.app/" },
 			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
 			      { name: "ProcessOn", url: "https://www.processon.com/" },
-			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
+			      
 			      { name: "Wormhole", url: "https://wormhole.app" },
 			      { name: "AirPortal", url: "https://airportal.cn" },
 			      { name: "Sendcm", url: "https://send.cm" },
@@ -418,9 +421,9 @@ var comm_list = [
 			      { name: "Huemint", url: "https://huemint.com/brand-intersection/" },
 			      { name: "Get写作", url: "https://getgetai.com/folderV2" },
 			      { name: "Unscreen", url: "https://www.unscreen.com/" },
-		   ]},
+		    ]},
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "FaceHub", url: "https://facehub.live/home/free-swap-image/" }, 
 			      { name: "FaceSwapper", url: "https://faceswapper.ai/" }, 
@@ -428,9 +431,9 @@ var comm_list = [
 			      { name: "QianHeAI", url: "https://www.qianheai.com/" }, 
 			      { name: "PhotoFunia", url: "https://photofunia.com/cn/categories/all_effects/face_swap" }, 
 			      { name: "Cutout", url: "https://www.cutout.pro/zh-CN/photo-animer-gif-emoji/upload" }, 
-		   ]}, 
+		    ]}, 
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
 			      { name: "一帧秒创", url: "https://aigc.yizhentv.com/" },
@@ -447,45 +450,44 @@ var comm_list = [
 			      { name: "据意查句", url: "https://wantquotes.net/" },
 			      { name: "deepai", url: "https://deepai.org/machine-learning-model/colorizer" },
 
-		   ]},
+		    ]},
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "上海一网通办", url: "https://zwdt.sh.gov.cn/govPortals/index" },
 			      { name: "上海居住证", url: "https://www.962222.net/pages/jzz/jzz.html" },
 			      { name: "上海社保", url: "http://www.12333sh.gov.cn/sbsjb/wzb/226.jsp" },
 			      { name: "上海公租房", url: "https://zfzl.fgj.sh.gov.cn/gg_house/zl_house.html" },
 			      { name: "上海保障房", url: "http://fgj.sh.gov.cn/zfbzgsgg/index.html" },
-		   ]},
+		    ]},
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "AQexam", url: "http://mail.aqexam.com" },
 			      { name: "Whing", url: "https://exmail.qq.com/login" },
 			      { name: "免费企业邮", url: "http://ym.163.com" },
-		   ]}, 
+		    ]}, 
 		   
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "HDmoli", url: "https://www.hdmoli.com/" }, 
 			      { name: "多人贪吃蛇", url: "http://slither.io/" }, 
-		   ]}, 
+		    ]}, 
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
-			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
-			      { name: "AIGC导航", url: "https://www.yuque.com/kas/pm/xug68gtppucl8gfh" }, 
+			      
 			      { name: "小报童导航", url: "https://xiaobot.netlify.app/" }, 
-		   ]}, 
+		    ]}, 
 		    
-		   { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "热速美斯", url: "https://www.resumeis.com/" }, 
 			      { name: "标小智", url: "https://www.logosc.cn/" }, 
 
-		   ]},  
+		    ]},  
 		   
-		  { 
+		    { tag: "暂无名称",
 		      link: [
 			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
 			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
