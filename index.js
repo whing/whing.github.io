@@ -102,40 +102,72 @@ var comm_list = [
 			      	// { name: "阿里翻译", url: "https://translate.alibaba.com/" },
 		    ]},
 		    
-		    { 
+		    { tag: "个人笔记",
 		      link: [
 			      { name: "OneNote", url: "https://www.onenote.com" },
 			      { name: "Notion", url: "https://www.notion.so/" },
 			      { name: "息流", url: "https://flowus.cn/" },
-			      { name: "ProcessOn", url: "https://www.processon.com/" },
 			      { name: "飞书", url: "https://www.feishu.cn" },
-			      { name: "我来", url: "https://www.wolai.com/" },
-			      { name: "语雀", url: "https://www.yuque.com" },
-			      { name: "Evernote", url: "https://www.evernote.com" },
+			      // { name: "我来", url: "https://www.wolai.com/" },
+			      { name: "语雀", url: "https://www.yuque.com" },  
+			      // { name: "iCloud", url: "https://www.icloud.com/" },
 			      { name: "锤子便签", url: "https://cloud.smartisan.com/" },
+			      // { name: "小米云服务", url: "https://i.mi.com/" },
 			      { name: "有道云笔记", url: "https://note.youdao.com/" },
-			      { name: "印象笔记", url: "https://www.yinxiang.com" },
-			      { name: "为知笔记", url: "https://www.wiz.cn/" },
-			      { name: "谷歌文档", url: "https://docs.google.com/" },
-			      { name: "腾讯文档", url: "https://docs.qq.com" },
-			      { name: "金山文档", url: "https://www.kdocs.cn" },
-			      { name: "石墨文档", url: "https://shimo.im" },
+			      // { name: "Evernote", url: "https://www.evernote.com" },
+			      // { name: "印象笔记", url: "https://www.yinxiang.com" },
+			      // { name: "为知笔记", url: "https://www.wiz.cn/" },
+			      // { name: "谷歌文档", url: "https://docs.google.com/" },
+			      // { name: "腾讯文档", url: "https://docs.qq.com" },
+			      // { name: "金山文档", url: "https://www.kdocs.cn" },
+			      // { name: "石墨文档", url: "https://shimo.im" },
 			      // { name: "Office", url: "https://www.office.com/" },			      
 		    ]},
 		    
-		    { 
+		    { tag: "个人邮箱",
+		      link: [
+			      { name: "Outlook", url: "https://outlook.live.com/mail/0/inbox" },
+			      { name: "Gmail", url: "https://mail.google.com/mail/u/0/#inbox" },
+			      { name: "iCloud", url: "https://www.icloud.com" },
+			      { name: "网易Vip邮", url: "https://vip.163.com" },
+			      { name: "QQ邮箱", url: "https://mail.qq.com" },
+			      { name: "88邮箱", url: "https://www.88.com/mail/#/home" }, 
+			      // { name: "完美邮箱", url: "https://www.email.cn/" },
+			      // { name: "TOM邮箱", url: "https://mail.tom.com/" },	
+			      { name: "139邮箱", url: "https://mail.10086.cn/" },
+			      // { name: "沃邮箱", url: "https://mail.wo.cn/" },
+			      // { name: "189邮箱", url: "https://mail.189.cn/" },			            	      
+			      // { name: "Yahoo!", url: "https://mail.yahoo.com" },
+			      // { name: "AOL", url: "https://mail.aol.com/" },
+			      // { name: "GMX", url: "https://www.gmx.com" },
+			      // { name: "Mail", url: "https://www.mail.com" },
+			      // { name: "Yandex", url: "https://mail.yandex.com" },      
+		    ]},
+		    
+		    { tag: "个人网盘",
+		      link: [
+			      { name: "百度云盘", url: "https://pan.baidu.com/" },
+			      { name: "阿里云盘", url: "https://www.aliyundrive.com/" },
+			      { name: "天翼云盘", url: "https://cloud.189.cn/" },
+			      { name: "坚果云盘", url: "https://www.jianguoyun.com/" },
+			      { name: "腾讯微云", url: "https://www.weiyun.com/" },
+			      { name: "中移云盘", url: "https://yun.139.com/" },
+			      { name: "永硕E盘", url: "https://www.laosan007.ys168.com/" },
+		    ]},
+		    
+		    { tag: "云服务器",
 		      link: [
 			      { name: "阿里云", url: "https://www.aliyun.com/" },
 			      { name: "腾讯云", url: "https://cloud.tencent.com/" },
 			      { name: "百度智能云", url: "https://cloud.baidu.com/" },
 			      { name: "亚马逊云", url: "https://aws.amazon.com/" },
 			      { name: "微软云", url: "https://azure.microsoft.com/" },
-			      { name: "谷歌云", url: "https://cloud.google.com/" },
+			      // { name: "谷歌云", url: "https://cloud.google.com/" },
 			      { name: "天翼云", url: "https://www.ctyun.cn/" },
 			      { name: "华为云", url: "https://www.huaweicloud.com/" },
 		    ]},
 		    
-		    { 
+		    { tag: "开源社区",
 		      link: [
 			      { name: "GitHub", url: "https://github.com/" },
 			      { name: "Trending", url: "https://github.com/trending" },
@@ -143,21 +175,21 @@ var comm_list = [
 			      { name: "Spaces", url: "https://huggingface.co/spaces" },
 			      { name: "PaperCode", url: "https://paperswithcode.com/" },
 			      { name: "SotA", url: "https://paperswithcode.com/sota" },
-			      { name: "P_Digest", url: "https://www.paperdigest.org/" },
-			      { name: "P-Digest", url: "https://www.paper-digest.com/" },
+			      // { name: "P_Digest", url: "https://www.paperdigest.org/" },
+			      // { name: "P-Digest", url: "https://www.paper-digest.com/" },
 			      // { name: "GitBook", url: "https://www.gitbook.com" },
 			      // { name: "GitLogs", url: "https://www.gitlogs.com/" },
 			      // { name: "Awesome ", url: "https://awesomeopensource.com" },
 			      // { name: "OSLs", url: "http://opensourcelibs.com/" },
 			      // { name: "Gradio", url: "https://gradio.app/" },
 			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
-			      // { name: "arXiv", url: "https://arxiv.org/" },
+			      { name: "arXiv", url: "https://arxiv.org/" },
 			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
 		    ]},
 		    
-		    { 
+		    { tag: "AI导航",
 		      link: [
-			      { name: "OpenAI", url: "https://openai.com/" },
+			      // { name: "OpenAI", url: "https://openai.com/" },
 			      { name: "Futurepedia", url: "https://www.futurepedia.io/" },
 			      { name: "AllThingsAI", url: "https://allthingsai.com/" },
 			      { name: "GPTLib", url: "https://chatgptdemo.com/" },
@@ -180,7 +212,7 @@ var comm_list = [
 			      
 		    ]},
 		    
-		    { 
+		    { tag: "推荐网站",
 		      link: [
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 			      { name: "仙职网", url: "https://angeljob.cn/" },
@@ -189,44 +221,8 @@ var comm_list = [
 			      { name: "仙职网", url: "https://angeljob.cn/" },
 			      { name: "干脆饭", url: "https://haki.fun/" },
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
-			      { name: "仙职网", url: "https://angeljob.cn/" },
 		    ]},
-		    
-		    { 
-		      link: [
-			      { name: "Outlook", url: "https://outlook.live.com/mail/0/inbox" },
-			      { name: "Gmail", url: "https://mail.google.com/mail/u/0/#inbox" },
-			      { name: "iCloud", url: "https://www.icloud.com" },
-			      { name: "网易Vip邮", url: "https://vip.163.com" },
-			      { name: "QQ邮箱", url: "https://mail.qq.com" },
-			      { name: "88邮箱", url: "https://www.88.com/mail/#/home" }, 
-			      { name: "完美邮箱", url: "https://www.email.cn/" },
-			      { name: "TOM邮箱", url: "https://mail.tom.com/" },	
-			      { name: "139邮箱", url: "https://mail.10086.cn/" },
-			      { name: "沃邮箱", url: "https://mail.wo.cn/" },
-			      { name: "189邮箱", url: "https://mail.189.cn/" },			            	      
-			      { name: "Yahoo!", url: "https://mail.yahoo.com" },
-			      { name: "AOL", url: "https://mail.aol.com/" },
-			      { name: "GMX", url: "https://www.gmx.com" },
-			      { name: "Mail", url: "https://www.mail.com" },
-			      { name: "Yandex", url: "https://mail.yandex.com" },      
-		    ]},
-		    
-		    { 
-		      link: [
-			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
-			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
-			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
-			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
-			      { name: "APK下载2", url: "http://apkleecher.com/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
-			      { name: "逆商评测网", url: "https://aqexam.com/" },
-			      { name: "仙职网", url: "https://angeljob.cn/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
-			      { name: "逆商评测网", url: "https://aqexam.com/" },
-			      { name: "仙职网", url: "https://angeljob.cn/" },
-		    ]},
-		    
+  
 		    
 	]},
 	
@@ -412,7 +408,7 @@ var comm_list = [
 		      link: [
 			      { name: "Netron在线", url: "https://netron.app/" },
 			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
-			    
+			      { name: "ProcessOn", url: "https://www.processon.com/" },
 			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
 			      { name: "Wormhole", url: "https://wormhole.app" },
 			      { name: "AirPortal", url: "https://airportal.cn" },
@@ -489,7 +485,20 @@ var comm_list = [
 
 		   ]},  
 		   
-		    
+		  { 
+		      link: [
+			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
+			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
+			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
+			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
+			      { name: "APK下载2", url: "http://apkleecher.com/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+			      { name: "干脆饭", url: "https://haki.fun/" },
+			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "仙职网", url: "https://angeljob.cn/" },
+		    ]},  
 
 	]},
 	
