@@ -239,6 +239,13 @@ var comm_list = [
 			      { name: "华校专", url: "https://www.huaxiaozhuan.com/" },
 		    ]},
 		    
+		    { tag: "Awesome",
+		      link: [
+			      { name: "数字绘画", url: "https://github.com/hua1995116/awesome-ai-painting" },
+			      { name: "", url: "" },
+
+		    ]},
+		    
 		    { tag: "基座模型",
 		      link: [
 			      { name: "CompVis", url: "https://ommer-lab.com/" },
@@ -286,58 +293,56 @@ var comm_list = [
 	{
 	    slug: "aigc",
 	    list:  [
-		    { tag: "暂无名称",
+		    { tag: "文本生成",
 		      link: [
 			      { name: "ChatGPT", url: "https://chat.openai.com/" },
+			      { name: "OpenPlayground", url: "https://nat.dev/" },
 			      { name: "Aski", url: "https://aski.ai/" },
-			      // { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
-			      { name: "Midjourney", url: "https://www.midjourney.com/" },
-			      { name: "Vega", url: "https://rightbrain.art/" },
-			      		      
+			      { name: "Humata", url: "https://www.humata.ai/" },	
+			      { name: "ChatThing", url: "https://chatthing.ai/" },	
 			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
 			      { name: "ChatPDF", url: "https://www.chatpdf.com/" },
 			      { name: "ChatExcel", url: "https://www.chatexcel.com/" },
 			      { name: "ChatDoc", url: "https://chatdoc.com/chatdoc/#/upload" },
+			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
+			      { name: "Open-GPT", url: "https://open-gpt.app/" },
+			      { name: "AI-EDU", url: "https://aigcfun.com/" },
+			      { name: "趣学旅程", url: "https://www.quxuetrip.com/AITrip.html" },
+			      { name: "chat合集", url: "https://chatgpts.ninvfeng.xyz/" },
+			      { name: "佛祖AI", url: "https://hotoke.ai/" },
+			      { name: "README", url: "https://readme.rustc.cloud/" },
+			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
+			      
 		    ]},
 		    
-		    { tag: "暂无名称",
+		    { tag: "图像生成",
+		      link: [
+			      { name: "DALL·E2", url: "https://openai.com/product/dall-e-2" },
+			      { name: "Midjourney", url: "https://www.midjourney.com/" },
+			      { name: "Vega", url: "https://rightbrain.art/" },
+			      { name: "LensaAI", url: "https://prisma-ai.com/lensa" },
+			      { name: "Lexica", url: "https://lexica.art/" },
+			      { name: "Plask", url: "https://plask.ai/" },
+			      { name: "SDOnline", url: "https://stablediffusionweb.com/" },
+			      { name: "AI画伯", url: "https://ai-art.tokyo/" },
+		    ]},
+
+		    { tag: "视频生成",
+		      link: [
+			      { name: "D-ID", url: "https://studio.d-id.com/" },
+			      { name: "Wonder", url: "https://wonderdynamics.com/" },
+			      { name: "Runway", url: "https://runwayml.com/" },
+			      { name: "Colossyan", url: "https://www.colossyan.com/" },
+			      { name: "Kaiber", url: "https://www.kaiber.ai/" },
+		    ]},
+		    
+		    { tag: "国产平替",
 		      link: [
 			      { name: "文心一言", url: "https://yiyan.baidu.com/" },
 			      { name: "文心一格", url: "https://yige.baidu.com/" },
 			      { name: "文心百中", url: "https://wenxin.baidu.com/baizhong/knowledgesearch" },
 			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
 		    ]},
-		    
-		    { tag: "暂无名称",
-		      link: [
-			      { name: "openprompt", url: "https://openprompt.co/ChatGPT" },
-			      { name: "Open-GPT", url: "https://open-gpt.app/" },
-			      { name: "aigcfun", url: "https://aigcfun.com/" },
-			      { name: "forchange", url: "https://chat.forchange.cn/" },
-			      { name: "quxuetrip", url: "https://chatgpt.quxuetrip.com/" },
-			      { name: "chatgpts", url: "https://chatgpts.ninvfeng.xyz/" },
-			      { name: "佛祖AI", url: "https://hotoke.ai/" },
-			      { name: "README", url: "https://readme.rustc.cloud/" },
-			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
-			      { name: "SDOnline", url: "https://stablediffusionweb.com/" },
-			      { name: "AI画伯", url: "https://ai-art.tokyo/" },
-			      
-
-
-		    ]},
-		    
-		    { tag: "暂无名称",
-		      link: [
-			      { name: "D-ID", url: "https://studio.d-id.com/" },
-			      { name: "Wonder", url: "https://wonderdynamics.com/" },
-			      { name: "Colossyan", url: "https://www.colossyan.com/" },
-			      { name: "Humata", url: "https://www.humata.ai/" },
-			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
-			      { name: "LensaAI", url: "https://prisma-ai.com/lensa" },
-			      { name: "Lexica", url: "https://lexica.art/" },
-		    ]},
-		    
-		    
 		    
 	]},
 	
@@ -351,6 +356,13 @@ var comm_list = [
 			      { name: "AnyHuman", url: "http://www.anyhuman.cn/#/" }, 
 			      { name: "DUIX", url: "https://www.guiji.ai/#/interaction/" },
 		    ]},
+		    
+		    { tag: "动捕驱动",
+		      link: [
+			      { name: "Motionface", url: "https://www.motionface.cn/" },
+			      { name: "万兴播爆", url: "https://virbo.wondershare.cn/" },
+		    ]},
+		    
 		    
 	]},
 	
@@ -488,6 +500,14 @@ var comm_list = [
 			      { name: "标小智", url: "https://www.logosc.cn/" }, 
 
 		    ]},  
+		    
+		    { tag: "应用商店",
+		      link: [
+			      { name: "Motionleap", url: "https://play.google.com/store/apps/details?id=com.lightricks.pixaloop&hl=zh&gl=US" }, 
+
+
+		    ]},  
+		    
 		   
 		    { tag: "暂无名称",
 		      link: [
