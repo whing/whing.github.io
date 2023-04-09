@@ -284,51 +284,6 @@ var comm_list = [
 	]},
 	
 	{
-	    slug: "blog",
-	    list:  [
-		    { tag: "前沿资讯",
-		      link: [
-			      { name: "极市", url: "https://www.cvmart.net/" },
-			      { name: "智源", url: "https://hub.baai.ac.cn/" },
-			      { name: "FN精选", url: "https://foresightnews.pro" },
-			      { name: "合集网", url: "https://233heji.com/" },
-		    ]},
-		    
-		    { tag: "专题资料",
-		      link: [
-			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
-		    ]},
-		    
-		    { tag: "人生感悟",
-		      link: [
-			      { name: "叶夕青兮", url: "https://erl.im/" },
-		    ]},
-	]},
-	
-	{
-	    slug: "metaverse",
-	    list:  [
-		    { tag: "虚拟数人",
-		      link: [
-			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
-			      { name: "Motionverse", url: "https://demo.deepscience.cn/chatGPT/#/" },
-			      { name: "AnyHuman", url: "http://www.anyhuman.cn/#/" }, 
-			      { name: "DUIX", url: "https://www.guiji.ai/#/interaction/" },
-		    ]},
-		    
-	]},
-	
-	{
-	    slug: "web3",
-	    list:  [
-		    { tag: "暂无名称",
-		      link: [   
-			      { name: "百度", url: "https://baidu.com/" },
-		    ]},
-		    
-	]},
-	
-	{
 	    slug: "aigc",
 	    list:  [
 		    { tag: "暂无名称",
@@ -385,6 +340,53 @@ var comm_list = [
 		    
 		    
 	]},
+	
+	{
+	    slug: "metaverse",
+	    list:  [
+		    { tag: "虚拟数人",
+		      link: [
+			      { name: "ChatD-ID", url: "https://chat.d-id.com/" },
+			      { name: "Motionverse", url: "https://demo.deepscience.cn/chatGPT/#/" },
+			      { name: "AnyHuman", url: "http://www.anyhuman.cn/#/" }, 
+			      { name: "DUIX", url: "https://www.guiji.ai/#/interaction/" },
+		    ]},
+		    
+	]},
+	
+	{
+	    slug: "web3",
+	    list:  [
+		    { tag: "暂无名称",
+		      link: [   
+			      { name: "百度", url: "https://baidu.com/" },
+		    ]},
+		    
+	]},
+	
+	{
+	    slug: "blog",
+	    list:  [
+		    { tag: "前沿资讯",
+		      link: [
+			      { name: "极市", url: "https://www.cvmart.net/" },
+			      { name: "智源", url: "https://hub.baai.ac.cn/" },
+			      { name: "FN精选", url: "https://foresightnews.pro" },
+			      { name: "合集网", url: "https://233heji.com/" },
+		    ]},
+		    
+		    { tag: "专题资料",
+		      link: [
+			      { name: "YouPromptMe", url: "http://www.youpromptme.cn" },
+		    ]},
+		    
+		    { tag: "人生感悟",
+		      link: [
+			      { name: "叶夕青兮", url: "https://erl.im/" },
+		    ]},
+	]},
+	
+	
 	
 	{
 	    slug: "tool",
