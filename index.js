@@ -292,7 +292,7 @@ var comm_list = [
 		    { tag: "在线演示",
 		      link: [
 			      { name: "RealBasicVSR", url: "https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing" },
-			      
+			      { name: "GFPGAN", url: "https://replicate.com/tencentarc/gfpgan" },
 
 		    ]},
 	]},
