@@ -288,6 +288,13 @@ var comm_list = [
 			      { name: "专利顾如", url: "https://www.patentguru.com/cn" },
 			      { name: "CCF-Deadlines", url: "https://ccfddl.github.io/" },
 		    ]},
+		    
+		    { tag: "在线演示",
+		      link: [
+			      { name: "RealBasicVSR", url: "https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing" },
+			      
+
+		    ]},
 	]},
 	
 	{
