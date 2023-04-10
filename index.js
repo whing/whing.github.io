@@ -226,6 +226,13 @@ var comm_list = [
 			      { name: "干脆饭", url: "https://haki.fun/" },
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 		    ]},
+		    
+		    { tag: "在线演示",
+		      link: [
+			      { name: "Replicate", url: "https://replicate.com/" },
+			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
+		    ]},
+		    
   
 		    
 	]},
@@ -246,15 +253,9 @@ var comm_list = [
 
 		    ]},
 		    
-		    { tag: "基座模型",
-		      link: [
-			      { name: "CompVis", url: "https://ommer-lab.com/" },
-			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
-
-		    ]},
-		    
 		    { tag: "实验研究",
 		      link: [
+			      { name: "CompVis", url: "https://ommer-lab.com/" },
 			      { name: "THUNLP", url: "http://nlp.csai.tsinghua.edu.cn/" },
 			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
 			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
@@ -289,7 +290,7 @@ var comm_list = [
 			      { name: "CCF-Deadlines", url: "https://ccfddl.github.io/" },
 		    ]},
 		    
-		    { tag: "在线演示",
+		    { tag: "项目收藏",
 		      link: [
 			      { name: "RealBasicVSR", url: "https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing" },
 			      { name: "GFPGAN", url: "https://replicate.com/tencentarc/gfpgan" },
