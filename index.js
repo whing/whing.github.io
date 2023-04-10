@@ -326,6 +326,15 @@ var comm_list = [
 			      { name: "SDOnline", url: "https://stablediffusionweb.com/" },
 			      { name: "AI画伯", url: "https://ai-art.tokyo/" },
 		    ]},
+		    
+		    { tag: "语音生成",
+		      link: [
+			      { name: "Vocalremover", url: "https://vocalremover.org/zh/" },
+			      { name: "Elevenlabs", url: "https://beta.elevenlabs.io/" },
+			      { name: "TTS-CN", url: "https://www.text-to-speech.cn/" },
+			      { name: "TTSmaker", url: "https://ttsmaker.com/zh-cn" },
+		    ]},
+		    
 
 		    { tag: "视频生成",
 		      link: [
@@ -451,10 +460,6 @@ var comm_list = [
 		      link: [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
 			      { name: "一帧秒创", url: "https://aigc.yizhentv.com/" },
-			      { name: "分离人声", url: "https://vocalremover.org/zh/" },
-			      { name: "生成语音", url: "https://beta.elevenlabs.io/" },
-			      { name: "TTS-CN", url: "https://www.text-to-speech.cn/" },
-			      { name: "TTSmaker", url: "https://ttsmaker.com/zh-cn" },
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "magicstudio", url: "https://magicstudio.com/zh/backgrounderaser" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
