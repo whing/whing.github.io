@@ -302,12 +302,13 @@ var comm_list = [
 			      { name: "RealBasicVSR", url: "https://github.com/ckkelvinchan/RealBasicVSR.git" },
 			      { name: "GFPGAN", url: "https://github.com/TencentARC/GFPGAN" },
 			      { name: "iPERCore", url: "https://github.com/iPERDance/iPERCore" },
+			      { name: "DaGAN", url: "https://github.com/harlanhong/CVPR2022-DaGAN" },
 			      { name: "TPSMM", url: "https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model" },
 			      { name: "Audio2Head", url: "https://github.com/FuxiVirtualHuman/Audio2Head" },
 			      { name: "Audio2Face", url: "https://github.com/FACEGOOD/FACEGOOD-Audio2Face" },
 			      { name: "StyleTalk", url: "https://github.com/FuxiVirtualHuman/styletalk" },
 			      { name: "GeneFace", url: "https://github.com/yerfor/GeneFace/blob/main/README-zh.md" },
-			      { name: "", url: "" },
+			      
 		    ]},
 	]},
 	
