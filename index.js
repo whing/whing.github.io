@@ -175,6 +175,7 @@ var comm_list = [
 			      { name: "Spaces", url: "https://huggingface.co/spaces" },
 			      { name: "PaperCode", url: "https://paperswithcode.com/" },
 			      { name: "SotA", url: "https://paperswithcode.com/sota" },
+			      { name: "CatalyzeX", url: "https://www.catalyzex.com/" },
 			      // { name: "P_Digest", url: "https://www.paperdigest.org/" },
 			      // { name: "P-Digest", url: "https://www.paper-digest.com/" },
 			      // { name: "GitBook", url: "https://www.gitbook.com" },
@@ -183,7 +184,7 @@ var comm_list = [
 			      // { name: "OSLs", url: "http://opensourcelibs.com/" },
 			      // { name: "Gradio", url: "https://gradio.app/" },
 			      // { name: "Curated-Gradio", url: "https://gradio.curated.co/" },
-			      { name: "arXiv", url: "https://arxiv.org/" },
+			      // { name: "arXiv", url: "https://arxiv.org/" },
 			      // { name: "arXivDaily", url: "http://arxivdaily.com/" },
 		    ]},
 		    
@@ -227,7 +228,7 @@ var comm_list = [
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 		    ]},
 		    
-		    { tag: "在线演示",
+		    { tag: "基座社区",
 		      link: [
 			      { name: "Replicate", url: "https://replicate.com/" },
 			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
@@ -246,30 +247,24 @@ var comm_list = [
 			      { name: "华校专", url: "https://www.huaxiaozhuan.com/" },
 		    ]},
 		    
-		    { tag: "Awesome",
-		      link: [
-			      { name: "数字绘画", url: "https://github.com/hua1995116/awesome-ai-painting" },
-			      { name: "", url: "" },
-
-		    ]},
-		    
-		    { tag: "实验研究",
+		    { tag: "研究主页",
 		      link: [
 			      { name: "CompVis", url: "https://ommer-lab.com/" },
 			      { name: "THUNLP", url: "http://nlp.csai.tsinghua.edu.cn/" },
-			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
-			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
-			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
-			      { name: "神力AI", url: "https://manaai.cn/" },
-			      { name: "ModelZoo", url: "https://modelzoo.co/" },
-			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
+			      { name: "网易伏羲", url: "https://yuding-netease.github.io/" },
 			      { name: "OpenFace", url: "https://www.cl.cam.ac.uk/research/rainbow/projects/openface/" },
 			      { name: "openface", url: "http://cmusatyalab.github.io/openface/" },
 			      { name: "InsightFace", url: "http://insightface.ai/index.html" },
 			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
 			      { name: "pix2pix", url: "https://affinelayer.com/pixsrv/" },
 			      { name: "CI2CV", url: "http://face.ci2cv.net/" },
+			      { name: "TensorFire", url: "https://tenso.rs/demos/fast-neural-style/" },
+			      { name: "G-Lab", url: "http://www.seeprettyface.com/" },
+			      { name: "CV-Studio", url: "https://www.cvpy.net/studio/cv/func/DeepLearning/cartoonize/cartoonize/page/" },
+			      { name: "", url: "" },
+
 		    ]},
+		    
 		    
 		    { tag: "论文专利",
 		      link: [
@@ -290,11 +285,29 @@ var comm_list = [
 			      { name: "CCF-Deadlines", url: "https://ccfddl.github.io/" },
 		    ]},
 		    
+		    { tag: "代码周边",
+		      link: [
+			      { name: "StarRank", url: "https://gitstar-ranking.com/" },
+			      { name: "Awesome", url: "https://github.com/sindresorhus/awesome" },
+			      { name: "数字绘画", url: "https://github.com/hua1995116/awesome-ai-painting" },
+			      { name: "模型转换", url: "https://github.com/PINTO0309/PINTO_model_zoo" },
+			      { name: "神力AI", url: "https://manaai.cn/" },
+			      { name: "ModelZoo", url: "https://modelzoo.co/" },
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },     		      
+
+		    ]},
+		    
 		    { tag: "项目收藏",
 		      link: [
-			      { name: "RealBasicVSR", url: "https://colab.research.google.com/drive/1JzWRUR34hpKvtCHm84IGx6nv35LCv20J?usp=sharing" },
-			      { name: "GFPGAN", url: "https://replicate.com/tencentarc/gfpgan" },
-
+			      { name: "RealBasicVSR", url: "https://github.com/ckkelvinchan/RealBasicVSR.git" },
+			      { name: "GFPGAN", url: "https://github.com/TencentARC/GFPGAN" },
+			      { name: "iPERCore", url: "https://github.com/iPERDance/iPERCore" },
+			      { name: "TPSMM", url: "https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model" },
+			      { name: "Audio2Head", url: "https://github.com/FuxiVirtualHuman/Audio2Head" },
+			      { name: "Audio2Face", url: "https://github.com/FACEGOOD/FACEGOOD-Audio2Face" },
+			      { name: "StyleTalk", url: "https://github.com/FuxiVirtualHuman/styletalk" },
+			      { name: "GeneFace", url: "https://github.com/yerfor/GeneFace/blob/main/README-zh.md" },
+			      { name: "", url: "" },
 		    ]},
 	]},
 	
