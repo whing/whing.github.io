@@ -231,7 +231,9 @@ var comm_list = [
 		    { tag: "基座社区",
 		      link: [
 			      { name: "Replicate", url: "https://replicate.com/" },
+			      { name: "ClipDrop", url: "https://clipdrop.co/stable-diffusion-reimagine" },
 			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
+			      { name: "飞桨社区", url: "https://aistudio.baidu.com/aistudio/index" },
 		    ]},
 		    
   
@@ -245,6 +247,7 @@ var comm_list = [
 		      link: [
 			      { name: "莫烦", url: "https://mofanpy.com/" },
 			      { name: "华校专", url: "https://www.huaxiaozhuan.com/" },
+			      { name: "刘永进", url: "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm" },
 		    ]},
 		    
 		    { tag: "研究主页",
@@ -290,6 +293,7 @@ var comm_list = [
 			      { name: "StarRank", url: "https://gitstar-ranking.com/" },
 			      { name: "Awesome", url: "https://github.com/sindresorhus/awesome" },
 			      { name: "数字绘画", url: "https://github.com/hua1995116/awesome-ai-painting" },
+			      { name: "A2Head", url: "https://github.com/KangweiiLiu/Awesome_Audio-driven_Talking-Face-Generation" },
 			      { name: "模型转换", url: "https://github.com/PINTO0309/PINTO_model_zoo" },
 			      { name: "神力AI", url: "https://manaai.cn/" },
 			      { name: "ModelZoo", url: "https://modelzoo.co/" },
@@ -308,6 +312,12 @@ var comm_list = [
 			      { name: "Audio2Face", url: "https://github.com/FACEGOOD/FACEGOOD-Audio2Face" },
 			      { name: "StyleTalk", url: "https://github.com/FuxiVirtualHuman/styletalk" },
 			      { name: "GeneFace", url: "https://github.com/yerfor/GeneFace/blob/main/README-zh.md" },
+			      { name: "OSTeC", url: "https://github.com/barisgecer/OSTeC" },
+			      { name: "P2S2P", url: "https://github.com/eladrich/pixel2style2pixel" },
+			      { name: "Kandinsky2", url: "https://github.com/ai-forever/Kandinsky-2" },
+			      { name: "SadTalker", url: "https://github.com/Winfredy/SadTalker" },
+			      { name: "SD-WebUI", url: "https://github.com/camenduru/stable-diffusion-webui-colab" },
+			      { name: "SD-1Click", url: "https://github.com/nolanaatama/sd-1click-colab" },
 			      
 		    ]},
 	]},
@@ -345,6 +355,7 @@ var comm_list = [
 			      { name: "LensaAI", url: "https://prisma-ai.com/lensa" },
 			      { name: "Lexica", url: "https://lexica.art/" },
 			      { name: "Plask", url: "https://plask.ai/" },
+			      { name: "FusionBrain", url: "https://fusionbrain.ai/diffusion" },
 			      { name: "SDOnline", url: "https://stablediffusionweb.com/" },
 			      { name: "AI画伯", url: "https://ai-art.tokyo/" },
 		    ]},
@@ -373,6 +384,9 @@ var comm_list = [
 			      { name: "文心一格", url: "https://yige.baidu.com/" },
 			      { name: "文心百中", url: "https://wenxin.baidu.com/baizhong/knowledgesearch" },
 			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
+			      { name: "通义千问", url: "https://tongyi.aliyun.com/" },   
+			      { name: "商汤日日新", url: "https://techday.sensetime.com/list" },
+			      
 		    ]},
 		    
 	]},
