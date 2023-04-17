@@ -314,6 +314,7 @@ var comm_list = [
 			      { name: "GeneFace", url: "https://github.com/yerfor/GeneFace/blob/main/README-zh.md" },
 			      { name: "OSTeC", url: "https://github.com/barisgecer/OSTeC" },
 			      { name: "P2S2P", url: "https://github.com/eladrich/pixel2style2pixel" },
+			      // { name: "CFR-GAN", url: "https://github.com/yeongjoonJu/CFR-GAN" },
 			      { name: "Kandinsky2", url: "https://github.com/ai-forever/Kandinsky-2" },
 			      { name: "SadTalker", url: "https://github.com/Winfredy/SadTalker" },
 			      { name: "SD-WebUI", url: "https://github.com/camenduru/stable-diffusion-webui-colab" },
