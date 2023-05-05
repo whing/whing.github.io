@@ -250,6 +250,18 @@ var comm_list = [
 			      { name: "刘永进", url: "https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm" },
 		    ]},
 		    
+		    { tag: "排版系统",
+		      link: [
+			      { name: "Latex", url: "https://www.latex-project.org/" },
+			      { name: "Typst", url: "https://typst.app/" },
+			      { name: "Overleaf", url: "https://www.overleaf.com/" },
+			      { name: "Markdown", url: "https://www.markdownguide.org/" },
+			      // { name: "Typora", url: "https://typora.io/" },
+			      { name: "CTEX", url: "https://ctex.org/" },
+			      { name: "CTAN", url: "https://www.ctan.org/" },
+			      { name: "TUG", url: "https://tug.org/" },
+		    ]},
+		    
 		    { tag: "研究主页",
 		      link: [
 			      { name: "CompVis", url: "https://ommer-lab.com/" },
