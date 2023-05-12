@@ -341,6 +341,7 @@ var comm_list = [
 		    { tag: "文本生成",
 		      link: [
 			      { name: "ChatGPT", url: "https://chat.openai.com/" },
+			      { name: "Poe", url: "https://poe.com/" },
 			      { name: "OpenPlayground", url: "https://nat.dev/" },
 			      { name: "Aski", url: "https://aski.ai/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },	
