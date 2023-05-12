@@ -212,7 +212,7 @@ var comm_list = [
 			      { name: "AIHub", url: "https://www.aihub.cn/" },
 			      { name: "AI图书馆", url: "https://library.phygital.plus/" },
 			      { name: "AI百寶箱", url: "https://www.explainthis.io/zh-hant/ai-toolkit" }, 
-			      { name: "AIGC导航", url: "https://www.yuque.com/kas/pm/xug68gtppucl8gfh" }, 
+			      { name: "AI导航", url: "https://ai.nancheng.fun/" }, 
 			      { name: "今日AI", url: "https://www.chinaz.com/ai/" }, 
 			      
 		    ]},
