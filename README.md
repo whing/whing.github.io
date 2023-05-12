@@ -85,6 +85,6 @@ Homepage：https://www.whing.cn
 <!-- <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="25%" /> -->
 | 关注公众号  | 微信赞赏码  |
 | :------------: | :------------: | 
-| ![关注](static/img/qrcode_for_gh_23dfcfca7f91_258.jpg)  |  <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="25%" /> |
+| ![关注](static/img/qrcode_for_gh_23dfcfca7f91_258.jpg)  |  <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="50%" /> |
 
 
