@@ -29,7 +29,7 @@ Homepage：https://www.whing.cn
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | [ChatPDF-ChatGPT读取PDF内容](https://www.chatpdf.com)  |  0 | 0  |  0 |  0 | 0  | 0  |  0 |
 | [PandaGPT -基于 ChatGPT 构建的 AI 文档聊天机器人](https://www.pandagpt.io/)  |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
+| [SCISPACE-pdf阅读工具](https://typeset.io/)  |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |
