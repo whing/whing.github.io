@@ -81,3 +81,4 @@ Homepage：https://www.whing.cn
 
 # 关注或打赏
 ![关注](static/img/qrcode_for_gh_23dfcfca7f91_258.jpg)
+![打赏](static/img/WeChatAppreciationCode.png)
