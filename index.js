@@ -228,12 +228,13 @@ var comm_list = [
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
 		    ]},
 		    
-		    { tag: "基座社区",
+		    { tag: "体验社区",
 		      link: [
 			      { name: "Replicate", url: "https://replicate.com/" },
 			      { name: "ClipDrop", url: "https://clipdrop.co/stable-diffusion-reimagine" },
 			      { name: "魔搭社区", url: "https://www.modelscope.cn/home" },
 			      { name: "飞桨社区", url: "https://aistudio.baidu.com/aistudio/index" },
+			      { name: "ARC-Lab", url: "https://arc.tencent.com/zh/ai-demos/faceRestoration" },
 		    ]},
 		    
   
@@ -530,6 +531,12 @@ var comm_list = [
 			      { name: "上海保障房", url: "http://fgj.sh.gov.cn/zfbzgsgg/index.html" },
 		    ]},
 		    
+		    { tag: "K12教育",
+		      link: [
+			      { name: "简明字帖", url: "https://www.babawar.com/" },
+		    ]},
+		    
+		    
 		    { tag: "暂无名称",
 		      link: [
 			      { name: "AQexam", url: "http://mail.aqexam.com" },
@@ -571,8 +578,8 @@ var comm_list = [
 			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
 			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
 			      { name: "APK下载2", url: "http://apkleecher.com/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
-			      { name: "逆商评测网", url: "https://aqexam.com/" },
+			      { name: "安娜搜书", url: "https://annas-archive.org/" },
+			      { name: "易书检索", url: "https://search.yibook.org/" },
 			      { name: "仙职网", url: "https://angeljob.cn/" },
 			      { name: "干脆饭", url: "https://haki.fun/" },
 			      { name: "逆商评测网", url: "https://aqexam.com/" },
