@@ -459,6 +459,17 @@ var comm_list = [
 			      { name: "小报童导航", url: "https://xiaobot.netlify.app/" }, 
 		    ]},
 		    
+		    { tag: "VideoGene",
+		      link: [
+			      { name: "Mov2mov", url: "https://github.com/Scholar01/sd-webui-mov2mov" }, 
+			      { name: "t2v-imagen", url: "https://github.com/lucidrains/imagen-pytorch#text-to-video" },
+			      { name: "Text2Video-Zero", url: "https://github.com/picsart-ai-research/text2video-zero" },
+			      { name: "DAMO-VILab", url: "https://huggingface.co/damo-vilab/text-to-video-ms-1.7b-legacy" },
+			      { name: "Text2Video", url: "https://github.com/sibozhang/Text2Video" },
+			      { name: "SD-Videos", url: "https://github.com/nateraw/stable-diffusion-videos" },
+			      { name: "VideoLDM", url: "https://research.nvidia.com/labs/toronto-ai/VideoLDM/" },
+		    ]},
+		    
 	]},
 	
 	
