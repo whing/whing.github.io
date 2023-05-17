@@ -104,6 +104,6 @@ https://www.aishort.top/?tags=ai&tags=company&tags=language
 <!-- <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="25%" /> -->
 | 关注公众号  | 微信赞赏码  |
 | :------------: | :------------: | 
-| ![关注](static/img/qrcode_for_gh_23dfcfca7f91_258.jpg)  |  <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="50%" /> |
+| <img src="static/img/wh_beside_the_window_manga_qrcode.jpg" alt="关注" width="40%" />  |  <img src="static/img/WeChatAppreciationCode.png" alt="打赏" width="50%" /> |
 
 
