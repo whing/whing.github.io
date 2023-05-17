@@ -310,7 +310,8 @@ var comm_list = [
 			      { name: "模型转换", url: "https://github.com/PINTO0309/PINTO_model_zoo" },
 			      { name: "神力AI", url: "https://manaai.cn/" },
 			      { name: "ModelZoo", url: "https://modelzoo.co/" },
-			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },     		      
+			      { name: "JetsonZoo", url: "https://www.elinux.org/Jetson_Zoo" },
+			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
 
 		    ]},
 		    
@@ -344,7 +345,6 @@ var comm_list = [
 			      { name: "ChatGPT", url: "https://chat.openai.com/" },
 			      { name: "Poe", url: "https://poe.com/" },
 			      { name: "OpenPlayground", url: "https://nat.dev/" },
-			      { name: "Aski", url: "https://aski.ai/" },
 			      { name: "Humata", url: "https://www.humata.ai/" },	
 			      { name: "ChatThing", url: "https://chatthing.ai/" },	
 			      { name: "ChatMind", url: "https://www.chatmind.tech/" },
@@ -353,12 +353,8 @@ var comm_list = [
 			      { name: "ChatDoc", url: "https://chatdoc.com/chatdoc/#/upload" },
 			      { name: "CopilotHub", url: "https://app.copilothub.co/home" },
 			      { name: "Open-GPT", url: "https://open-gpt.app/" },
-			      { name: "AI-EDU", url: "https://aigcfun.com/" },
-			      { name: "趣学旅程", url: "https://www.quxuetrip.com/AITrip.html" },
 			      { name: "chat合集", url: "https://chatgpts.ninvfeng.xyz/" },
 			      { name: "佛祖AI", url: "https://hotoke.ai/" },
-			      { name: "README", url: "https://readme.rustc.cloud/" },
-			      { name: "聊天简化器", url: "https://chat-simplifier.imzbb.cc/" },
 			      
 		    ]},
 		    
@@ -401,7 +397,8 @@ var comm_list = [
 			      { name: "文心作画", url: "https://wenxin.baidu.com/ernie-vilg" },
 			      { name: "通义千问", url: "https://tongyi.aliyun.com/" },   
 			      { name: "商汤日日新", url: "https://techday.sensetime.com/list" },
-			      
+			      { name: "Aski", url: "https://aski.ai/" },
+			      { name: "字语智能", url: "https://getgetai.com" },
 		    ]},
 		    
 	]},
@@ -456,6 +453,12 @@ var comm_list = [
 		      link: [
 			      { name: "叶夕青兮", url: "https://erl.im/" },
 		    ]},
+		    
+		    { tag: "文章导航",
+		      link: [
+			      { name: "小报童导航", url: "https://xiaobot.netlify.app/" }, 
+		    ]},
+		    
 	]},
 	
 	
@@ -463,14 +466,25 @@ var comm_list = [
 	{
 	    slug: "tool",
 	    list:  [
-		    { tag: "暂无名称",
+		    { tag: "微信生态",
 		      link: [
-			      { name: "微信在线", url: "https://wx.qq.com/" },
-			      { name: "微读在线", url: "https://weread.qq.com/" },
-			      { name: "微传在线", url: "https://filehelper.weixin.qq.com/" },
-			      { name: "在线MD", url: "https://md.mzr.me/" },
-			      
+			      { name: "微信网页", url: "https://wx.qq.com/" },
+			      { name: "微读网页", url: "https://weread.qq.com/" },
+			      { name: "微传网页", url: "https://filehelper.weixin.qq.com/" },
+			      { name: "微公网页", url: "https://mp.weixin.qq.com/" },
+      
 		    ]},
+		    
+		    { tag: "检索下载",
+		      link: [
+			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
+			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
+			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },    
+			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
+			      { name: "APK下载2", url: "http://apkleecher.com/" },
+			      { name: "安娜搜书", url: "https://annas-archive.org/" },
+			      { name: "易书检索", url: "https://search.yibook.org/" },
+		    ]},  
 		    
 		    { tag: "网站托管",
 		      link: [
@@ -481,23 +495,18 @@ var comm_list = [
 			      
 		    ]},
 		    
-		    { tag: "暂无名称",
+		    { tag: "便捷办公",
 		      link: [
 			      { name: "Netron在线", url: "https://netron.app/" },
-			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
-			      { name: "ProcessOn", url: "https://www.processon.com/" },
+			      { name: "MD在线", url: "https://md.mzr.me/" },
+			      { name: "Resume在线", url: "https://www.resumeis.com/" }, 
+			      { name: "ProcessOn", url: "https://www.processon.com/" }, 
+			      { name: "标小智", url: "https://www.logosc.cn/" }, 
 			      
-			      { name: "Wormhole", url: "https://wormhole.app" },
-			      { name: "AirPortal", url: "https://airportal.cn" },
-			      { name: "Sendcm", url: "https://send.cm" },
-			      { name: "IMEIChecker", url: "https://sickw.com/" },
-			      { name: "V2RaySE", url: "https://v2rayse.com/" },
-			      { name: "Huemint", url: "https://huemint.com/brand-intersection/" },
-			      { name: "Get写作", url: "https://getgetai.com/folderV2" },
-			      { name: "Unscreen", url: "https://www.unscreen.com/" },
+			      
 		    ]},
 		    
-		    { tag: "暂无名称",
+		    { tag: "人脸处理",
 		      link: [
 			      { name: "FaceHub", url: "https://facehub.live/home/free-swap-image/" }, 
 			      { name: "FaceSwapper", url: "https://faceswapper.ai/" }, 
@@ -507,10 +516,11 @@ var comm_list = [
 			      { name: "Cutout", url: "https://www.cutout.pro/zh-CN/photo-animer-gif-emoji/upload" }, 
 		    ]}, 
 		    
-		    { tag: "暂无名称",
+		    { tag: "图像视频",
 		      link: [
 			      { name: "腾讯智影", url: "https://zenvideo.qq.com/home" },
 			      { name: "一帧秒创", url: "https://aigc.yizhentv.com/" },
+			      { name: "Unscreen", url: "https://www.unscreen.com/" },
 			      { name: "remove.bg", url: "https://www.remove.bg/zh" },
 			      { name: "magicstudio", url: "https://magicstudio.com/zh/backgrounderaser" },
 			      { name: "爱分割", url: "https://www.aisegment.cn/" },
@@ -522,7 +532,7 @@ var comm_list = [
 
 		    ]},
 		    
-		    { tag: "暂无名称",
+		    { tag: "上海生活",
 		      link: [
 			      { name: "上海一网通办", url: "https://zwdt.sh.gov.cn/govPortals/index" },
 			      { name: "上海居住证", url: "https://www.962222.net/pages/jzz/jzz.html" },
@@ -537,31 +547,19 @@ var comm_list = [
 		    ]},
 		    
 		    
-		    { tag: "暂无名称",
+		    { tag: "微企服务",
 		      link: [
 			      { name: "AQexam", url: "http://mail.aqexam.com" },
 			      { name: "Whing", url: "https://exmail.qq.com/login" },
 			      { name: "免费企业邮", url: "http://ym.163.com" },
 		    ]}, 
 		   
-		    { tag: "暂无名称",
+		    { tag: "娱乐游戏",
 		      link: [
 			      { name: "HDmoli", url: "https://www.hdmoli.com/" }, 
 			      { name: "多人贪吃蛇", url: "http://slither.io/" }, 
 		    ]}, 
-		    
-		    { tag: "暂无名称",
-		      link: [
-			      
-			      { name: "小报童导航", url: "https://xiaobot.netlify.app/" }, 
-		    ]}, 
-		    
-		    { tag: "暂无名称",
-		      link: [
-			      { name: "热速美斯", url: "https://www.resumeis.com/" }, 
-			      { name: "标小智", url: "https://www.logosc.cn/" }, 
-
-		    ]},  
+		     
 		    
 		    { tag: "应用商店",
 		      link: [
@@ -570,21 +568,16 @@ var comm_list = [
 
 		    ]},  
 		    
-		   
-		    { tag: "暂无名称",
+		    { tag: "其他工具",
 		      link: [
-			      { name: "GitHub加速1", url: "https://toolwa.com/github/" },
-			      { name: "GitHub加速2", url: "https://github.zhlh6.cn/" },
-			      { name: "B站下载", url: "https://xbeibeix.com/api/bilibili/" },
-			      { name: "APK下载1", url: "https://apkpure.com/cn/" },
-			      { name: "APK下载2", url: "http://apkleecher.com/" },
-			      { name: "安娜搜书", url: "https://annas-archive.org/" },
-			      { name: "易书检索", url: "https://search.yibook.org/" },
-			      { name: "仙职网", url: "https://angeljob.cn/" },
-			      { name: "干脆饭", url: "https://haki.fun/" },
-			      { name: "逆商评测网", url: "https://aqexam.com/" },
-			      { name: "仙职网", url: "https://angeljob.cn/" },
-		    ]},  
+			      { name: "Wormhole", url: "https://wormhole.app" },
+			      { name: "AirPortal", url: "https://airportal.cn" },
+			      { name: "Sendcm", url: "https://send.cm" },
+			      { name: "IMEIChecker", url: "https://sickw.com/" },
+			      { name: "V2RaySE", url: "https://v2rayse.com/" },
+			      { name: "Huemint", url: "https://huemint.com/brand-intersection/" },
+			      
+		    ]},
 
 	]},
 	
