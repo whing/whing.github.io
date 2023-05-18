@@ -401,6 +401,105 @@ var comm_list = [
 			      { name: "字语智能", url: "https://getgetai.com" },
 		    ]},
 		    
+		    { tag: "文生文", // eg. 对话智能
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "文生图", // eg. AI绘图
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "文生音", // eg. TTS
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "图生文", // eg. OCR
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "图生图", // eg. 图像风格迁移
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "图生音", // eg. ?
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "音生文", // eg. ASR
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "音生图", // eg. Talking-Head
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+		    
+		    { tag: "音生音", // eg. 语音风格转换
+		      link: [
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+			      { name: "", url: "" },
+		    ]},
+	    
 	]},
 	
 	{
