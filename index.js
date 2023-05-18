@@ -581,8 +581,11 @@ var comm_list = [
 			      { name: "微信网页", url: "https://wx.qq.com/" },
 			      { name: "微读网页", url: "https://weread.qq.com/" },
 			      { name: "微传网页", url: "https://filehelper.weixin.qq.com/" },
-			      { name: "微公网页", url: "https://mp.weixin.qq.com/" },
-      
+			      { name: "微公平台", url: "https://mp.weixin.qq.com/" },
+			      { name: "微开平台", url: "https://open.weixin.qq.com/" },
+			      { name: "微广平台", url: "https://ad.weixin.qq.com/" },
+			      { name: "企微平台", url: "https://work.weixin.qq.com/" }, 
+			      // { name: "微信支付", url: "https://pay.weixin.qq.com/" },
 		    ]},
 		    
 		    { tag: "检索下载",
