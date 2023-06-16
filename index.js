@@ -619,6 +619,13 @@ var comm_list = [
 			      
 		    ]},
 		    
+		    { tag: "视频转GIF",
+		      link: [
+			      { name: "图贴士", url: "https://www.tutieshi.com/video/" }, 
+			      { name: "ezgif", url: "https://ezgif.com/video-to-gif" }, 
+			      { name: "gif.ski", url: "https://gif.ski/" },
+		    ]}, 
+		    
 		    { tag: "人脸处理",
 		      link: [
 			      { name: "FaceHub", url: "https://facehub.live/home/free-swap-image/" }, 
