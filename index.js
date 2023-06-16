@@ -314,6 +314,8 @@ var comm_list = [
 			      { name: "pythonlibs", url: "https://www.lfd.uci.edu/~gohlke/pythonlibs/" },
 
 		    ]},
+
+		    
 		    
 		    { tag: "项目收藏",
 		      link: [
@@ -333,7 +335,8 @@ var comm_list = [
 			      { name: "SadTalker", url: "https://github.com/Winfredy/SadTalker" },
 			      { name: "SD-WebUI", url: "https://github.com/camenduru/stable-diffusion-webui-colab" },
 			      { name: "SD-1Click", url: "https://github.com/nolanaatama/sd-1click-colab" },
-			      
+			      { name: "SDwebui", url: "https://github.com/AUTOMATIC1111/stable-diffusion-webui" },
+			      { name: "ControlNet", url: "https://github.com/lllyasviel/ControlNet-v1-1-nightly" },
 		    ]},
 	]},
 	
