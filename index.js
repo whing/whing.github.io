@@ -116,12 +116,14 @@ var comm_list = [
 			      { name: "讯飞文档", url: "https://iflydocs.com/" }, 
 			      // { name: "Zoho文档", url: "https://www.zoho.com.cn/workplace/" }, 
 			      // { name: "超级文档", url: "https://sdocapp.com/" }, 
+			      // { name: "福昕云文档", url: "https://www.foxitcloud.cn/product-Doc/" }, 
 		    ]},
 		    
 		    { tag: "个人笔记",
 		      link: [
 			      { name: "OneNote", url: "https://www.onenote.com" },
 			      { name: "Notion", url: "https://www.notion.so/" },
+			      // { name: "Quip", url: "https://quip.com/" },
 			      { name: "息流", url: "https://flowus.cn/" },
 			      { name: "飞书", url: "https://www.feishu.cn" },
 			      // { name: "我来", url: "https://www.wolai.com/" },
