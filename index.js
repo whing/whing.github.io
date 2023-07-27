@@ -417,15 +417,15 @@ var comm_list = [
 			      { name: "字语智能", url: "https://getgetai.com" },
 		    ]},
 		    
-		    { tag: "文生文", // eg. 对话智能
+		    { tag: "Prompt绘图", //
 		      link: [
-			      { name: "", url: "" },
-			      { name: "", url: "" },
-			      { name: "", url: "" },
-			      { name: "", url: "" },
-			      { name: "", url: "" },
-			      { name: "", url: "" },
-			      { name: "", url: "" },
+			      { name: "MJPHelper", url: "https://prompt.noonshot.com/" },
+			      { name: "SDPHelper", url: "https://promptomania.com/stable-diffusion-prompt-builder/" },
+			      { name: "Lexica", url: "https://lexica.art/" },
+			      { name: "AIA", url: "https://www.the-ai-art.com/" },
+			      { name: "KREA", url: "https://www.krea.ai/" },
+			      { name: "画宇宙", url: "https://creator.nolibox.com/gallery" },
+			      { name: "画宇宙Help", url: "https://nolibox.feishu.cn/wiki/wikcnMKUh12BCPdvB2ILPyBEgwd?table=tbljP76F2t8UGLHH" },      
 		    ]},
 		    
 		    { tag: "文生图", // eg. AI绘图
