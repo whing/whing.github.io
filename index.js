@@ -84,8 +84,99 @@
 });
 
 // ----------
+/*
+document.addEventListener('DOMContentLoaded', function() {
+    fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
+    .then(response => response.text())
+    .then(text => {
+        // const contentDiv = document.getElementById('readme-content');
+        // contentDiv.innerHTML = marked(text);
+		// console.log(text);
+		const commList = parseMarkdownToCommList(text);
+		// console.log(commList);
+    })
+    .catch(error => console.error('Error fetching README:', error));
+});
+*/
+function fetchReadmeContent() {
+    return fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok.');
+        }
+        return response.text();
+    })
+    .then(text => {
+        // return marked(text); // 将Markdown转换为HTML，并返回这个HTML字符串
+	return parseMarkdownToCommList(text);
+    });
+}
 
+function parseMarkdownToCommList(markdownContent) {
+    // 这是一个非常简化的解析器，它假设Markdown文件的格式非常具体
+    // 根据你的Markdown结构，你可能需要调整这个函数
+    const sections = markdownContent.split('## ').slice(1); // 分割章节
+	// console.log(sections);
+    const commList = [];
 
+    sections.forEach(section => {
+        // 获取标题作为slug
+		const slug = "";
+        const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
+		if (match) {
+			const slug = match[1];
+			// console.log(slug); // 输出: "common"
+		} else {
+			console.log("没有匹配到圆括号内的内容");
+		}
+		// console.log(section);
+		const list = parseMarkdownTable(section)
+		// console.log(list);
+
+        commList.push({ slug, list });
+    });
+	
+    return commList;
+}
+
+function parseMarkdownTable(markdown) {
+  // 用于匹配Markdown链接的正则表达式
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  
+  // 分割Markdown文本到每一行
+  const lines = markdown.split('\n').filter(line => line.trim() !== '');
+
+  // 提取表格标题
+  const headers = lines[1].split('|').map(header =>
+    header.trim()
+  ).filter(header => header !== '');
+
+  // 初始化结果对象数组
+  const list = headers.map(header => ({ tag: header, link: [] }));
+
+  // 解析表格行
+  for (let i = 3; i < lines.length; i++) { // 跳过前三行（标题和分隔符）
+    const row = lines[i].split('|').map(cell =>
+      cell.trim()
+    ).filter(cell => cell !== '');
+
+    row.forEach((cell, index) => {
+      let match;
+      while ((match = linkRegex.exec(cell)) !== null) {
+        const [text, name, url] = match;
+        list[index].link.push({ name, url });
+      }
+    });
+  }
+
+  return list;
+}
+
+var comm_list = fetchReadmeContent()
+console.log(comm_list);
+
+	
+/* 2024/8/8
 var comm_list = [
 	{
 	    slug: "common",
@@ -729,7 +820,7 @@ var comm_list = [
 	]},
 	
 ]
-
+2024/8/8 */
 
 /*
 var comm_list = [{
