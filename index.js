@@ -174,7 +174,7 @@ function parseMarkdownTable(markdown) {
 
 var comm_list112 = fetchReadmeContent()
 console.log(comm_list112);
-console.log(comm_list);
+
 	
 // 2024/8/8
 var comm_list = [
@@ -821,6 +821,7 @@ var comm_list = [
 	
 ]
 // 2024/8/8 */
+console.log(comm_list);
 
 /*
 var comm_list = [{
