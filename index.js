@@ -172,11 +172,25 @@ function parseMarkdownTable(markdown) {
   return list;
 }
 
-var comm_list112 = fetchReadmeContent()
-console.log(comm_list112);
+fetchReadmeContent()
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok.');
+    }
+    return response.text(); // 转换响应为文本
+  })
+  .then(text => {
+    console.log(text); // 在这里，text 是转换后的文本内容
+    var comm_list = parseMarkdownToCommList(text);
+  })
+  .catch(error => {
+    console.error('Error fetching README:', error);
+  });
+// var comm_list112 = fetchReadmeContent()
+console.log(comm_list);
 
 	
-// 2024/8/8
+/* 2024/8/8
 var comm_list = [
 	{
 	    slug: "common",
@@ -821,7 +835,7 @@ var comm_list = [
 	
 ]
 // 2024/8/8 */
-console.log(comm_list);
+// console.log(comm_list);
 
 /*
 var comm_list = [{
