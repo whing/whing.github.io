@@ -172,6 +172,7 @@ function parseMarkdownTable(markdown) {
   return list;
 }
 
+var comm_list = []
 fetchReadmeContent()
   .then(response => {
     if (!response.ok) {
@@ -181,7 +182,7 @@ fetchReadmeContent()
   })
   .then(text => {
     console.log(text); // 在这里，text 是转换后的文本内容
-    var comm_list = parseMarkdownToCommList(text);
+    comm_list = parseMarkdownToCommList(text);
   })
   .catch(error => {
     console.error('Error fetching README:', error);
