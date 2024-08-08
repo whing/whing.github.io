@@ -121,10 +121,10 @@ function parseMarkdownToCommList(markdownContent) {
 
     sections.forEach(section => {
         // 获取标题作为slug
-		const slug = "";
+		var slug = "";
         const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
 		if (match) {
-			const slug = match[1];
+			slug = match[1];
 			// console.log(slug); // 输出: "common"
 		} else {
 			console.log("没有匹配到圆括号内的内容");
