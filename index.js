@@ -172,11 +172,11 @@ function parseMarkdownTable(markdown) {
   return list;
 }
 
-var comm_list = fetchReadmeContent()
+var comm_list112 = fetchReadmeContent()
+console.log(comm_list112);
 console.log(comm_list);
-
 	
-/* 2024/8/8
+// 2024/8/8
 var comm_list = [
 	{
 	    slug: "common",
@@ -820,7 +820,7 @@ var comm_list = [
 	]},
 	
 ]
-2024/8/8 */
+// 2024/8/8 */
 
 /*
 var comm_list = [{
