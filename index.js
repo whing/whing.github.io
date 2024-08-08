@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
 */
 function fetchReadmeContent() {
     return fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
+/*
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok.');
@@ -110,6 +111,7 @@ function fetchReadmeContent() {
         // return marked(text); // 将Markdown转换为HTML，并返回这个HTML字符串
 	return parseMarkdownToCommList(text);
     });
+ */
 }
 
 function parseMarkdownToCommList(markdownContent) {
