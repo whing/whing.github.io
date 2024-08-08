@@ -2,16 +2,20 @@
 
 Homepage：https://www.whing.cn
 
-# 常用
-| 0  | 1  |  2 |  3 | 4  |  5 |  6 |  7 |
+## 常用（common）
+
+| 在线翻译  | 在线文档  |  2 |  3 | 4  |  5 |  6 |  7 |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
-| 0  |  0 | 0  |  0 |  0 | 0  | 0  |  0 |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
+| [Google翻译](https://translate.google.com/)  |  [Office](https://www.office.com/) | 0  |  0 |  0 | 0  | 0  |  0 |
+| [百度翻译](https://fanyi.baidu.com/)         |  [腾讯文档](https://docs.qq.com) |   |   |   |   |   |   |
+| [DeepL翻译](https://www.deepl.com/)          |  [金山文档](https://www.kdocs.cn) |   |   |   |   |   |   |
+| [有道翻译](https://fanyi.youdao.com/)        |  [石墨文档](https://shimo.im) |   |   |   |   |   |   |
+| [搜狗翻译](https://fanyi.sogou.com/)         |  [钉钉文档](https://docs.dingtalk.com/i/desktop) |   |   |   |   |   |   |
+| [腾讯翻译君](https://fanyi.qq.com/)          |  [谷歌文档](https://docs.google.com/) |   |   |   |   |   |   |
+| [金山词霸](http://www.iciba.com/)            |  [讯飞文档](https://iflydocs.com/) |   |   |   |   |   |   |
+<!-- | [阿里翻译](https://translate.alibaba.com/)   |  []() |   |   |   |   |   |   | -->
+
+
 
 # 学习
 | prompt  | 1  |  2 |  3 | 4  |  5 |  6 |  7 |
