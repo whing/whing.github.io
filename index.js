@@ -2327,7 +2327,7 @@ function fetchAndParseReadme() {
 }
 */
 // 这个函数异步地获取 README.md 内容并解析它
-async function fetchReadmeContent() {
+function fetchReadmeContent() {
   const response = await fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md');
   if (!response.ok) {
     throw new Error('Network response was not ok.');
@@ -2376,8 +2376,8 @@ o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find
 // 原有的 t 函数，稍作修改以接受 comm_list 参数
 // async function t(t, comm_list) {
 async function t(t) {
-    const comm_list = await fetchReadmeContent();
-    console.log(comm_list);
+    const comm_list = fetchReadmeContent();
+    // console.log(comm_list);
     o(".work-link").find(".tab span.active").removeClass("active");
     var e,n,a="",l=o(t).attr("class");
     if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){
