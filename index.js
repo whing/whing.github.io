@@ -2267,7 +2267,7 @@ function parseMarkdownToCommList(markdownContent) {
         const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
 		if (match) {
 			slug = match[1];
-			// console.log(slug); // 输出: "common"
+			console.log(slug); // 输出: "common"
 		} else {
 			console.log("没有匹配到圆括号内的内容");
 		}
@@ -2449,6 +2449,7 @@ o(document).ready(function() {
         // 一旦 comm_list 可用，使用它来调用 t 函数
         // 假设 '.tab-element-selector' 是你希望触发的元素的选择器
         t('.tab-element-selector', comm_list);
+	console.log(comm_list);
     }).catch(function(error) {
         console.error('Error fetching README:', error);
     });
