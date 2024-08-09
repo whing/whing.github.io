@@ -84,113 +84,6 @@
 });
 
 // ----------
-/*
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
-    .then(response => response.text())
-    .then(text => {
-        // const contentDiv = document.getElementById('readme-content');
-        // contentDiv.innerHTML = marked(text);
-		// console.log(text);
-		const commList = parseMarkdownToCommList(text);
-		// console.log(commList);
-    })
-    .catch(error => console.error('Error fetching README:', error));
-});
-*/
-function fetchReadmeContent() {
-    return fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
-/*
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok.');
-        }
-        return response.text();
-    })
-    .then(text => {
-        // return marked(text); // 将Markdown转换为HTML，并返回这个HTML字符串
-	return parseMarkdownToCommList(text);
-    });
- */
-}
-
-function parseMarkdownToCommList(markdownContent) {
-    // 这是一个非常简化的解析器，它假设Markdown文件的格式非常具体
-    // 根据你的Markdown结构，你可能需要调整这个函数
-    const sections = markdownContent.split('## ').slice(1); // 分割章节
-	// console.log(sections);
-    const commList = [];
-
-    sections.forEach(section => {
-        // 获取标题作为slug
-		var slug = "";
-        const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
-		if (match) {
-			slug = match[1];
-			// console.log(slug); // 输出: "common"
-		} else {
-			console.log("没有匹配到圆括号内的内容");
-		}
-		// console.log(section);
-		const list = parseMarkdownTable(section)
-		// console.log(list);
-
-        commList.push({ slug, list });
-    });
-	
-    return commList;
-}
-
-function parseMarkdownTable(markdown) {
-  // 用于匹配Markdown链接的正则表达式
-  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-  
-  // 分割Markdown文本到每一行
-  const lines = markdown.split('\n').filter(line => line.trim() !== '');
-
-  // 提取表格标题
-  const headers = lines[1].split('|').map(header =>
-    header.trim()
-  ).filter(header => header !== '');
-
-  // 初始化结果对象数组
-  const list = headers.map(header => ({ tag: header, link: [] }));
-
-  // 解析表格行
-  for (let i = 3; i < lines.length; i++) { // 跳过前三行（标题和分隔符）
-    const row = lines[i].split('|').map(cell =>
-      cell.trim()
-    ).filter(cell => cell !== '');
-
-    row.forEach((cell, index) => {
-      let match;
-      while ((match = linkRegex.exec(cell)) !== null) {
-        const [text, name, url] = match;
-        list[index].link.push({ name, url });
-      }
-    });
-  }
-
-  return list;
-}
-/*
-fetchReadmeContent()
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok.');
-    }
-    return response.text(); // 转换响应为文本
-  })
-  .then(text => {
-    // console.log(text); // 在这里，text 是转换后的文本内容
-    const comm_list = parseMarkdownToCommList(text);
-    console.log(comm_list);
-  })
-  .catch(error => {
-    console.error('Error fetching README:', error);
-  });
-*/
-
 	
 /* 2024/8/8
 var comm_list = [
@@ -2360,6 +2253,80 @@ function() {
 // -----------------------------------------------------------------------------------------------------------------
 
 !function(o){"use strict"
+
+function parseMarkdownToCommList(markdownContent) {
+    // 这是一个非常简化的解析器，它假设Markdown文件的格式非常具体
+    // 根据你的Markdown结构，你可能需要调整这个函数
+    const sections = markdownContent.split('## ').slice(1); // 分割章节
+	// console.log(sections);
+    const commList = [];
+
+    sections.forEach(section => {
+        // 获取标题作为slug
+		var slug = "";
+        const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
+		if (match) {
+			slug = match[1];
+			// console.log(slug); // 输出: "common"
+		} else {
+			console.log("没有匹配到圆括号内的内容");
+		}
+		// console.log(section);
+		const list = parseMarkdownTable(section)
+		// console.log(list);
+
+        commList.push({ slug, list });
+    });
+	
+    return commList;
+}
+
+function parseMarkdownTable(markdown) {
+  // 用于匹配Markdown链接的正则表达式
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  
+  // 分割Markdown文本到每一行
+  const lines = markdown.split('\n').filter(line => line.trim() !== '');
+
+  // 提取表格标题
+  const headers = lines[1].split('|').map(header =>
+    header.trim()
+  ).filter(header => header !== '');
+
+  // 初始化结果对象数组
+  const list = headers.map(header => ({ tag: header, link: [] }));
+
+  // 解析表格行
+  for (let i = 3; i < lines.length; i++) { // 跳过前三行（标题和分隔符）
+    const row = lines[i].split('|').map(cell =>
+      cell.trim()
+    ).filter(cell => cell !== '');
+
+    row.forEach((cell, index) => {
+      let match;
+      while ((match = linkRegex.exec(cell)) !== null) {
+        const [text, name, url] = match;
+        list[index].link.push({ name, url });
+      }
+    });
+  }
+
+  return list;
+}
+
+// 异步获取 README.md 的内容并解析为 comm_list
+function fetchAndParseReadme() {
+    return fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok.');
+        }
+        return response.text();
+    })
+    .then(parseMarkdownToCommList);
+}
+
+/*
 // function t(t){o(".work-link").find(".tab span.active").removeClass("active")
 function t(t, comm_list){o(".work-link").find(".tab span.active").removeClass("active")
 var e,n,a="",l=o(t).attr("class")
@@ -2368,30 +2335,31 @@ if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o
 o.getScript(s,function(){var t=univ_list.link,i="<ul><li>校园</li>"
 o.each(t,function(o,t){i+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),i+="</ul>",o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)}).fail(function(){var t="<ul><li>校园</li><li>暂未收录</li></ul>"
 o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)})}else o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200)}
+*/
 
-fetchReadmeContent()
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok.');
+// 原有的 t 函数，稍作修改以接受 comm_list 参数
+function t(t, comm_list) {
+    o(".work-link").find(".tab span.active").removeClass("active");
+    var e,n,a="",l=o(t).attr("class");
+    if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){
+        // ... 省略其他代码以节省空间 ...
+		var s = "assets/data/univ/" + i("univ") + ".js"o.getScript(s,
+            function() {
+                var t = univ_list.link,
+                i = "<ul><li>校园</li>"o.each(t,
+                function(o, t) {
+                    i += '<li><a href="' + t.url + '" target="_blank">' + t.name + "</a></li>"
+                }),
+                i += "</ul>",
+                o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)
+            }).fail(function() {
+                var t = "<ul><li>校园</li><li>暂未收录</li></ul>"o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)
+            })
+			
+    }else{
+        o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200);
     }
-    return response.text(); // 转换响应为文本
-  })
-  .then(text => {
-    // 假设 parseMarkdownToCommList 是一个同步函数，它解析文本并返回 comm_list
-    return parseMarkdownToCommList(text);
-  })
-  .then(comm_list => {
-    // 在这里，comm_list 是解析后的对象数组
-    console.log(comm_list);
-    // 你可以在这里调用其他函数，将 comm_list 作为参数传递
-    // doSomethingWithCommList(comm_list);
-    // 假设有一个元素，当点击时会调用t函数
-    const tabElement = '.tab-element-selector'; // 这是你的tab元素的选择器
-    t(tabElement, comm_list); // 调用t函数，并传入comm_list
-  })
-  .catch(error => {
-    console.error('Error fetching README:', error);
-  });
+}
 
 function i(o){var t={bkgd:"#ededed",srch:"baidu",schl:"0",prov:"1",univ:"1001"}
 
@@ -2500,4 +2468,16 @@ o.ajaxSetup({
 		function t(t, i) {
 			var e, n			
 o.each(univ_list,function(a,l){t==l.id&&(e=l.univs,n="",o.each(e,function(o,t){n+="<option value="+t.id+">"+t.name+"</option>"}),o("#setting-univ select").html(n),i&&o("#setting-univ select").val(i))})}t(o("#setting-prov select").val(),i("univ")),o("#setting-prov select").change(function(){t(o("#setting-prov select").val())})}),o("#setting-save").off("click").on("click",function(){e("bkgd",o("#setting-bkgd select").val()),e("schl",o("#setting-schl select").val()),o("#setting-univ select").val()&&(e("prov",o("#setting-prov select").val()),e("univ",o("#setting-univ select").val())),t(o(".work-link").find(".tab span:first"))})})}
+
+// 当文档加载完成时，获取和解析 README.md，然后调用 t 函数
+o(document).ready(function() {
+    fetchAndParseReadme().then(function(comm_list) {
+        // 一旦 comm_list 可用，使用它来调用 t 函数
+        // 假设 '.tab-element-selector' 是你希望触发的元素的选择器
+        t('.tab-element-selector', comm_list);
+    }).catch(function(error) {
+        console.error('Error fetching README:', error);
+    });
+});
+
 (jQuery)
