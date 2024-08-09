@@ -2376,7 +2376,7 @@ o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find
 // 原有的 t 函数，稍作修改以接受 comm_list 参数
 // async function t(t, comm_list) {
 async function t(t) {
-    const comm_list = fetchReadmeContent();
+    const comm_list = await fetchReadmeContent();
     // console.log(comm_list);
     o(".work-link").find(".tab span.active").removeClass("active");
     var e,n,a="",l=o(t).attr("class");
