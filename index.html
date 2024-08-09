@@ -412,7 +412,7 @@ async function fetchReadmeContent() {
 }
 	
 // 当文档加载完成后运行此函数
-document.addEventListener('DOMContentLoaded', (event) => {
+async document.addEventListener('DOMContentLoaded', (event) => {
     // 生成 HTML
     const htmlList = await fetchReadmeContent();
     console.log(htmlList);
