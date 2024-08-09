@@ -2348,6 +2348,7 @@ o(document).ready(function() {
     });
 });
 */
+/*
 o(document).ready(async function() {
     try {
         // 等待 fetchAndParseReadme 完成，并获取 comm_list
@@ -2360,7 +2361,7 @@ o(document).ready(async function() {
         console.error('Error fetching README:', error);
     }
 });
-	     
+*/	     
 /*
 // function t(t){o(".work-link").find(".tab span.active").removeClass("active")
 function t(t, comm_list){o(".work-link").find(".tab span.active").removeClass("active")
@@ -2374,6 +2375,7 @@ o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find
 
 // 原有的 t 函数，稍作修改以接受 comm_list 参数
 async function t(t, comm_list) {
+    const comm_list = await fetchReadmeContent();
     console.log(comm_list);
     o(".work-link").find(".tab span.active").removeClass("active");
     var e,n,a="",l=o(t).attr("class");
