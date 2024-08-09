@@ -2346,7 +2346,7 @@ function t(t, comm_list) {
 	var s = "assets/data/univ/" + i("univ") + ".js"; o.getScript(s,
             function() {
                 var t = univ_list.link,
-                i = "<ul><li>校园</li>"o.each(t,
+                i = "<ul><li>校园</li>"; o.each(t,
                 function(o, t) {
                     i += '<li><a href="' + t.url + '" target="_blank">' + t.name + "</a></li>"
                 }),
