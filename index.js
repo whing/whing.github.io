@@ -2353,7 +2353,7 @@ function t(t, comm_list) {
                 i += "</ul>",
                 o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)
             }).fail(function() {
-                var t = "<ul><li>校园</li><li>暂未收录</li></ul>"o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)
+                var t = "<ul><li>校园</li><li>暂未收录</li></ul>"; o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)
             })
 			
     }else{
