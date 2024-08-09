@@ -380,9 +380,55 @@ window.SeniverseWeatherWidget('show', {
 
 	  
 <div id="menu"><i></i></div>
+
+<script>
+async function markdownToHTMLList(markdownText) {
+  const sections = markdownText.trim().split(/\n###\s/); // 分割每个三级标题部分并去除首尾空格
+  let html = '';
+
+  sections.forEach(section => {
+    if (!section) return; // 跳过空字符串
+    const [title, ...items] = section.split('\n').filter(Boolean); // 分割每一行并过滤空字符串
+    html += `<li class="title">${title.trim()}</li>\n`;
+
+    items.forEach(item => {
+      const match = item.match(/\[([^\]]+)\]\(([^)]+)\)/); // 匹配 Markdown 链接格式
+      if (match) {
+        html += `<li><a rel="nofollow" href="${match[2]}" target="_blank">${match[1]}</a></li>\n`;
+      }
+    });
+  });
+
+  return html;
+}
+
+async function fetchReadmeContent() {
+  const response = await fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md');
+  if (!response.ok) {
+    throw new Error('Network response was not ok.');
+  }
+  const markdownText = await response.text();
+  return await markdownToHTMLList(markdownText);
+}
+	
+// 当文档加载完成后运行此函数
+document.addEventListener('DOMContentLoaded', (event) => {
+    // 生成 HTML
+    const htmlList = await fetchReadmeContent();
+
+    // 选择 <ul> 元素
+    const ulElement = document.querySelector('.list.closed > ul');
+    
+    // 设置 <ul> 元素的 innerHTML 为生成的 HTML
+    if (ulElement) {
+        ulElement.innerHTML = htmlList;
+    }
+});
+</script>
+	
 <div class="list closed">
 	<ul>
-		  <!-- 1 -->
+		  <!-- 1 
 		  <li class="title">导航/友链</li>
 		  <li><a rel="nofollow" href="https://www.whing.cn/about" target="_blank">关于我</a></li>
 		  <li><a rel="nofollow" href="https://www.whing.cn/bbs" target="_blank">大看板</a></li>
@@ -390,9 +436,9 @@ window.SeniverseWeatherWidget('show', {
 		  <li><a rel="nofollow" href="https://www.whing.cn/book" target="_blank">我的书房</a></li>
 		  <li><a rel="nofollow" href="https://www.whing.cn/resume" target="_blank">我的简历</a></li>
 		  <li><a rel="nofollow" href="https://www.whing.cn/research" target="_blank">我的研究</a></li>
-		  
+		  -->
 
-		  <!-- 2 -->
+		  <!-- 2 
 		  <li class="title">社交/主页</li>		  
 		  <li><a rel="nofollow" href="https://github.com/vic9527" target="_blank">GitHub</a></li>
 		  <li><a rel="nofollow" href="https://www.linkedin.com/in/vic-woo-b33952100" target="_blank">LinkedIn</a></li>
@@ -409,8 +455,9 @@ window.SeniverseWeatherWidget('show', {
 		  <li><a rel="nofollow" href="https://www.openccc.net/uPortal/f/u62l1s500/p/ModifyAccount.u62l1n511/max/render.uP" target="_blank">OpenCCC</a></li>
 		  <li><a rel="nofollow" href="https://www.tumblr.com" target="_blank">Tumblr</a></li>
 		  <li><a rel="nofollow" href="https://web.telegram.org/#/im" target="_blank">Telegram</a></li>
-
-		  <!-- 3 -->
+		  -->
+		
+		  <!-- 3 
 		  <li class="title">博客/媒体</li>
 		  <li><a rel="nofollow" href="https://lusongsong.com" target="_blank">卢松松</a></li>
 		  <li><a rel="nofollow" href="http://www.ruanyifeng.com" target="_blank">阮一峰</a></li>
@@ -429,9 +476,9 @@ window.SeniverseWeatherWidget('show', {
 		  <li><a rel="nofollow" href="https://creatorsdaily.com" target="_blank">创造者日报</a></li>
 		  <li><a rel="nofollow" href="https://xinquji.com" target="_blank">新趣集</a></li>
 		  <li><a rel="nofollow" href="https://meta.appinn.net/c/faxian/10" target="_blank">小众·发现</a></li>
-
+		  -->
 		  
-		  <!-- 4 -->
+		  <!-- 4 
 		  <li class="title">福利/资源</li>
 		  <li><a rel="nofollow" href="https://fuliba123.net/" target="_blank">福吧导航</a></li>
 		  <li><a rel="nofollow" href="https://www.xx8g.com" target="_blank">小高网</a></li>	  
@@ -448,7 +495,7 @@ window.SeniverseWeatherWidget('show', {
 		  <li><a rel="nofollow" href="http://tool.liumingye.cn" target="_blank">刘明野工具箱 </a></li>
 		  <li><a rel="nofollow" href="https://www.wenshushu.cn" target="_blank">文叔叔</a></li>
 		  <li><a rel="nofollow" href="https://shandianpan.com" target="_blank">闪电盘</a></li>
-		  
+		  -->
 		  
 		  
 		  <!-- <li class="title"><svg class="icon" aria-hidden="true">
