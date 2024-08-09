@@ -190,34 +190,7 @@ fetchReadmeContent()
     console.error('Error fetching README:', error);
   });
 */
-fetchReadmeContent()
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok.');
-    }
-    return response.text(); // 转换响应为文本
-  })
-  .then(text => {
-    // 假设 parseMarkdownToCommList 是一个同步函数，它解析文本并返回 comm_list
-    return parseMarkdownToCommList(text);
-  })
-  .then(comm_list => {
-    // 在这里，comm_list 是解析后的对象数组
-    console.log(comm_list);
-    // 你可以在这里调用其他函数，将 comm_list 作为参数传递
-    // doSomethingWithCommList(comm_list);
-    // 假设有一个元素，当点击时会调用t函数
-    const tabElement = '.tab-element-selector'; // 这是你的tab元素的选择器
-    t(tabElement, comm_list); // 调用t函数，并传入comm_list
-  })
-  .catch(error => {
-    console.error('Error fetching README:', error);
-  });
 
-function doSomethingWithCommList(comm_list) {
-  // 在这个函数中处理 comm_list
-  // 例如，更新UI，发送到另一个API等
-}
 	
 /* 2024/8/8
 var comm_list = [
@@ -2395,6 +2368,30 @@ if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o
 o.getScript(s,function(){var t=univ_list.link,i="<ul><li>校园</li>"
 o.each(t,function(o,t){i+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),i+="</ul>",o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)}).fail(function(){var t="<ul><li>校园</li><li>暂未收录</li></ul>"
 o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)})}else o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200)}
+
+fetchReadmeContent()
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok.');
+    }
+    return response.text(); // 转换响应为文本
+  })
+  .then(text => {
+    // 假设 parseMarkdownToCommList 是一个同步函数，它解析文本并返回 comm_list
+    return parseMarkdownToCommList(text);
+  })
+  .then(comm_list => {
+    // 在这里，comm_list 是解析后的对象数组
+    console.log(comm_list);
+    // 你可以在这里调用其他函数，将 comm_list 作为参数传递
+    // doSomethingWithCommList(comm_list);
+    // 假设有一个元素，当点击时会调用t函数
+    const tabElement = '.tab-element-selector'; // 这是你的tab元素的选择器
+    t(tabElement, comm_list); // 调用t函数，并传入comm_list
+  })
+  .catch(error => {
+    console.error('Error fetching README:', error);
+  });
 
 function i(o){var t={bkgd:"#ededed",srch:"baidu",schl:"0",prov:"1",univ:"1001"}
 
