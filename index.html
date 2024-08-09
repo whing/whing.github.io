@@ -412,9 +412,9 @@ async function fetchReadmeContent() {
 }
 	
 // 当文档加载完成后运行此函数
-async document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
     // 生成 HTML
-    const htmlList = await fetchReadmeContent();
+    const htmlList = fetchReadmeContent();
     console.log(htmlList);
 
     // 选择 <ul> 元素
