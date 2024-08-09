@@ -17,7 +17,7 @@ Homepage：https://www.whing.cn
 
 
 
-## 学习
+## 学习（study）
 | prompt  | 1  |  2 |  3 | 4  |  5 |  6 |  7 |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | [midjourney-prompt-builder](https://promptomania.com/midjourney-prompt-builder/)  |  0 | 0  |  0 |  0 | 0  | 0  |  0 |
