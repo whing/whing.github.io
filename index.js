@@ -2454,4 +2454,5 @@ o(document).ready(function() {
     });
 });
 
-(jQuery)
+}(jQuery);
+//(jQuery)
