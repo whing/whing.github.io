@@ -2254,7 +2254,7 @@ function() {
 
 !function(o){"use strict"
 
-function parseMarkdownToCommList(markdownContent) {
+async function parseMarkdownToCommList(markdownContent) {
     // 这是一个非常简化的解析器，它假设Markdown文件的格式非常具体
     // 根据你的Markdown结构，你可能需要调整这个函数
     const sections = markdownContent.split('## ').slice(1); // 分割章节
@@ -2313,7 +2313,7 @@ function parseMarkdownTable(markdown) {
 
   return list;
 }
-
+/*
 // 异步获取 README.md 的内容并解析为 comm_list
 function fetchAndParseReadme() {
     return fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md')
@@ -2325,7 +2325,17 @@ function fetchAndParseReadme() {
     })
     .then(parseMarkdownToCommList);
 }
-
+*/
+// 这个函数异步地获取 README.md 内容并解析它
+async function fetchReadmeContent() {
+  const response = await fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md');
+  if (!response.ok) {
+    throw new Error('Network response was not ok.');
+  }
+  const markdownText = await response.text();
+  return parseMarkdownToCommList(markdownText);
+}
+/*
  // 当文档加载完成时，获取和解析 README.md，然后调用 t 函数
 o(document).ready(function() {
     fetchAndParseReadme().then(function(comm_list) {
@@ -2336,6 +2346,22 @@ o(document).ready(function() {
     }).catch(function(error) {
         console.error('Error fetching README:', error);
     });
+});
+*/
+// 这是你的主要逻辑，它需要 comm_list
+async o(document).ready(function() {
+  try {
+    const comm_list = await fetchReadmeContent();
+    // 在这里，comm_list 已经是解析后的值，你可以把依赖 comm_list 的代码放在这里
+    console.log(comm_list); // 正常值
+    
+    // 举例，如果你需要将 comm_list 传递给其他函数执行
+    // someFunctionThatUsesCommList(comm_list);
+    t('.tab-element-selector', comm_list);
+    
+  } catch (error) {
+    console.error('Error fetching README:', error);
+  }	
 });
 	     
 /*
