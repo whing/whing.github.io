@@ -2267,9 +2267,9 @@ function parseMarkdownToCommList(markdownContent) {
         const match = section.substring(0, section.indexOf('\n')).toLowerCase().match(/（(.+?)）/);
 		if (match) {
 			slug = match[1];
-			console.log(slug); // 输出: "common"
+			// console.log(slug); // 输出: "common"
 		} else {
-			console.log("没有匹配到圆括号内的内容");
+			// console.log("没有匹配到圆括号内的内容");
 		}
 		// console.log(section);
 		const list = parseMarkdownTable(section)
@@ -2338,10 +2338,11 @@ o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find
 
 // 原有的 t 函数，稍作修改以接受 comm_list 参数
 function t(t, comm_list) {
+    console.log(comm_list);
     o(".work-link").find(".tab span.active").removeClass("active");
     var e,n,a="",l=o(t).attr("class");
     if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){
-        console.log(comm_list)
+        
 	// ... 省略其他代码以节省空间 ...
 	var s = "assets/data/univ/" + i("univ") + ".js"; o.getScript(s,
             function() {
@@ -2475,7 +2476,7 @@ o(document).ready(function() {
         // 一旦 comm_list 可用，使用它来调用 t 函数
         // 假设 '.tab-element-selector' 是你希望触发的元素的选择器
         t('.tab-element-selector', comm_list);
-	console.log(comm_list);
+	// console.log(comm_list);
     }).catch(function(error) {
         console.error('Error fetching README:', error);
     });
