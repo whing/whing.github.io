@@ -185,6 +185,7 @@ fetchReadmeContent()
   .then(text => {
     console.log(text); // 在这里，text 是转换后的文本内容
     comm_list = parseMarkdownToCommList(text);
+    console.log(comm_list);
   })
   .catch(error => {
     console.error('Error fetching README:', error);
