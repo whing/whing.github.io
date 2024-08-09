@@ -2353,9 +2353,9 @@ o(document).ready(async function() {
         // 等待 fetchAndParseReadme 完成，并获取 comm_list
         const comm_list = await fetchReadmeContent();
         // 此时 comm_list 是已定义的，可以安全使用它
-        console.log(comm_list);
+        // console.log(comm_list);
         // 假设 t 是一个函数，需要使用 comm_list
-        t('.tab-element-selector', comm_list);
+        await t('.tab-element-selector', comm_list);
     } catch (error) {
         console.error('Error fetching README:', error);
     }
@@ -2373,7 +2373,7 @@ o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find
 */
 
 // 原有的 t 函数，稍作修改以接受 comm_list 参数
-function t(t, comm_list) {
+async function t(t, comm_list) {
     console.log(comm_list);
     o(".work-link").find(".tab span.active").removeClass("active");
     var e,n,a="",l=o(t).attr("class");
