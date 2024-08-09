@@ -2343,7 +2343,7 @@ function t(t, comm_list) {
     if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){
         console.log(comm_list)
 	// ... 省略其他代码以节省空间 ...
-	var s = "assets/data/univ/" + i("univ") + ".js"o.getScript(s,
+	var s = "assets/data/univ/" + i("univ") + ".js"; o.getScript(s,
             function() {
                 var t = univ_list.link,
                 i = "<ul><li>校园</li>"o.each(t,
