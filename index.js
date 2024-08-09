@@ -2325,6 +2325,19 @@ function fetchAndParseReadme() {
     })
     .then(parseMarkdownToCommList);
 }
+
+ // 当文档加载完成时，获取和解析 README.md，然后调用 t 函数
+o(document).ready(function() {
+    fetchAndParseReadme().then(function(comm_list) {
+        // 一旦 comm_list 可用，使用它来调用 t 函数
+        // 假设 '.tab-element-selector' 是你希望触发的元素的选择器
+        t('.tab-element-selector', comm_list);
+	// console.log(comm_list);
+    }).catch(function(error) {
+        console.error('Error fetching README:', error);
+    });
+});
+	     
 /*
 // function t(t){o(".work-link").find(".tab span.active").removeClass("active")
 function t(t, comm_list){o(".work-link").find(".tab span.active").removeClass("active")
@@ -2469,18 +2482,6 @@ o.ajaxSetup({
 		function t(t, i) {
 			var e, n			
 o.each(univ_list,function(a,l){t==l.id&&(e=l.univs,n="",o.each(e,function(o,t){n+="<option value="+t.id+">"+t.name+"</option>"}),o("#setting-univ select").html(n),i&&o("#setting-univ select").val(i))})}t(o("#setting-prov select").val(),i("univ")),o("#setting-prov select").change(function(){t(o("#setting-prov select").val())})}),o("#setting-save").off("click").on("click",function(){e("bkgd",o("#setting-bkgd select").val()),e("schl",o("#setting-schl select").val()),o("#setting-univ select").val()&&(e("prov",o("#setting-prov select").val()),e("univ",o("#setting-univ select").val())),t(o(".work-link").find(".tab span:first"))})})
-
- // 当文档加载完成时，获取和解析 README.md，然后调用 t 函数
-o(document).ready(function() {
-    fetchAndParseReadme().then(function(comm_list) {
-        // 一旦 comm_list 可用，使用它来调用 t 函数
-        // 假设 '.tab-element-selector' 是你希望触发的元素的选择器
-        t('.tab-element-selector', comm_list);
-	// console.log(comm_list);
-    }).catch(function(error) {
-        console.error('Error fetching README:', error);
-    });
-});
-	     
+     
 }
 (jQuery)
