@@ -2326,7 +2326,6 @@ function fetchAndParseReadme() {
     .then(parseMarkdownToCommList);
 }
 
-/*
 // function t(t){o(".work-link").find(".tab span.active").removeClass("active")
 function t(t, comm_list){o(".work-link").find(".tab span.active").removeClass("active")
 var e,n,a="",l=o(t).attr("class")
@@ -2335,31 +2334,6 @@ if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o
 o.getScript(s,function(){var t=univ_list.link,i="<ul><li>校园</li>"
 o.each(t,function(o,t){i+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),i+="</ul>",o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)}).fail(function(){var t="<ul><li>校园</li><li>暂未收录</li></ul>"
 o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)})}else o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200)}
-*/
-
-// 原有的 t 函数，稍作修改以接受 comm_list 参数
-function t(t, comm_list) {
-    o(".work-link").find(".tab span.active").removeClass("active");
-    var e,n,a="",l=o(t).attr("class");
-    if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){
-        // ... 省略其他代码以节省空间 ...
-		var s = "assets/data/univ/" + i("univ") + ".js"o.getScript(s,
-            function() {
-                var t = univ_list.link,
-                i = "<ul><li>校园</li>"o.each(t,
-                function(o, t) {
-                    i += '<li><a href="' + t.url + '" target="_blank">' + t.name + "</a></li>"
-                }),
-                i += "</ul>",
-                o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(i)
-            }).fail(function() {
-                var t = "<ul><li>校园</li><li>暂未收录</li></ul>"o(".work-link").css("opacity", "1").find(".info").hide().html(a).fadeIn(200).find("ul:nth-child(6)").html(t)
-            })
-			
-    }else{
-        o(".work-link").css("opacity","1").find(".info").hide().html(a).fadeIn(200);
-    }
-}
 
 function i(o){var t={bkgd:"#ededed",srch:"baidu",schl:"0",prov:"1",univ:"1001"}
 
