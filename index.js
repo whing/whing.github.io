@@ -2272,7 +2272,7 @@ async function parseMarkdownToCommList(markdownContent) {
 			// console.log("没有匹配到圆括号内的内容");
 		}
 		// console.log(section);
-		const list = parseMarkdownTable(section)
+		const list = await parseMarkdownTable(section)
 		// console.log(list);
 
         commList.push({ slug, list });
@@ -2281,7 +2281,7 @@ async function parseMarkdownToCommList(markdownContent) {
     return commList;
 }
 
-function parseMarkdownTable(markdown) {
+async function parseMarkdownTable(markdown) {
   // 用于匹配Markdown链接的正则表达式
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   
@@ -2333,7 +2333,7 @@ async function fetchReadmeContent() {
     throw new Error('Network response was not ok.');
   }
   const markdownText = await response.text();
-  return parseMarkdownToCommList(markdownText);
+  return await parseMarkdownToCommList(markdownText);
 }
 /*
  // 当文档加载完成时，获取和解析 README.md，然后调用 t 函数
