@@ -2257,7 +2257,8 @@ function() {
 async function parseMarkdownToCommList(markdownContent) {
     // 这是一个非常简化的解析器，它假设Markdown文件的格式非常具体
     // 根据你的Markdown结构，你可能需要调整这个函数
-    const sections = markdownContent.split('## ').slice(1); // 分割章节
+    // const sections = markdownContent.split('## ').slice(1); // 分割章节
+    const sections = markdownContent.split(/\n##\s/).slice(1); // 分割每个二级标题部分
 	// console.log(sections);
     const commList = [];
 
@@ -2280,7 +2281,7 @@ async function parseMarkdownToCommList(markdownContent) {
 	
     return commList;
 }
-
+/*
 function parseMarkdownTable(markdown) {
   // 用于匹配Markdown链接的正则表达式
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -2313,6 +2314,21 @@ function parseMarkdownTable(markdown) {
 
   return list;
 }
+*/
+function parseMarkdownTable(markdownText) {
+  const sections = markdownText.split(/\n###\s/).slice(1); // 分割每个三级标题部分
+  const list = sections.map(section => {
+    const lines = section.split('\n').filter(line => line.startsWith('- ')); // 分割每一行并过滤出列表项
+    const tag = section.match(/^(.*)\n/)[1]; // 获取每个部分的标题
+    const links = lines.slice(0, 7).map(line => { // 只取前七个链接
+      const match = line.match(/\[([^\]]+)\]\(([^)]+)\)/); // 匹配 Markdown 链接格式
+      return { name: match[1], url: match[2] };
+    });
+    return { tag, link: links };
+  });
+  return list;
+}
+
 /*
 // 异步获取 README.md 的内容并解析为 comm_list
 function fetchAndParseReadme() {
