@@ -2348,20 +2348,17 @@ o(document).ready(function() {
     });
 });
 */
-// 这是你的主要逻辑，它需要 comm_list
-o(document).ready(function() {
-  try {
-    const comm_list = await fetchReadmeContent();
-    // 在这里，comm_list 已经是解析后的值，你可以把依赖 comm_list 的代码放在这里
-    console.log(comm_list); // 正常值
-    
-    // 举例，如果你需要将 comm_list 传递给其他函数执行
-    // someFunctionThatUsesCommList(comm_list);
-    t('.tab-element-selector', comm_list);
-    
-  } catch (error) {
-    console.error('Error fetching README:', error);
-  }	
+o(document).ready(async function() {
+    try {
+        // 等待 fetchAndParseReadme 完成，并获取 comm_list
+        const comm_list = await fetchReadmeContent();
+        // 此时 comm_list 是已定义的，可以安全使用它
+        console.log(comm_list);
+        // 假设 t 是一个函数，需要使用 comm_list
+        t('.tab-element-selector', comm_list);
+    } catch (error) {
+        console.error('Error fetching README:', error);
+    }
 });
 	     
 /*
