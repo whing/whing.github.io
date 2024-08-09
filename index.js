@@ -2272,7 +2272,7 @@ async function parseMarkdownToCommList(markdownContent) {
 			// console.log("没有匹配到圆括号内的内容");
 		}
 		// console.log(section);
-		const list = await parseMarkdownTable(section)
+		const list = parseMarkdownTable(section)
 		// console.log(list);
 
         commList.push({ slug, list });
@@ -2281,7 +2281,7 @@ async function parseMarkdownToCommList(markdownContent) {
     return commList;
 }
 
-async function parseMarkdownTable(markdown) {
+function parseMarkdownTable(markdown) {
   // 用于匹配Markdown链接的正则表达式
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   
