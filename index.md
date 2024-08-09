@@ -1,0 +1,72 @@
+# whing.github.io
+
+Homepage：https://www.whing.cn
+
+### 导航/友链
+- [关于我](https://www.whing.cn/about)
+- [大看板](https://www.whing.cn/bbs)
+- [部落阁](https://www.whing.cn/blog)
+- [我的书房](https://www.whing.cn/book)
+- [我的简历](https://www.whing.cn/resume)
+- [我的研究](https://www.whing.cn/research)
+
+### 社交/主页
+- [GitHub](https://github.com/vic9527)
+- [LinkedIn](https://www.linkedin.com/in/vic-woo-b33952100)
+- [Facebook](https://www.facebook.com/profile.php?id=100004300925726)
+- [Twitter](https://twitter.com/PingJinXi_CNMB)
+- [YouTube](https://www.youtube.com/channel/UCG6R92nNIA7Mu93de286QLg)
+- [Instagram](https://www.instagram.com/laosan007)
+- [Pinterest](https://www.pinterest.com/vic666666)
+- [Quora](https://www.quora.com/)
+- [reddit](https://www.reddit.com/)
+- [Discord](https://discord.com/channels/@me)
+- [Disqus](https://disqus.com/)
+- [Medium](https://medium.com/@wuhuang)
+- [OpenCCC](https://www.openccc.net/uPortal/f/u62l1s500/p/ModifyAccount.u62l1n511/max/render.uP)
+- [Tumblr](https://www.tumblr.com/)
+- [Telegram](https://web.telegram.org/#/im)
+
+### 博客/媒体
+- [卢松松](https://lusongsong.com/)
+- [阮一峰](http://www.ruanyifeng.com/)
+- [月光博客](https://www.williamlong.info/)
+- [IT之家](https://www.ithome.com/)
+- [InfoQ](https://www.infoq.cn/)
+- [机器之心](https://www.jiqizhixin.com/)
+- [金十数据](https://www.jin10.com/)
+- [人人产品](http://www.woshipm.com/)
+- [硅谷动力](http://www.enet.com.cn/)
+- [编程随想](https://program-think.blogspot.com/)
+- [新·品葱](https://pincong.rocks/)
+- [雪球财迷](https://xueqiu.com/u/9538897703)
+- [鱼塘热榜](https://mo.fish/)
+- [ProductHunt](https://www.producthunt.com/)
+- [创造者日报](https://creatorsdaily.com/)
+- [新趣集](https://xinquji.com/)
+- [小众·发现](https://meta.appinn.net/c/faxian/10)
+
+### 福利/资源
+- [福吧导航](https://fuliba123.net/)
+- [小高网](https://www.xx8g.com/)
+- [合集网](https://233heji.com/)
+- [如有乐享](https://51.ruyo.net/)
+- [挖站否](https://wzfou.com/)
+- [Snapmail](https://www.snapmail.cc/#/addEmailBox)
+- [Similarsites](https://www.similarsites.com/)
+- [开发者搜索](https://kaifa.baidu.com/home)
+- [Z-Library](https://z-lib.org/)
+- [薪火OCR](https://ocr.xinhuokj.com/)
+- [在线去水印](https://lab.5ime.cn/video)
+- [工资计算器](https://hizdm.cn/city/shanghai)
+- [刘明野工具箱](http://tool.liumingye.cn/)
+- [文叔叔](https://www.wenshushu.cn/)
+- [闪电盘](https://shandianpan.com/)
+
+### 论坛/学习
+- [掘金](https://juejin.im/)
+- [SF思否](https://segmentfault.com/)
+- [吾爱破解](https://www.52pojie.cn/)
+- [IT天空](https://www.itsk.com/)
+- [图灵社区](https://www.ituring.com.cn/)
+- [力扣](https://leetcode-cn.com/)
