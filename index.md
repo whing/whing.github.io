@@ -11,7 +11,7 @@ Homepage：https://www.whing.cn
 - [我的研究](https://www.whing.cn/research)
 - [霸气范](https://haki.fun)
 - [天使の职](https://angeljob.cn)
-- [息连](http://hololinking.com)
+- [幻接](http://hololinking.com)
 
 ### 社交/主页
 - [GitHub](https://github.com/vic9527)
