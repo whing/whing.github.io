@@ -173,7 +173,7 @@ function parseMarkdownTable(markdown) {
 
   return list;
 }
-
+/*
 fetchReadmeContent()
   .then(response => {
     if (!response.ok) {
@@ -182,15 +182,42 @@ fetchReadmeContent()
     return response.text(); // 转换响应为文本
   })
   .then(text => {
-    console.log(text); // 在这里，text 是转换后的文本内容
+    // console.log(text); // 在这里，text 是转换后的文本内容
     const comm_list = parseMarkdownToCommList(text);
     console.log(comm_list);
   })
   .catch(error => {
     console.error('Error fetching README:', error);
   });
-// var comm_list112 = fetchReadmeContent()
+*/
+fetchReadmeContent()
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok.');
+    }
+    return response.text(); // 转换响应为文本
+  })
+  .then(text => {
+    // 假设 parseMarkdownToCommList 是一个同步函数，它解析文本并返回 comm_list
+    return parseMarkdownToCommList(text);
+  })
+  .then(comm_list => {
+    // 在这里，comm_list 是解析后的对象数组
+    console.log(comm_list);
+    // 你可以在这里调用其他函数，将 comm_list 作为参数传递
+    // doSomethingWithCommList(comm_list);
+    // 假设有一个元素，当点击时会调用t函数
+    const tabElement = '.tab-element-selector'; // 这是你的tab元素的选择器
+    t(tabElement, comm_list); // 调用t函数，并传入comm_list
+  })
+  .catch(error => {
+    console.error('Error fetching README:', error);
+  });
 
+function doSomethingWithCommList(comm_list) {
+  // 在这个函数中处理 comm_list
+  // 例如，更新UI，发送到另一个API等
+}
 	
 /* 2024/8/8
 var comm_list = [
@@ -2360,7 +2387,8 @@ function() {
 // -----------------------------------------------------------------------------------------------------------------
 
 !function(o){"use strict"
-function t(t){o(".work-link").find(".tab span.active").removeClass("active")
+// function t(t){o(".work-link").find(".tab span.active").removeClass("active")
+function t(t, comm_list){o(".work-link").find(".tab span.active").removeClass("active")
 var e,n,a="",l=o(t).attr("class")
 // if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){var s="assets/data/univ/"+i("univ")+".js"
 if(o(t).addClass("active"),o.each(comm_list,function(t,i){l==i.slug&&(e=i.list,o.each(e,function(t,i){a+="<ul><li>"+i.tag+"</li>",n=i.link,o.each(n,function(o,t){a+='<li><a href="'+t.url+'" target="_blank">'+t.name+"</a></li>"}),a+="</ul>"}))}),o(".work-link").find(".tab span:first").hasClass("active")&&"1"==i("schl")){var s="assets/data/univ/"+i("univ")+".js"
