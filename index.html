@@ -384,6 +384,7 @@ window.SeniverseWeatherWidget('show', {
 <script>
 async function markdownToHTMLList(markdownText) {
   const sections = markdownText.trim().split(/\n###\s/); // 分割每个三级标题部分并去除首尾空格
+  sections.shift(); // 移除数组的第一个元素
   let html = '';
 
   sections.forEach(section => {
@@ -410,7 +411,8 @@ async function fetchReadmeContent() {
   const markdownText = await response.text();
   return await markdownToHTMLList(markdownText);
 }
-	
+
+/*
 // 当文档加载完成后运行此异步函数
 document.addEventListener('DOMContentLoaded', async (event) => {
   // 生成 HTML
@@ -423,6 +425,26 @@ document.addEventListener('DOMContentLoaded', async (event) => {
   // 设置 <ul> 元素的 innerHTML 为生成的 HTML
   if (ulElement) {
     ulElement.innerHTML = htmlList;
+  }
+});
+*/
+// 当文档加载完成后运行此异步函数
+document.addEventListener('DOMContentLoaded', async (event) => {
+  try {
+    // 等待异步函数 markdownToHTMLList 完成，并获取 HTML
+    // const htmlList = await markdownToHTMLList(markdownText);
+    const htmlList = await fetchReadmeContent();	
+
+    // 选择 <ul> 元素
+    const ulElement = document.querySelector('.list.closed > ul');
+
+    // 设置 <ul> 元素的 innerHTML 为生成的 HTML
+    if (ulElement) {
+      ulElement.innerHTML = htmlList;
+    }
+  } catch (error) {
+    // 如果在 markdownToHTMLList 函数中发生错误，将会捕获到这里
+    console.error('Error occurred while generating HTML list:', error);
   }
 });
 </script>
