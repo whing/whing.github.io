@@ -415,6 +415,7 @@ async function fetchReadmeContent() {
 document.addEventListener('DOMContentLoaded', (event) => {
     // 生成 HTML
     const htmlList = await fetchReadmeContent();
+    console.log(htmlList);
 
     // 选择 <ul> 元素
     const ulElement = document.querySelector('.list.closed > ul');
@@ -422,6 +423,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // 设置 <ul> 元素的 innerHTML 为生成的 HTML
     if (ulElement) {
         ulElement.innerHTML = htmlList;
+	console.log("++++++++++++++++++++++++++++++++++++++++++++++");
+	console.log(htmlList);
     }
 });
 </script>
