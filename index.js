@@ -2349,7 +2349,7 @@ o(document).ready(function() {
 });
 */
 // 这是你的主要逻辑，它需要 comm_list
-async o(document).ready(function() {
+o(document).ready(function() {
   try {
     const comm_list = await fetchReadmeContent();
     // 在这里，comm_list 已经是解析后的值，你可以把依赖 comm_list 的代码放在这里
