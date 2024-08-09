@@ -9,6 +9,9 @@ Homepage：https://www.whing.cn
 - [我的书房](https://www.whing.cn/book)
 - [我的简历](https://www.whing.cn/resume)
 - [我的研究](https://www.whing.cn/research)
+- [霸气范](https://haki.fun)
+- [天使の职](https://angeljob.cn)
+- [息连](http://hololinking.com)
 
 ### 社交/主页
 - [GitHub](https://github.com/vic9527)
