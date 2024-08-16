@@ -135,13 +135,11 @@ Homepage：https://www.whing.cn
 - [仙职网](https://angeljob.cn/)
 - [干脆饭](https://haki.fun/)
          
-## 学习（study）
-
-### 
-			      [莫烦](https://mofanpy.com/)
-			      [华校专](https://www.huaxiaozhuan.com/)
-			      [刘永进](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm)
-
+## 关注（follow）
+### 博客
+- [莫烦](https://mofanpy.com/)
+- [华校专](https://www.huaxiaozhuan.com/)
+- [刘永进](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm)
 - [midjourney-prompt-builder](https://promptomania.com/midjourney-prompt-builder/)
 - [咒语词典](http://tag.zoos.life/)
 - [Learning Prompt](https://learningprompt.wiki/)
@@ -151,14 +149,18 @@ Homepage：https://www.whing.cn
 - [PandaGPT -基于 ChatGPT 构建的 AI 文档聊天机器人](https://www.pandagpt.io/)
 - [SCISPACE-pdf阅读工具](https://typeset.io/) 
 - [Shortcut-ChatGPT](https://www.aishort.top/?tags=ai&tags=company&tags=language)
- 
-## AIGC
 
+## 收藏（collect）
+
+
+## AIGC（aigc）
 ### 文生文
 
 ### 文生图
 
 ### 文生音
+- [AI 歌曲](https://songgenerator.io/)
+- [TikTok Voice Generator](https://tiktokvoice.net/)
 
 ### 图生图
 
@@ -179,15 +181,20 @@ Homepage：https://www.whing.cn
 ### 视频生视频
 
 
+## 资源（resource）
 
 
-## Web3
+## 官网（official）
 
 
-## 博客
+## 工具（tool）
+### 图像工具
+- [SVG查图](https://www.svgviewer.dev/)
+
+### 集合工具
+- [小爱工具](https://xiaoai.me/)
 
 
-## 工具
 
 
 ## 关注或打赏
