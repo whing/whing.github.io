@@ -2344,7 +2344,7 @@ function fetchAndParseReadme() {
 */
 // 这个函数异步地获取 README.md 内容并解析它
 async function fetchReadmeContent() {
-  const response = await fetch('https://raw.githubusercontent.com/whing/whing.github.io/master/README.md');
+  const response = await fetch('https://whing.github.io/README.md');
   if (!response.ok) {
     throw new Error('Network response was not ok.');
   }
