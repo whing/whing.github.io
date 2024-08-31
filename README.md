@@ -11,7 +11,7 @@ Homepage：https://www.whing.cn
 - [搜狗翻译](https://fanyi.sogou.com/)
 - [腾讯翻译君](https://fanyi.qq.com/)
 - [金山词霸](http://www.iciba.com/)
-- [阿里翻译"](https://translate.alibaba.com/)
+- [阿里翻译](https://translate.alibaba.com/)
 
 ### 在线文档
 - [Office](https://www.office.com/)
