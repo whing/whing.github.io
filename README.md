@@ -82,12 +82,11 @@ Homepage：https://www.whing.cn
 - [谷歌云](https://cloud.google.com/)
 
 ### 开源社区
-- [GitHub](https://github.com/)
 - [Trending](https://github.com/trending)
-- [HugFace](https://huggingface.co/)
-- [Spaces](https://huggingface.co/spaces)
+- [Models](https://huggingface.co/models)
 - [PaperCode](https://paperswithcode.com/)
 - [SotA](https://paperswithcode.com/sota)
+- [SOTA](https://sota.jiqizhixin.com/)
 - [CatalyzeX](https://www.catalyzex.com/)
 - [P_Digest](https://www.paperdigest.org/)
 - [P-Digest](https://www.paper-digest.com/)
@@ -101,7 +100,8 @@ Homepage：https://www.whing.cn
 - [arXivDaily](http://arxivdaily.com/)
 
 ### 智能导航
-- [OpenAI](https://openai.com/)
+- [效率集](https://www.xiaolvji.com/)
+
 - [Futurepedia](https://www.futurepedia.io/)
 - [AllThingsAI](https://allthingsai.com/)
 - [DoMore](https://domore.ai/)
@@ -127,17 +127,19 @@ Homepage：https://www.whing.cn
 - [今日AI](https://www.chinaz.com/ai/) 
 
 ### 体验社区
+- [Spaces](https://huggingface.co/spaces)
 - [Replicate](https://replicate.com/)
-- [ClipDrop](https://clipdrop.co/stable-diffusion-reimagine)
 - [魔搭社区](https://www.modelscope.cn/home)
 - [飞桨社区](https://aistudio.baidu.com/aistudio/index)
+- [OpenXLab](https://openxlab.org.cn/apps)
+- [ClipDrop](https://clipdrop.co/stable-diffusion-reimagine)
 - [ARC-Lab](https://arc.tencent.com/zh/ai-demos/faceRestoration)
-- [仙职网](https://angeljob.cn/)
-- [干脆饭](https://haki.fun/)
+
          
 ## 关注（follow）
 ### 博客
 - [莫烦](https://mofanpy.com/)
+- [Hello 算法](https://www.hello-algo.com/)
 - [华校专](https://www.huaxiaozhuan.com/)
 - [刘永进](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm)
 - [midjourney-prompt-builder](https://promptomania.com/midjourney-prompt-builder/)
@@ -151,10 +153,25 @@ Homepage：https://www.whing.cn
 - [Shortcut-ChatGPT](https://www.aishort.top/?tags=ai&tags=company&tags=language)
 
 ## 收藏（collect）
+### 绘图模型
+- [Civitai](https://civitai.com/)
+- [哩布哩布](https://www.liblib.ai/)
 
 
 ## AIGC（aigc）
 ### 文生文
+- [chatGPT](https://chat.openai.com/)
+- [Kimi](https://kimi.moonshot.cn/)
+- [豆包](https://www.doubao.com/chat/)
+- [通义千问](https://tongyi.aliyun.com/qianwen/)
+- [腾讯元宝](https://yuanbao.tencent.com/)
+- [文心一言](https://yiyan.baidu.com/)
+- [智谱清言](https://chatglm.cn/main/alltoolsdetail)
+- [讯飞星火](https://passport.xfyun.cn/login)
+- [360智脑](https://chat.360.com/)
+- [百川百小应](https://ying.baichuan-ai.com/chat)
+- [昆仑天工](https://www.tiangong.cn/)
+- [面壁LUCA](https://luca.cn/home)
 
 ### 文生图
 
@@ -185,7 +202,8 @@ Homepage：https://www.whing.cn
 
 
 ## 官网（official）
-
+### 人工智能
+- [OpenAI](https://openai.com/)
 
 ## 工具（tool）
 ### 图像工具
@@ -194,6 +212,14 @@ Homepage：https://www.whing.cn
 ### 集合工具
 - [小爱工具](https://xiaoai.me/)
 
+### 下载工具
+- [TikDD](https://www.tikdd.cc/)
+- [TikSave](https://tiksave.io/zh-cn)
+- [B站下载](https://zhouql.vip/bilibili/)
+- [小天小红书](https://www.xtdowner.com/video/xiaohongshu/)
+- [小天抖音](https://www.xtdowner.com/video/douyin/)
+- [抖音下载1](https://www.dy114.com/douyin)
+- [抖音下载2](https://dlpanda.com/zh-CN)
 
 
 
