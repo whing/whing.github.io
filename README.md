@@ -99,9 +99,17 @@ Homepage：https://www.whing.cn
 - [arXiv](https://arxiv.org/)
 - [arXivDaily](http://arxivdaily.com/)
 
+### 体验社区
+- [Spaces](https://huggingface.co/spaces)
+- [Replicate](https://replicate.com/)
+- [魔搭社区](https://www.modelscope.cn/home)
+- [飞桨社区](https://aistudio.baidu.com/aistudio/index)
+- [OpenXLab](https://openxlab.org.cn/apps)
+- [ClipDrop](https://clipdrop.co/stable-diffusion-reimagine)
+- [ARC-Lab](https://arc.tencent.com/zh/ai-demos/faceRestoration)
+
 ### 智能导航
 - [效率集](https://www.xiaolvji.com/)
-
 - [Futurepedia](https://www.futurepedia.io/)
 - [AllThingsAI](https://allthingsai.com/)
 - [DoMore](https://domore.ai/)
@@ -125,15 +133,6 @@ Homepage：https://www.whing.cn
 - [AI百寶箱](https://www.explainthis.io/zh-hant/ai-toolkit) 
 - [AI导航](https://ai.nancheng.fun/) 
 - [今日AI](https://www.chinaz.com/ai/) 
-
-### 体验社区
-- [Spaces](https://huggingface.co/spaces)
-- [Replicate](https://replicate.com/)
-- [魔搭社区](https://www.modelscope.cn/home)
-- [飞桨社区](https://aistudio.baidu.com/aistudio/index)
-- [OpenXLab](https://openxlab.org.cn/apps)
-- [ClipDrop](https://clipdrop.co/stable-diffusion-reimagine)
-- [ARC-Lab](https://arc.tencent.com/zh/ai-demos/faceRestoration)
 
          
 ## 关注（follow）
@@ -162,7 +161,7 @@ Homepage：https://www.whing.cn
 ### 文生文
 - [chatGPT](https://chat.openai.com/)
 - [Kimi](https://kimi.moonshot.cn/)
-- [豆包](https://www.doubao.com/chat/)
+- [抖音豆包](https://www.doubao.com/chat/)
 - [通义千问](https://tongyi.aliyun.com/qianwen/)
 - [腾讯元宝](https://yuanbao.tencent.com/)
 - [文心一言](https://yiyan.baidu.com/)
@@ -172,10 +171,12 @@ Homepage：https://www.whing.cn
 - [百川百小应](https://ying.baichuan-ai.com/chat)
 - [昆仑天工](https://www.tiangong.cn/)
 - [面壁LUCA](https://luca.cn/home)
+- [MiniMax海螺](https://hailuoai.com/)
 
 ### 文生图
 
 ### 文生音
+- [MiniMax海螺音乐](https://hailuoai.com/music)
 - [AI 歌曲](https://songgenerator.io/)
 - [TikTok Voice Generator](https://tiktokvoice.net/)
 
@@ -192,6 +193,7 @@ Homepage：https://www.whing.cn
 ### 音生图
 
 ### 文生视频
+- [MiniMax海螺视频](https://hailuoai.com/video)
 
 ### 图生视频
 
