@@ -201,6 +201,12 @@ Homepage：https://www.whing.cn
 
 
 ## 资源（resource）
+### 免费AI
+- [聊天仪表盘](https://aichatru.ru/zh-CN/app/06e01748893cc7472b80803fd3e21dcb)
+- [Rock AI](https://www.rockai.online/)
+
+### K12教资
+- [中小学教材电子版](https://jc.pep.com.cn/)
 
 
 ## 官网（official）
@@ -210,9 +216,11 @@ Homepage：https://www.whing.cn
 ## 工具（tool）
 ### 图像工具
 - [SVG查图](https://www.svgviewer.dev/)
+- [Logo.surf](https://www.logo.surf/)
 
 ### 集合工具
 - [小爱工具](https://xiaoai.me/)
+- [IT Tools](https://it-tools.tech/)
 
 ### 下载工具
 - [TikDD](https://www.tikdd.cc/)
@@ -223,7 +231,17 @@ Homepage：https://www.whing.cn
 - [抖音下载1](https://www.dy114.com/douyin)
 - [抖音下载2](https://dlpanda.com/zh-CN)
 
+### 软件下载
+- [软件个锤子](https://www.rjgcz.com/)
 
+### 字体下载
+- [免费字体仓库](https://ziyouziti.com/index-index-all.html)
+- [Free Font](https://wangchujiang.com/free-font/hei.html)
+- []()
+
+### 好玩工具
+- [AQChat](https://aqchat.run/)
+- [历史年轮](https://www.yearsmap.com/)
 
 ## 关注或打赏
 <!-- ![关注](static/img/qrcode_for_gh_23dfcfca7f91_258.jpg) -->
