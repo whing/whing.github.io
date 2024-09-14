@@ -237,7 +237,6 @@ Homepage：https://www.whing.cn
 ### 字体下载
 - [免费字体仓库](https://ziyouziti.com/index-index-all.html)
 - [Free Font](https://wangchujiang.com/free-font/hei.html)
-- []()
 
 ### 好玩工具
 - [AQChat](https://aqchat.run/)
