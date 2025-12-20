@@ -173,11 +173,12 @@ Homepage：https://www.whing.cn
 - [MiniMax](https://agent.minimaxi.com/)
 
 ### 垂类Agent
-- [lovart](https://www.lovart.ai/)
+- [Lovart](https://www.lovart.ai/)
 - [GoogleAIStudio](https://aistudio.google.com/)
 - [GoogleNotebookLM](https://notebooklm.google.com/)
 - [TapNow](https://www.tapnow.ai/)
 - [GagaAI​](https://gaga.art/)
+- [星流](https://www.xingliu.art/)
 
 ### 企业平台
 - [OpenAI](https://openai.com/)
@@ -188,7 +189,7 @@ Homepage：https://www.whing.cn
 
 ### 聚合平台
 - [Civitai](https://civitai.com/)
-- [哩布哩布](https://www.liblib.ai/)
+- [哩布哩布](https://www.liblib.art/)
 - [LMArena](https://lmarena.ai)
 - [CherryStudio](https://www.cherry-ai.com/)
 
