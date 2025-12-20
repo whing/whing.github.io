@@ -152,7 +152,7 @@ Homepage：https://www.whing.cn
 - [Shortcut-ChatGPT](https://www.aishort.top/?tags=ai&tags=company&tags=language)
 
 ### Git实验室
- - [ali-vilab](https://github.com/ali-vilab)
+- [阿里vilab](https://github.com/ali-vilab)
 
 ## 收藏（collect）
 ### 绘图模型
@@ -161,8 +161,33 @@ Homepage：https://www.whing.cn
 
 
 ## AIGC（aigc）
-### 文生文
-- [chatGPT](https://chat.openai.com/)
+### 通用Agent
+- [ChatGPT](https://chatgpt.com/)
+- [Grok](https://grok.com/)
+- [Gemini](https://gemini.google.com/)
+- [Claude](https://claude.ai/)
+- [MiniMax](https://agent.minimaxi.com/)
+
+### 垂类Agent
+- [lovart](https://www.lovart.ai/)
+- [GoogleAIStudio](https://aistudio.google.com/)
+- [GoogleNotebookLM](https://notebooklm.google.com/)
+- [TapNow](https://www.tapnow.ai/)
+- [GagaAI​](https://gaga.art/)
+
+### 企业平台
+- [OpenAI](https://openai.com/)
+- [Anthropic](https://www.anthropic.com/)
+- [MiniMax](https://www.minimaxi.com/)
+
+### 聚合平台
+- [LMArena](https://lmarena.ai)
+- [CherryStudio](https://www.cherry-ai.com/)
+
+### 专业平台
+- [海螺](https://hailuoai.com/)
+
+### 国内C端
 - [Kimi](https://kimi.moonshot.cn/)
 - [抖音豆包](https://www.doubao.com/chat/)
 - [通义千问](https://tongyi.aliyun.com/qianwen/)
@@ -174,33 +199,13 @@ Homepage：https://www.whing.cn
 - [百川百小应](https://ying.baichuan-ai.com/chat)
 - [昆仑天工](https://www.tiangong.cn/)
 - [面壁LUCA](https://luca.cn/home)
-- [MiniMax海螺](https://hailuoai.com/)
 
-### 文生图
 
-### 文生音
-- [MiniMax海螺音乐](https://hailuoai.com/music)
+### 单模工具
 - [AI 歌曲](https://songgenerator.io/)
 - [TikTok Voice Generator](https://tiktokvoice.net/)
 
-### 图生图
 
-### 图生文
-
-### 图生音
-
-### 音生音
-
-### 音生文
-
-### 音生图
-
-### 文生视频
-- [MiniMax海螺视频](https://hailuoai.com/video)
-
-### 图生视频
-
-### 视频生视频
 
 
 ## 资源（resource）
@@ -217,7 +222,10 @@ Homepage：https://www.whing.cn
 - [OpenAI](https://openai.com/)
 
 ## 工具（tool）
-### 图像工具
+### 即时工具
+- [微信网页](https://wx.qq.com/)
+- [微信文件](https://filehelper.weixin.qq.com/)
+- [GIF工具](https://easygif.cn/to_gif/video)
 - [SVG查图](https://www.svgviewer.dev/)
 - [Logo.surf](https://www.logo.surf/)
 
