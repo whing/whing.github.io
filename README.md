@@ -155,9 +155,13 @@ Homepage：https://www.whing.cn
 - [阿里vilab](https://github.com/ali-vilab)
 
 ## 收藏（collect）
-### 绘图模型
-- [Civitai](https://civitai.com/)
-- [哩布哩布](https://www.liblib.ai/)
+### 个独平台
+- [火山万有](https://market.volcengine.com/)
+- [短剧版权中心](https://www.shortdramas.com/)
+- [抖音内容平台](https://content.douyin.com/)
+
+### 创业服务
+
 
 
 ## AIGC（aigc）
@@ -178,9 +182,13 @@ Homepage：https://www.whing.cn
 ### 企业平台
 - [OpenAI](https://openai.com/)
 - [Anthropic](https://www.anthropic.com/)
+- [阿里云百炼](https://bailian.console.aliyun.com/)
+- [火山方舟](https://www.volcengine.com/product/ark)
 - [MiniMax](https://www.minimaxi.com/)
 
 ### 聚合平台
+- [Civitai](https://civitai.com/)
+- [哩布哩布](https://www.liblib.ai/)
 - [LMArena](https://lmarena.ai)
 - [CherryStudio](https://www.cherry-ai.com/)
 
