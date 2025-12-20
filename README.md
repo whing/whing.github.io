@@ -151,6 +151,9 @@ Homepage：https://www.whing.cn
 - [SCISPACE-pdf阅读工具](https://typeset.io/) 
 - [Shortcut-ChatGPT](https://www.aishort.top/?tags=ai&tags=company&tags=language)
 
+### Git实验室
+ - [ali-vilab](https://github.com/ali-vilab)
+
 ## 收藏（collect）
 ### 绘图模型
 - [Civitai](https://civitai.com/)
