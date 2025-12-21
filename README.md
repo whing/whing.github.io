@@ -192,6 +192,8 @@ Homepage：https://www.whing.cn
 - [TapNow](https://www.tapnow.ai/)
 - [GagaAI​](https://gaga.art/)
 - [星流](https://www.xingliu.art/)
+- [字节小云雀](https://xyq.jianying.com/)
+- [商汤Seko](https://seko.sensetime.com/)
 
 ### 企业平台
 - [OpenAI](https://openai.com/)
@@ -208,6 +210,7 @@ Homepage：https://www.whing.cn
 - [CherryStudio](https://www.cherry-ai.com/)
 - [WaveSpeedAI](https://wavespeed.ai/)
 - [RunningHub](https://www.runninghub.ai/)
+- [FlowMuseAI](https://flowmuse.ai/)
 
 ### 专业平台
 - [PixVerse](https://pixverse.ai/)
@@ -217,14 +220,23 @@ Homepage：https://www.whing.cn
 - [通义万相](https://tongyi.aliyun.com/)
 - [腾讯混元3D](https://3d.hunyuan.tencent.com/)
 - [腾讯混元AI视频](https://video.hunyuan.tencent.com/)
+- [商汤SekoTalk](https://sekotalk.com/)
 
-### 单模工具
+### 音频工具
+- [Suno](https://suno.com/home)
+- [谱乐](https://yourmusic.fun/)
+- [Mureka](https://www.mureka.ai/)
+- [ElevenLabs](https://elevenlabs.io/)
+- [FishAudio](https://fish.audio/)
+- [Inworld](https://inworld.ai/)
+- [KitsAI](https://www.kits.ai/)
+- [NoizAI](https://noiz.ai/)
 - [AI 歌曲](https://songgenerator.io/)
 - [TikTok Voice Generator](https://tiktokvoice.net/)
 
 ### 部署工具
 - [BuildingAI](https://www.buildingai.cc/)
-
+- [FlowiseAI](https://flowiseai.com/)
 
 
 ## 资源（resource）
