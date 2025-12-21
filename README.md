@@ -165,12 +165,25 @@ Homepage：https://www.whing.cn
 
 
 ## AIGC（aigc）
-### 通用Agent
+### 通用Agent1
 - [ChatGPT](https://chatgpt.com/)
 - [Grok](https://grok.com/)
 - [Gemini](https://gemini.google.com/)
 - [Claude](https://claude.ai/)
+- [千问](https://www.qianwen.com/)
+- [智谱清言](https://chatglm.cn/main/alltoolsdetail)
 - [MiniMax](https://agent.minimaxi.com/)
+- [腾讯元宝](https://yuanbao.tencent.com/)
+
+### 通用Agent2
+- [Kimi](https://kimi.moonshot.cn/)
+- [抖音豆包](https://www.doubao.com/chat/)
+- [文心一言](https://yiyan.baidu.com/)
+- [讯飞星火](https://passport.xfyun.cn/login)
+- [360智脑](https://chat.360.com/)
+- [百川百小应](https://ying.baichuan-ai.com/chat)
+- [昆仑天工](https://www.tiangong.cn/)
+- [面壁LUCA](https://luca.cn/home)
 
 ### 垂类Agent
 - [Lovart](https://www.lovart.ai/)
@@ -186,34 +199,31 @@ Homepage：https://www.whing.cn
 - [阿里云百炼](https://bailian.console.aliyun.com/)
 - [火山方舟](https://www.volcengine.com/product/ark)
 - [MiniMax](https://www.minimaxi.com/)
+- [腾讯混元](https://hunyuan.tencent.com/)
 
 ### 聚合平台
 - [Civitai](https://civitai.com/)
 - [哩布哩布](https://www.liblib.art/)
 - [LMArena](https://lmarena.ai)
 - [CherryStudio](https://www.cherry-ai.com/)
+- [WaveSpeedAI](https://wavespeed.ai/)
+- [RunningHub](https://www.runninghub.ai/)
 
 ### 专业平台
+- [PixVerse](https://pixverse.ai/)
+- [可灵AI](https://klingai.com/)
 - [海螺](https://hailuoai.com/)
-
-### 国内C端
-- [Kimi](https://kimi.moonshot.cn/)
-- [抖音豆包](https://www.doubao.com/chat/)
-- [通义千问](https://tongyi.aliyun.com/qianwen/)
-- [腾讯元宝](https://yuanbao.tencent.com/)
-- [文心一言](https://yiyan.baidu.com/)
-- [智谱清言](https://chatglm.cn/main/alltoolsdetail)
-- [讯飞星火](https://passport.xfyun.cn/login)
-- [360智脑](https://chat.360.com/)
-- [百川百小应](https://ying.baichuan-ai.com/chat)
-- [昆仑天工](https://www.tiangong.cn/)
-- [面壁LUCA](https://luca.cn/home)
-
+- [生数Vidu](https://www.vidu.cn/)
+- [通义万相](https://tongyi.aliyun.com/)
+- [腾讯混元3D](https://3d.hunyuan.tencent.com/)
+- [腾讯混元AI视频](https://video.hunyuan.tencent.com/)
 
 ### 单模工具
 - [AI 歌曲](https://songgenerator.io/)
 - [TikTok Voice Generator](https://tiktokvoice.net/)
 
+### 部署工具
+- [BuildingAI](https://www.buildingai.cc/)
 
 
 
